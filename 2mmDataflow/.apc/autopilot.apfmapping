@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="2mm.cc" path="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/2mm.cc"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

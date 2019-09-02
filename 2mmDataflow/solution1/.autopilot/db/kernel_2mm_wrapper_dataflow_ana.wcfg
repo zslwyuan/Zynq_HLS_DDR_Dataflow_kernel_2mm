@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="kernel_2mm_wrapper.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_kernel_2mm_wrapper_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="AESL_inst_kernel_2mm_wrapper_group">
+      <obj_property name="label">AESL_inst_kernel_2mm_wrapper</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/readData32_U0_activity">
+         <obj_property name="ElementShortName">readData32_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">readData32_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/kernel_2mm_U0_activity">
+         <obj_property name="ElementShortName">kernel_2mm_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">kernel_2mm_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/writeData_U0_activity">
+         <obj_property name="ElementShortName">writeData_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">writeData_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="readData32_U0_group">
+         <obj_property name="label">readData32_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="readData32_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="readData32_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="readData32_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="A_0_group">
+               <obj_property name="label">A_0(A_0_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_0_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_0_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_0_ce0">
+                  <obj_property name="ElementShortName">A_0_ce0</obj_property>
+                  <obj_property name="ObjectShortName">A_0_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_0_we0">
+                  <obj_property name="ElementShortName">A_0_we0</obj_property>
+                  <obj_property name="ObjectShortName">A_0_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="A_1_group">
+               <obj_property name="label">A_1(A_1_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_1_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_1_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_1_ce0">
+                  <obj_property name="ElementShortName">A_1_ce0</obj_property>
+                  <obj_property name="ObjectShortName">A_1_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/A_1_we0">
+                  <obj_property name="ElementShortName">A_1_we0</obj_property>
+                  <obj_property name="ObjectShortName">A_1_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="B_0_group">
+               <obj_property name="label">B_0(B_0_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_0_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_0_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_0_ce0">
+                  <obj_property name="ElementShortName">B_0_ce0</obj_property>
+                  <obj_property name="ObjectShortName">B_0_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_0_we0">
+                  <obj_property name="ElementShortName">B_0_we0</obj_property>
+                  <obj_property name="ObjectShortName">B_0_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="B_1_group">
+               <obj_property name="label">B_1(B_1_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_1_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_1_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_1_ce0">
+                  <obj_property name="ElementShortName">B_1_ce0</obj_property>
+                  <obj_property name="ObjectShortName">B_1_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/B_1_we0">
+                  <obj_property name="ElementShortName">B_1_we0</obj_property>
+                  <obj_property name="ObjectShortName">B_1_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_0_group">
+               <obj_property name="label">C_0(C_0_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_0_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_0_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_0_ce0">
+                  <obj_property name="ElementShortName">C_0_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_0_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_0_we0">
+                  <obj_property name="ElementShortName">C_0_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_0_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_1_group">
+               <obj_property name="label">C_1(C_1_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_1_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_1_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_1_ce0">
+                  <obj_property name="ElementShortName">C_1_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_1_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_1_we0">
+                  <obj_property name="ElementShortName">C_1_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_1_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_2_group">
+               <obj_property name="label">C_2(C_2_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_2_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_2_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_2_ce0">
+                  <obj_property name="ElementShortName">C_2_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_2_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_2_we0">
+                  <obj_property name="ElementShortName">C_2_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_2_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_3_group">
+               <obj_property name="label">C_3(C_3_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_3_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_3_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_3_ce0">
+                  <obj_property name="ElementShortName">C_3_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_3_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_3_we0">
+                  <obj_property name="ElementShortName">C_3_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_3_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_4_group">
+               <obj_property name="label">C_4(C_4_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_4_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_4_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_4_ce0">
+                  <obj_property name="ElementShortName">C_4_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_4_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_4_we0">
+                  <obj_property name="ElementShortName">C_4_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_4_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_5_group">
+               <obj_property name="label">C_5(C_5_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_5_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_5_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_5_ce0">
+                  <obj_property name="ElementShortName">C_5_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_5_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_5_we0">
+                  <obj_property name="ElementShortName">C_5_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_5_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_6_group">
+               <obj_property name="label">C_6(C_6_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_6_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_6_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_6_ce0">
+                  <obj_property name="ElementShortName">C_6_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_6_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_6_we0">
+                  <obj_property name="ElementShortName">C_6_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_6_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_7_group">
+               <obj_property name="label">C_7(C_7_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_7_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_7_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_7_ce0">
+                  <obj_property name="ElementShortName">C_7_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_7_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/C_7_we0">
+                  <obj_property name="ElementShortName">C_7_we0</obj_property>
+                  <obj_property name="ObjectShortName">C_7_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="D_group">
+               <obj_property name="label">D(D_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_ce0">
+                  <obj_property name="ElementShortName">D_ce0</obj_property>
+                  <obj_property name="ObjectShortName">D_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_we0">
+                  <obj_property name="ElementShortName">D_we0</obj_property>
+                  <obj_property name="ObjectShortName">D_we0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="D_output_AXI_out_group">
+               <obj_property name="label">D_output_AXI_out(D_output_AXI_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_output_AXI_out_blk_n">
+                  <obj_property name="ElementShortName">D_output_AXI_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">D_output_AXI_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_output_AXI_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_output_AXI_out_full_n">
+                  <obj_property name="ElementShortName">D_output_AXI_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">D_output_AXI_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/readData32_U0/D_output_AXI_out_write">
+                  <obj_property name="ElementShortName">D_output_AXI_out_write</obj_property>
+                  <obj_property name="ObjectShortName">D_output_AXI_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="kernel_2mm_U0_group">
+         <obj_property name="label">kernel_2mm_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/func15_U0_activity">
+            <obj_property name="ElementShortName">func15_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">func15_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/func24_U0_activity">
+            <obj_property name="ElementShortName">func24_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">func24_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="kernel_2mm_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="A_0_group">
+               <obj_property name="label">A_0(A_0_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/A_0_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/A_0_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/A_0_ce0">
+                  <obj_property name="ElementShortName">A_0_ce0</obj_property>
+                  <obj_property name="ObjectShortName">A_0_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="A_1_group">
+               <obj_property name="label">A_1(A_1_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/A_1_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/A_1_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/A_1_ce0">
+                  <obj_property name="ElementShortName">A_1_ce0</obj_property>
+                  <obj_property name="ObjectShortName">A_1_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="B_0_group">
+               <obj_property name="label">B_0(B_0_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/B_0_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/B_0_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/B_0_ce0">
+                  <obj_property name="ElementShortName">B_0_ce0</obj_property>
+                  <obj_property name="ObjectShortName">B_0_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="B_1_group">
+               <obj_property name="label">B_1(B_1_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/B_1_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/B_1_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/B_1_ce0">
+                  <obj_property name="ElementShortName">B_1_ce0</obj_property>
+                  <obj_property name="ObjectShortName">B_1_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_0_group">
+               <obj_property name="label">C_0(C_0_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_0_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_0_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_0_ce0">
+                  <obj_property name="ElementShortName">C_0_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_0_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_1_group">
+               <obj_property name="label">C_1(C_1_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_1_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_1_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_1_ce0">
+                  <obj_property name="ElementShortName">C_1_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_1_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_2_group">
+               <obj_property name="label">C_2(C_2_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_2_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_2_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_2_ce0">
+                  <obj_property name="ElementShortName">C_2_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_2_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_3_group">
+               <obj_property name="label">C_3(C_3_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_3_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_3_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_3_ce0">
+                  <obj_property name="ElementShortName">C_3_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_3_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_4_group">
+               <obj_property name="label">C_4(C_4_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_4_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_4_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_4_ce0">
+                  <obj_property name="ElementShortName">C_4_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_4_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_5_group">
+               <obj_property name="label">C_5(C_5_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_5_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_5_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_5_ce0">
+                  <obj_property name="ElementShortName">C_5_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_5_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_6_group">
+               <obj_property name="label">C_6(C_6_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_6_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_6_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_6_ce0">
+                  <obj_property name="ElementShortName">C_6_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_6_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="C_7_group">
+               <obj_property name="label">C_7(C_7_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_7_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_7_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/C_7_ce0">
+                  <obj_property name="ElementShortName">C_7_ce0</obj_property>
+                  <obj_property name="ObjectShortName">C_7_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="D_group">
+               <obj_property name="label">D(D_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/D_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/D_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/D_ce0">
+                  <obj_property name="ElementShortName">D_ce0</obj_property>
+                  <obj_property name="ObjectShortName">D_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="kernel_2mm_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="kernel_2mm_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="D_output_group">
+               <obj_property name="label">D_output(D_output_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/D_output_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/D_output_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/D_output_ce0">
+                  <obj_property name="ElementShortName">D_output_ce0</obj_property>
+                  <obj_property name="ObjectShortName">D_output_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/D_output_we0">
+                  <obj_property name="ElementShortName">D_output_we0</obj_property>
+                  <obj_property name="ObjectShortName">D_output_we0</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="func15_U0_group">
+            <obj_property name="label">func15_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="func15_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="A_0_group">
+                  <obj_property name="label">A_0(A_0_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/A_0_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/A_0_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/A_0_ce0">
+                     <obj_property name="ElementShortName">A_0_ce0</obj_property>
+                     <obj_property name="ObjectShortName">A_0_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="A_1_group">
+                  <obj_property name="label">A_1(A_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/A_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/A_1_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/A_1_ce0">
+                     <obj_property name="ElementShortName">A_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">A_1_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="B_0_group">
+                  <obj_property name="label">B_0(B_0_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/B_0_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/B_0_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/B_0_ce0">
+                     <obj_property name="ElementShortName">B_0_ce0</obj_property>
+                     <obj_property name="ObjectShortName">B_0_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="B_1_group">
+                  <obj_property name="label">B_1(B_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/B_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/B_1_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/B_1_ce0">
+                     <obj_property name="ElementShortName">B_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">B_1_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_0_group">
+                  <obj_property name="label">C_0(C_0_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_0_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_0_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_0_ce0">
+                     <obj_property name="ElementShortName">C_0_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_0_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_1_group">
+                  <obj_property name="label">C_1(C_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_1_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_1_ce0">
+                     <obj_property name="ElementShortName">C_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_1_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_2_group">
+                  <obj_property name="label">C_2(C_2_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_2_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_2_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_2_ce0">
+                     <obj_property name="ElementShortName">C_2_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_2_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_3_group">
+                  <obj_property name="label">C_3(C_3_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_3_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_3_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_3_ce0">
+                     <obj_property name="ElementShortName">C_3_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_3_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_4_group">
+                  <obj_property name="label">C_4(C_4_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_4_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_4_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_4_ce0">
+                     <obj_property name="ElementShortName">C_4_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_4_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_5_group">
+                  <obj_property name="label">C_5(C_5_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_5_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_5_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_5_ce0">
+                     <obj_property name="ElementShortName">C_5_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_5_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_6_group">
+                  <obj_property name="label">C_6(C_6_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_6_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_6_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_6_ce0">
+                     <obj_property name="ElementShortName">C_6_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_6_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_7_group">
+                  <obj_property name="label">C_7(C_7_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_7_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_7_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_7_ce0">
+                     <obj_property name="ElementShortName">C_7_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_7_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="D_group">
+                  <obj_property name="label">D(D_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/D_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/D_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/D_ce0">
+                     <obj_property name="ElementShortName">D_ce0</obj_property>
+                     <obj_property name="ObjectShortName">D_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="func15_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="func15_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="C_mid_0_group">
+                  <obj_property name="label">C_mid_0(C_mid_0_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_0_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_0_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_0_ce0">
+                     <obj_property name="ElementShortName">C_mid_0_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_0_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_0_we0">
+                     <obj_property name="ElementShortName">C_mid_0_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_0_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_mid_1_group">
+                  <obj_property name="label">C_mid_1(C_mid_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_1_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_1_ce0">
+                     <obj_property name="ElementShortName">C_mid_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_1_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_1_we0">
+                     <obj_property name="ElementShortName">C_mid_1_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_1_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_mid_2_group">
+                  <obj_property name="label">C_mid_2(C_mid_2_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_2_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_2_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_2_ce0">
+                     <obj_property name="ElementShortName">C_mid_2_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_2_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_2_we0">
+                     <obj_property name="ElementShortName">C_mid_2_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_2_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_mid_3_group">
+                  <obj_property name="label">C_mid_3(C_mid_3_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_3_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_3_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_3_ce0">
+                     <obj_property name="ElementShortName">C_mid_3_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_3_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_3_we0">
+                     <obj_property name="ElementShortName">C_mid_3_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_3_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_mid_4_group">
+                  <obj_property name="label">C_mid_4(C_mid_4_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_4_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_4_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_4_ce0">
+                     <obj_property name="ElementShortName">C_mid_4_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_4_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_4_we0">
+                     <obj_property name="ElementShortName">C_mid_4_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_4_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_mid_5_group">
+                  <obj_property name="label">C_mid_5(C_mid_5_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_5_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_5_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_5_ce0">
+                     <obj_property name="ElementShortName">C_mid_5_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_5_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_5_we0">
+                     <obj_property name="ElementShortName">C_mid_5_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_5_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_mid_6_group">
+                  <obj_property name="label">C_mid_6(C_mid_6_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_6_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_6_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_6_ce0">
+                     <obj_property name="ElementShortName">C_mid_6_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_6_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_6_we0">
+                     <obj_property name="ElementShortName">C_mid_6_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_6_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_mid_7_group">
+                  <obj_property name="label">C_mid_7(C_mid_7_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_7_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_7_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_7_ce0">
+                     <obj_property name="ElementShortName">C_mid_7_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_7_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/C_mid_7_we0">
+                     <obj_property name="ElementShortName">C_mid_7_we0</obj_property>
+                     <obj_property name="ObjectShortName">C_mid_7_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="D_mid_group">
+                  <obj_property name="label">D_mid(D_mid_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/D_mid_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/D_mid_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/D_mid_ce0">
+                     <obj_property name="ElementShortName">D_mid_ce0</obj_property>
+                     <obj_property name="ObjectShortName">D_mid_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func15_U0/D_mid_we0">
+                     <obj_property name="ElementShortName">D_mid_we0</obj_property>
+                     <obj_property name="ObjectShortName">D_mid_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="func24_U0_group">
+            <obj_property name="label">func24_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="func24_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="C_0_group">
+                  <obj_property name="label">C_0(C_mid_0_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_0_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_0_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_0_ce0">
+                     <obj_property name="ElementShortName">C_0_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_0_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_1_group">
+                  <obj_property name="label">C_1(C_mid_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_1_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_1_ce0">
+                     <obj_property name="ElementShortName">C_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_1_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_2_group">
+                  <obj_property name="label">C_2(C_mid_2_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_2_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_2_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_2_ce0">
+                     <obj_property name="ElementShortName">C_2_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_2_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_3_group">
+                  <obj_property name="label">C_3(C_mid_3_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_3_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_3_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_3_ce0">
+                     <obj_property name="ElementShortName">C_3_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_3_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_4_group">
+                  <obj_property name="label">C_4(C_mid_4_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_4_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_4_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_4_ce0">
+                     <obj_property name="ElementShortName">C_4_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_4_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_5_group">
+                  <obj_property name="label">C_5(C_mid_5_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_5_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_5_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_5_ce0">
+                     <obj_property name="ElementShortName">C_5_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_5_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_6_group">
+                  <obj_property name="label">C_6(C_mid_6_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_6_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_6_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_6_ce0">
+                     <obj_property name="ElementShortName">C_6_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_6_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="C_7_group">
+                  <obj_property name="label">C_7(C_mid_7_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_7_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_7_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/C_7_ce0">
+                     <obj_property name="ElementShortName">C_7_ce0</obj_property>
+                     <obj_property name="ObjectShortName">C_7_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="D_group">
+                  <obj_property name="label">D(D_mid_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/D_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/D_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/D_ce0">
+                     <obj_property name="ElementShortName">D_ce0</obj_property>
+                     <obj_property name="ObjectShortName">D_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_0_group">
+                  <obj_property name="label">tmp_0(tmp_mid_0_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_0_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_0_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_0_ce0">
+                     <obj_property name="ElementShortName">tmp_0_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_0_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_1_group">
+                  <obj_property name="label">tmp_1(tmp_mid_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_1_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_1_ce0">
+                     <obj_property name="ElementShortName">tmp_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_1_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_2_group">
+                  <obj_property name="label">tmp_2(tmp_mid_2_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_2_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_2_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_2_ce0">
+                     <obj_property name="ElementShortName">tmp_2_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_2_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_3_group">
+                  <obj_property name="label">tmp_3(tmp_mid_3_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_3_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_3_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_3_ce0">
+                     <obj_property name="ElementShortName">tmp_3_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_3_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_4_group">
+                  <obj_property name="label">tmp_4(tmp_mid_4_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_4_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_4_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_4_ce0">
+                     <obj_property name="ElementShortName">tmp_4_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_4_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_5_group">
+                  <obj_property name="label">tmp_5(tmp_mid_5_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_5_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_5_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_5_ce0">
+                     <obj_property name="ElementShortName">tmp_5_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_5_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_6_group">
+                  <obj_property name="label">tmp_6(tmp_mid_6_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_6_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_6_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_6_ce0">
+                     <obj_property name="ElementShortName">tmp_6_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_6_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="tmp_7_group">
+                  <obj_property name="label">tmp_7(tmp_mid_7_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_7_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_7_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/tmp_7_ce0">
+                     <obj_property name="ElementShortName">tmp_7_ce0</obj_property>
+                     <obj_property name="ObjectShortName">tmp_7_ce0</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="func24_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="func24_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="D_output_group">
+                  <obj_property name="label">D_output(D_output_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/D_output_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/D_output_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/D_output_ce0">
+                     <obj_property name="ElementShortName">D_output_ce0</obj_property>
+                     <obj_property name="ObjectShortName">D_output_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/kernel_2mm_U0/func24_U0/D_output_we0">
+                     <obj_property name="ElementShortName">D_output_we0</obj_property>
+                     <obj_property name="ObjectShortName">D_output_we0</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="writeData_U0_group">
+         <obj_property name="label">writeData_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="writeData_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="D_output_AXI_offset_group">
+               <obj_property name="label">D_output_AXI_offset(D_output_AXI_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/D_output_AXI_offset_blk_n">
+                  <obj_property name="ElementShortName">D_output_AXI_offset_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">D_output_AXI_offset_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/D_output_AXI_offset_dout">
+                  <obj_property name="ElementShortName">D_output_AXI_offset_dout[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">D_output_AXI_offset_dout[31:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/D_output_AXI_offset_empty_n">
+                  <obj_property name="ElementShortName">D_output_AXI_offset_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">D_output_AXI_offset_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/D_output_AXI_offset_read">
+                  <obj_property name="ElementShortName">D_output_AXI_offset_read</obj_property>
+                  <obj_property name="ObjectShortName">D_output_AXI_offset_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="D_output_group">
+               <obj_property name="label">D_output(D_output_U, PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/D_output_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/D_output_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/D_output_ce0">
+                  <obj_property name="ElementShortName">D_output_ce0</obj_property>
+                  <obj_property name="ObjectShortName">D_output_ce0</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="writeData_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_kernel_2mm_wrapper_top/AESL_inst_kernel_2mm_wrapper/writeData_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="writeData_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

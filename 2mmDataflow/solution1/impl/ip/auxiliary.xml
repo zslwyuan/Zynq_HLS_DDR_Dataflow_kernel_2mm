@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="kernel_2mm_wrapper" xd:componentRef="kernel_2mm_wrapper" xd:initiationInterval="41565" xd:clockPeriod="6.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="A_AXI[][]" xd:originalName="A_AXI" xd:direction="inout" xd:interfaceRef="m_axi_gmem0" xd:busTypeRef="aximm" xd:arraySize="384" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="B_AXI[][]" xd:originalName="B_AXI" xd:direction="inout" xd:interfaceRef="m_axi_gmem1" xd:busTypeRef="aximm" xd:arraySize="432" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="C_AXI[][]" xd:originalName="C_AXI" xd:direction="inout" xd:interfaceRef="m_axi_gmem2" xd:busTypeRef="aximm" xd:arraySize="432" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="D_input_AXI[][]" xd:originalName="D_input_AXI" xd:direction="inout" xd:interfaceRef="m_axi_gmem3" xd:busTypeRef="aximm" xd:arraySize="384" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="D_output_AXI[][]" xd:originalName="D_output_AXI" xd:direction="inout" xd:interfaceRef="m_axi_gmem4" xd:busTypeRef="aximm" xd:arraySize="384" xd:dataWidth="32" xd:bufferDirection="out"/>
+  <xd:arg xd:name="A_AXI" xd:originalName="A_AXI" xd:direction="in" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem0" xd:dataWidth="32" xd:offset="0x10" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="B_AXI" xd:originalName="B_AXI" xd:direction="in" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem1" xd:dataWidth="32" xd:offset="0x18" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="C_AXI" xd:originalName="C_AXI" xd:direction="in" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem2" xd:dataWidth="32" xd:offset="0x20" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="D_input_AXI" xd:originalName="D_input_AXI" xd:direction="in" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem3" xd:dataWidth="32" xd:offset="0x28" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="D_output_AXI" xd:originalName="D_output_AXI" xd:direction="in" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem4" xd:dataWidth="32" xd:offset="0x30" xd:handshakeRef="ap_none"/>
+  <xd:latencyEstimates xd:best-case="41564" xd:worst-case="41564" xd:average-case="41564"/>
+  <xd:resourceEstimates xd:LUT="7495" xd:FF="9661" xd:BRAM="41" xd:DSP="52"/>
+</xd:acceleratorMap>

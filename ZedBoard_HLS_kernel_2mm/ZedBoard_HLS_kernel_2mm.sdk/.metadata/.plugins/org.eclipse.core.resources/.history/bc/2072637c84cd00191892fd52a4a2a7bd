@@ -1,0 +1,53 @@
+void arrayInitialize(int *A_AXI, int *B_AXI, int *C_AXI, int *D_input_AXI, int *D_output_AXI)
+{
+	int i, j, k;
+	for (i = 0; i < NI; i++)
+	{
+		for (k = 0; k < NK; ++k)
+		{
+			A_AXI[i*NK+k] = k;//i*NK+k;
+		}
+	}
+
+	for (k = 0; k < NK; ++k)
+		for (j = 0; j < NJ; j++)
+
+		{
+			B_AXI[k*NJ+j] = j;//k*NJ+j;
+		}
+
+	for (j = 0; j < NJ; j++)
+		for (k = 0; k < NL; ++k)
+		{
+			C_AXI[j*NL+k] = k;//j*NL+k;
+		}
+
+	for (i = 0; i < NI; i++)
+		for (j = 0; j < NL; j++)
+		  {
+			D_input_AXI[i*NL+j] = j;//D_output[i][j] + A[i][j];
+		  }
+
+	for (i = 0; i < NI; i++)
+		for (j = 0; j < NL; j++)
+		  {
+			D_output_AXI[i*NL+j] = 0;//D_output[i][j] + A[i][j];
+		  }
+
+	Xil_DCacheFlushRange(D_output_AXI, 10000000*8);
+
+	XKernel_2mm_wrapper_Set_D_output_AXI(&hls_test,D_output_AXI);
+	XKernel_2mm_wrapper_Set_A_AXI(&hls_test,A_AXI);
+	XKernel_2mm_wrapper_Set_B_AXI(&hls_test,B_AXI);
+	XKernel_2mm_wrapper_Set_C_AXI(&hls_test,C_AXI);
+	XKernel_2mm_wrapper_Set_D_input_AXI(&hls_test,D_input_AXI);
+
+	printf("HLS DDR3 A_AXI offset: 0x%x\n\r",A_AXI);
+	printf("HLS DDR3 B_AXI offset: 0x%x\n\r",B_AXI);
+	printf("HLS DDR3 C_AXI offset: 0x%x\n\r",C_AXI);
+	printf("HLS DDR3 D_input_AXI offset: 0x%x\n\r",D_input_AXI);
+	printf("HLS DDR3 D_output_AXI offset: 0x%x\n\r",D_output_AXI);
+
+}
+
+

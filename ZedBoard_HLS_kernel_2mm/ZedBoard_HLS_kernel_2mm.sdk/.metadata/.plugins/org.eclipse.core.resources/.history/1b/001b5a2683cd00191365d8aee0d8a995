@@ -1,0 +1,93 @@
+#include "platform.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xscugic.h"
+#include "xkernel_2mm_wrapper.h"
+
+
+// HLS macc HW instance
+extern XKernel_2mm_wrapper hls_test;
+//Interrupt Controller Instance
+extern XScuGic ScuGic;
+
+extern int RunHlsMacc;
+extern int ResultAvailHlsMacc;
+
+int xkernel_2mm_wrapper_init(XKernel_2mm_wrapper *hls_maccPtr)
+{
+	XKernel_2mm_wrapper_Config *cfgPtr;
+	int status;
+	cfgPtr = XKernel_2mm_wrapper_LookupConfig(XPAR_XKERNEL_2MM_WRAPPER_0_DEVICE_ID);
+	if (!cfgPtr) {
+		print("ERROR: Lookup of accelerator configuration failed.\n\r");
+		return XST_FAILURE;
+	}
+	status = XKernel_2mm_wrapper_CfgInitialize(hls_maccPtr, cfgPtr);
+	if (status != XST_SUCCESS) {
+		print("ERROR: Could not initialize accelerator.\n\r");
+		return XST_FAILURE;
+	}
+	return status;
+}
+
+void xkernel_2mm_wrapper_start(void *InstancePtr)
+{
+	XKernel_2mm_wrapper *pAccelerator = (XKernel_2mm_wrapper *)InstancePtr;
+	XKernel_2mm_wrapper_InterruptEnable(pAccelerator,1);
+	XKernel_2mm_wrapper_InterruptGlobalEnable(pAccelerator);
+	XKernel_2mm_wrapper_Start(pAccelerator);
+}
+
+void xkernel_2mm_wrapper_isr(void *InstancePtr){
+	XKernel_2mm_wrapper *pAccelerator = (XKernel_2mm_wrapper *)InstancePtr;
+
+   //Disable the global interrupt
+	XKernel_2mm_wrapper_InterruptGlobalDisable(pAccelerator);
+   //Disable the local interrupt
+	XKernel_2mm_wrapper_InterruptDisable(pAccelerator,0xffffffff);
+
+   // clear the local interrupt
+	XKernel_2mm_wrapper_InterruptClear(pAccelerator,1);
+
+   ResultAvailHlsMacc = 1;
+   // restart the core if it should run again
+   if(RunHlsMacc){
+	   xkernel_2mm_wrapper_start(pAccelerator);
+   }
+}
+
+int setup_interrupt()
+{
+   //This functions sets up the interrupt on the ARM
+   int result;
+   XScuGic_Config *pCfg = XScuGic_LookupConfig(XPAR_SCUGIC_SINGLE_DEVICE_ID);
+   if (pCfg == NULL){
+      print("Interrupt Configuration Lookup Failed\n\r");
+      return XST_FAILURE;
+   }
+   result = XScuGic_CfgInitialize(&ScuGic,pCfg,pCfg->CpuBaseAddress);
+   if(result != XST_SUCCESS){
+      return result;
+   }
+   // self test
+   result = XScuGic_SelfTest(&ScuGic);
+   if(result != XST_SUCCESS){
+      return result;
+   }
+   // Initialize the exception handler
+   Xil_ExceptionInit();
+   // Register the exception handler
+   //print("Register the exception handler\n\r");
+   Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,&ScuGic);
+   //Enable the exception handler
+   Xil_ExceptionEnable();
+   // Connect the Adder ISR to the exception table
+   //print("Connect the Adder ISR to the Exception handler table\n\r");
+   result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_KERNEL_2MM_WRAPPER_0_INTERRUPT_INTR,(Xil_InterruptHandler)xkernel_2mm_wrapper_isr,&hls_test);
+   if(result != XST_SUCCESS){
+      return result;
+   }
+   //print("Enable the Adder ISR\n\r");
+   XScuGic_Enable(&ScuGic,XPAR_FABRIC_KERNEL_2MM_WRAPPER_0_INTERRUPT_INTR);
+   return XST_SUCCESS;
+}

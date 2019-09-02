@@ -1,0 +1,86 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon Sep  2 22:57:26 2019
+| Host         : tingyuan-OptiPlex-9010 running 64-bit Ubuntu 18.04.2 LTS
+| Command      : report_drc -file zedboard_base_wrapper_drc_routed.rpt -pb zedboard_base_wrapper_drc_routed.pb -rpx zedboard_base_wrapper_drc_routed.rpx
+| Design       : zedboard_base_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 10
++--------+----------+------------------------+------------+
+| Rule   | Severity | Description            | Violations |
++--------+----------+------------------------+------------+
+| DPOP-2 | Warning  | MREG Output pipelining | 10         |
++--------+----------+------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func15_U0/grp_func1_execute8_fu_66/kernel_2mm_wrappecud_U44/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func15_U0/grp_func1_execute8_fu_66/kernel_2mm_wrappecud_U44/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func15_U0/grp_func1_execute8_fu_66/kernel_2mm_wrappecud_U45/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func15_U0/grp_func1_execute8_fu_66/kernel_2mm_wrappecud_U45/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U91/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U91/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U92/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U92/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U93/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U93/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U94/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U94/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U95/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U95/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U96/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U96/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U97/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U97/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U98/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg multiplier stage zedboard_base_i/kernel_2mm_wrapper_0/inst/kernel_2mm_U0/func24_U0/kernel_2mm_wrappecud_U98/kernel_2mm_wrappecud_MulnS_1_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

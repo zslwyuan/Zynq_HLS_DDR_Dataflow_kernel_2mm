@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-70] Cannot meet target clock period from 'load' operation ('tmp_mid_execute_2_l') on array 'tmp_mid_execute_2' to 'br' operation (combination delay: 5.2554 ns) to honor II or Latency constraint in region 'Loop 1.1'." projectName="2mmDataflow" solutionName="solution1" date="2019-09-02T22:41:13.365+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1.1' (2mmDataflow/2mm.cc:48:11) in function 'func1_execute' : &#xA;&#xA;&#xA;the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." projectName="2mmDataflow" solutionName="solution1" date="2019-09-02T22:41:11.532+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-713] All the elements of global array 'C[7]' should be updated in process function 'readData', otherwise it may not be synthesized correctly." projectName="2mmDataflow" solutionName="solution1" date="2019-09-02T22:41:11.354+0800" type="Warning"/>
+      </synLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

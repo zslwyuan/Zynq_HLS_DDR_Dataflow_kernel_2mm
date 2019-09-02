@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Sep  1 23:46:05 2019
+# Process ID: 19676
+# Current directory: /home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/zedboard_base_axi_smc_0_synth_1
+# Command line: vivado -log zedboard_base_axi_smc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zedboard_base_axi_smc_0.tcl
+# Log file: /home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/zedboard_base_axi_smc_0_synth_1/zedboard_base_axi_smc_0.vds
+# Journal file: /home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/zedboard_base_axi_smc_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source zedboard_base_axi_smc_0.tcl -notrace
