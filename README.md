@@ -16,7 +16,7 @@ This is a project integrating HLS IP and CortexA9 on Zynq. This CPU-FPGA project
 
 **[Xilinx SDK part](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/ZedBoard_HLS_kernel_2mm/ZedBoard_HLS_kernel_2mm.sdk/)**:
 1. please refer to **[ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_2/ug871-vivado-high-level-synthesis-tutorial.pdf)**
-2. you can find the source code for Cortex A9 in **[the directory (Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/ZedBoard_HLS_kernel_2mm/ZedBoard_HLS_kernel_2mm.sdk/2mm_0/src)](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/ZedBoard_HLS_kernel_2mm/ZedBoard_HLS_kernel_2mm.sdk/2mm_0/src)**
+2. you can find the source code for Cortex A9 in **[the directory (Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/ZedBoard_HLS_kernel_2mm/ZedBoard_HLS_kernel_2mm.sdk/2mm_0/src)](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/ZedBoard_HLS_kernel_2mm/ZedBoard_HLS_kernel_2mm.sdk/2mm_0/src)**. The main function is in the file **[helloworld.c](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/blob/master/ZedBoard_HLS_kernel_2mm/ZedBoard_HLS_kernel_2mm.sdk/2mm_0/src/helloworld.c)**. More details are described in the comments in the source code.
 
 
 Very Detailed Instruction:
