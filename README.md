@@ -23,7 +23,8 @@ Very Detailed Instruction:
 
 please refer to **[ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_2/ug871-vivado-high-level-synthesis-tutorial.pdf)**
 
+<img src="https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/blob/master/Screenshot/diagram.png" width="800"> 
 
-<img src="https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/blob/master/Screenshot/outputCheck.png" width="500"> 
+<img src="https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/blob/master/Screenshot/outputCheck.png" width="300"> 
 
-<img src="https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/blob/master/Screenshot/diagram.png" width="500"> 
+
