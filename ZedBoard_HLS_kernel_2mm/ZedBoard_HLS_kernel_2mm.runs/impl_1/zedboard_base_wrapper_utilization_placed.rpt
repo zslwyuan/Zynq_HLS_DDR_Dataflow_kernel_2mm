@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Mon Sep  2 22:51:38 2019
+| Date         : Tue Sep  3 13:41:42 2019
 | Host         : tingyuan-OptiPlex-9010 running 64-bit Ubuntu 18.04.2 LTS
 | Command      : report_utilization -file zedboard_base_wrapper_utilization_placed.rpt -pb zedboard_base_wrapper_utilization_placed.pb
 | Design       : zedboard_base_wrapper
@@ -31,15 +31,15 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Fixed | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs                 |  8926 |     0 |     53200 | 16.78 |
-|   LUT as Logic             |  7523 |     0 |     53200 | 14.14 |
-|   LUT as Memory            |  1403 |     0 |     17400 |  8.06 |
-|     LUT as Distributed RAM |  1150 |     0 |           |       |
-|     LUT as Shift Register  |   253 |     0 |           |       |
-| Slice Registers            | 12655 |     0 |    106400 | 11.89 |
-|   Register as Flip Flop    | 12655 |     0 |    106400 | 11.89 |
+| Slice LUTs                 |  9203 |     0 |     53200 | 17.30 |
+|   LUT as Logic             |  7764 |     0 |     53200 | 14.59 |
+|   LUT as Memory            |  1439 |     0 |     17400 |  8.27 |
+|     LUT as Distributed RAM |  1182 |     0 |           |       |
+|     LUT as Shift Register  |   257 |     0 |           |       |
+| Slice Registers            | 13029 |     0 |    106400 | 12.25 |
+|   Register as Flip Flop    | 13029 |     0 |    106400 | 12.25 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
-| F7 Muxes                   |   206 |     0 |     26600 |  0.77 |
+| F7 Muxes                   |   210 |     0 |     26600 |  0.79 |
 | F8 Muxes                   |     0 |     0 |     13300 |  0.00 |
 +----------------------------+-------+-------+-----------+-------+
 
@@ -58,8 +58,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 403   |          Yes |         Set |            - |
-| 12252 |          Yes |       Reset |            - |
+| 405   |          Yes |         Set |            - |
+| 12624 |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -69,27 +69,27 @@ Table of Contents
 +-------------------------------------------+------+-------+-----------+-------+
 |                 Site Type                 | Used | Fixed | Available | Util% |
 +-------------------------------------------+------+-------+-----------+-------+
-| Slice                                     | 3845 |     0 |     13300 | 28.91 |
-|   SLICEL                                  | 2493 |     0 |           |       |
-|   SLICEM                                  | 1352 |     0 |           |       |
-| LUT as Logic                              | 7523 |     0 |     53200 | 14.14 |
-|   using O5 output only                    |   10 |       |           |       |
-|   using O6 output only                    | 5506 |       |           |       |
-|   using O5 and O6                         | 2007 |       |           |       |
-| LUT as Memory                             | 1403 |     0 |     17400 |  8.06 |
-|   LUT as Distributed RAM                  | 1150 |     0 |           |       |
+| Slice                                     | 3890 |     0 |     13300 | 29.25 |
+|   SLICEL                                  | 2532 |     0 |           |       |
+|   SLICEM                                  | 1358 |     0 |           |       |
+| LUT as Logic                              | 7764 |     0 |     53200 | 14.59 |
+|   using O5 output only                    |    7 |       |           |       |
+|   using O6 output only                    | 5692 |       |           |       |
+|   using O5 and O6                         | 2065 |       |           |       |
+| LUT as Memory                             | 1439 |     0 |     17400 |  8.27 |
+|   LUT as Distributed RAM                  | 1182 |     0 |           |       |
 |     using O5 output only                  |    0 |       |           |       |
 |     using O6 output only                  |   10 |       |           |       |
-|     using O5 and O6                       | 1140 |       |           |       |
-|   LUT as Shift Register                   |  253 |     0 |           |       |
-|     using O5 output only                  |   17 |       |           |       |
-|     using O6 output only                  |  141 |       |           |       |
-|     using O5 and O6                       |   95 |       |           |       |
-| LUT Flip Flop Pairs                       | 5608 |     0 |     53200 | 10.54 |
-|   fully used LUT-FF pairs                 | 2163 |       |           |       |
-|   LUT-FF pairs with one unused LUT output | 3030 |       |           |       |
-|   LUT-FF pairs with one unused Flip Flop  | 3161 |       |           |       |
-| Unique Control Sets                       |  554 |       |           |       |
+|     using O5 and O6                       | 1172 |       |           |       |
+|   LUT as Shift Register                   |  257 |     0 |           |       |
+|     using O5 output only                  |   18 |       |           |       |
+|     using O6 output only                  |  145 |       |           |       |
+|     using O5 and O6                       |   94 |       |           |       |
+| LUT Flip Flop Pairs                       | 5791 |     0 |     53200 | 10.89 |
+|   fully used LUT-FF pairs                 | 2205 |       |           |       |
+|   LUT-FF pairs with one unused LUT output | 3169 |       |           |       |
+|   LUT-FF pairs with one unused Flip Flop  | 3265 |       |           |       |
+| Unique Control Sets                       |  563 |       |           |       |
 +-------------------------------------------+------+-------+-----------+-------+
 * Note: Review the Control Sets Report for more information regarding control sets.
 
@@ -182,21 +182,21 @@ Table of Contents
 +----------+-------+----------------------+
 | Ref Name |  Used |  Functional Category |
 +----------+-------+----------------------+
-| FDRE     | 12252 |         Flop & Latch |
-| LUT3     |  2654 |                  LUT |
-| LUT6     |  2228 |                  LUT |
-| LUT4     |  1735 |                  LUT |
-| RAMD32   |  1720 |   Distributed Memory |
-| LUT5     |  1487 |                  LUT |
-| LUT2     |  1101 |                  LUT |
-| RAMS32   |   570 |   Distributed Memory |
-| FDSE     |   403 |         Flop & Latch |
-| LUT1     |   325 |                  LUT |
-| CARRY4   |   281 |           CarryLogic |
+| FDRE     | 12624 |         Flop & Latch |
+| LUT3     |  2788 |                  LUT |
+| LUT6     |  2324 |                  LUT |
+| RAMD32   |  1768 |   Distributed Memory |
+| LUT4     |  1748 |                  LUT |
+| LUT5     |  1511 |                  LUT |
+| LUT2     |  1125 |                  LUT |
+| RAMS32   |   586 |   Distributed Memory |
+| FDSE     |   405 |         Flop & Latch |
+| LUT1     |   333 |                  LUT |
+| CARRY4   |   297 |           CarryLogic |
 | SRL16E   |   261 |   Distributed Memory |
-| MUXF7    |   206 |                MuxFx |
+| MUXF7    |   210 |                MuxFx |
 | BIBUF    |   130 |                   IO |
-| SRLC32E  |    87 |   Distributed Memory |
+| SRLC32E  |    90 |   Distributed Memory |
 | DSP48E1  |    36 |     Block Arithmetic |
 | RAMB18E1 |    25 |         Block Memory |
 | RAMB36E1 |    11 |         Block Memory |
@@ -219,10 +219,13 @@ Table of Contents
 +--------------------------------------+------+
 |               Ref Name               | Used |
 +--------------------------------------+------+
-| zedboard_base_rst_ps7_0_200M_1       |    1 |
+| zedboard_base_xlconcat_0_0           |    1 |
+| zedboard_base_xbar_1                 |    1 |
+| zedboard_base_timer_0_1              |    1 |
+| zedboard_base_rst_ps7_0_166M_0       |    1 |
 | zedboard_base_processing_system7_0_0 |    1 |
 | zedboard_base_kernel_2mm_wrapper_0_0 |    1 |
-| zedboard_base_axi_smc_0              |    1 |
+| zedboard_base_axi_smc_1              |    1 |
 | zedboard_base_auto_pc_0              |    1 |
 +--------------------------------------+------+
 

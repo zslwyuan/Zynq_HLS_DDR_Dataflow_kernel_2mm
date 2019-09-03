@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'func15'
 ================================================================
-* Date:           Mon Sep  2 22:41:18 2019
+* Date:           Tue Sep  3 11:01:33 2019
 
 * Version:        2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)
 * Project:        2mmDataflow
@@ -40,7 +40,7 @@
         +----------------------------+-----------------+-------+-------+-------+-------+---------+
         |grp_func1_execute8_fu_66    |func1_execute8   |  18721|  18721|  18721|  18721|   none  |
         |grp_buffer_func1_C7_fu_94   |buffer_func1_C7  |    409|    409|    409|    409|   none  |
-        |grp_buffer_func1_D6_fu_130  |buffer_func1_D6  |   1185|   1185|   1185|   1185|   none  |
+        |grp_buffer_func1_D6_fu_130  |buffer_func1_D6  |    389|    389|    389|    389|   none  |
         +----------------------------+-----------------+-------+-------+-------+-------+---------+
 
         * Loop: 
@@ -58,16 +58,16 @@
 |DSP              |        -|      -|       -|      -|
 |Expression       |        -|      -|       0|      4|
 |FIFO             |        -|      -|       -|      -|
-|Instance         |        0|     16|    1988|   1060|
+|Instance         |        0|     16|    2132|   1183|
 |Memory           |        -|      -|       -|      -|
 |Multiplexer      |        -|      -|       -|     24|
 |Register         |        -|      -|       6|      -|
 +-----------------+---------+-------+--------+-------+
-|Total            |        0|     16|    1994|   1088|
+|Total            |        0|     16|    2138|   1211|
 +-----------------+---------+-------+--------+-------+
 |Available        |      280|    220|  106400|  53200|
 +-----------------+---------+-------+--------+-------+
-|Utilization (%)  |        0|      7|       1|      2|
+|Utilization (%)  |        0|      7|       2|      2|
 +-----------------+---------+-------+--------+-------+
 
 + Detail: 
@@ -76,10 +76,10 @@
     |          Instance          |      Module     | BRAM_18K| DSP48E|  FF  | LUT |
     +----------------------------+-----------------+---------+-------+------+-----+
     |grp_buffer_func1_C7_fu_94   |buffer_func1_C7  |        0|      0|   397|  183|
-    |grp_buffer_func1_D6_fu_130  |buffer_func1_D6  |        0|      0|   128|  131|
+    |grp_buffer_func1_D6_fu_130  |buffer_func1_D6  |        0|      0|   272|  254|
     |grp_func1_execute8_fu_66    |func1_execute8   |        0|     16|  1463|  746|
     +----------------------------+-----------------+---------+-------+------+-----+
-    |Total                       |                 |        0|     16|  1988| 1060|
+    |Total                       |                 |        0|     16|  2132| 1183|
     +----------------------------+-----------------+---------+-------+------+-----+
 
     * DSP48: 
@@ -295,15 +295,15 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 0.00>
-ST_1 : Operation 3 [2/2] (0.00ns)   --->   "call fastcc void @buffer_func1_D6([384 x i32]* %D, [384 x i32]* %D_mid)" [2mmDataflow/2mm.cc:75]   --->   Operation 3 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_1 : Operation 4 [2/2] (0.00ns)   --->   "call fastcc void @buffer_func1_C7([72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [72 x i32]* %C_mid_0, [72 x i32]* %C_mid_1, [48 x i32]* %C_mid_2, [48 x i32]* %C_mid_3, [48 x i32]* %C_mid_4, [48 x i32]* %C_mid_5, [48 x i32]* %C_mid_6, [48 x i32]* %C_mid_7)" [2mmDataflow/2mm.cc:79]   --->   Operation 4 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_1 : Operation 5 [2/2] (0.00ns)   --->   "call fastcc void @func1_execute8([48 x i32]* %tmp_0, [48 x i32]* %tmp_1, [32 x i32]* %tmp_2, [32 x i32]* %tmp_3, [32 x i32]* %tmp_4, [32 x i32]* %tmp_5, [32 x i32]* %tmp_6, [32 x i32]* %tmp_7, [192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1)" [2mmDataflow/2mm.cc:83]   --->   Operation 5 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 3 [2/2] (0.00ns)   --->   "call fastcc void @buffer_func1_D6([384 x i32]* %D, [384 x i32]* %D_mid)" [2mmDataflow/2mm.cc:76]   --->   Operation 3 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 4 [2/2] (0.00ns)   --->   "call fastcc void @buffer_func1_C7([72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [72 x i32]* %C_mid_0, [72 x i32]* %C_mid_1, [48 x i32]* %C_mid_2, [48 x i32]* %C_mid_3, [48 x i32]* %C_mid_4, [48 x i32]* %C_mid_5, [48 x i32]* %C_mid_6, [48 x i32]* %C_mid_7)" [2mmDataflow/2mm.cc:80]   --->   Operation 4 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 5 [2/2] (0.00ns)   --->   "call fastcc void @func1_execute8([48 x i32]* %tmp_0, [48 x i32]* %tmp_1, [32 x i32]* %tmp_2, [32 x i32]* %tmp_3, [32 x i32]* %tmp_4, [32 x i32]* %tmp_5, [32 x i32]* %tmp_6, [32 x i32]* %tmp_7, [192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1)" [2mmDataflow/2mm.cc:84]   --->   Operation 5 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>
-ST_2 : Operation 6 [1/2] (0.00ns)   --->   "call fastcc void @buffer_func1_D6([384 x i32]* %D, [384 x i32]* %D_mid)" [2mmDataflow/2mm.cc:75]   --->   Operation 6 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_2 : Operation 7 [1/2] (0.00ns)   --->   "call fastcc void @buffer_func1_C7([72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [72 x i32]* %C_mid_0, [72 x i32]* %C_mid_1, [48 x i32]* %C_mid_2, [48 x i32]* %C_mid_3, [48 x i32]* %C_mid_4, [48 x i32]* %C_mid_5, [48 x i32]* %C_mid_6, [48 x i32]* %C_mid_7)" [2mmDataflow/2mm.cc:79]   --->   Operation 7 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_2 : Operation 8 [1/2] (0.00ns)   --->   "call fastcc void @func1_execute8([48 x i32]* %tmp_0, [48 x i32]* %tmp_1, [32 x i32]* %tmp_2, [32 x i32]* %tmp_3, [32 x i32]* %tmp_4, [32 x i32]* %tmp_5, [32 x i32]* %tmp_6, [32 x i32]* %tmp_7, [192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1)" [2mmDataflow/2mm.cc:83]   --->   Operation 8 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_2 : Operation 9 [1/1] (0.00ns)   --->   "ret void" [2mmDataflow/2mm.cc:89]   --->   Operation 9 'ret' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 6 [1/2] (0.00ns)   --->   "call fastcc void @buffer_func1_D6([384 x i32]* %D, [384 x i32]* %D_mid)" [2mmDataflow/2mm.cc:76]   --->   Operation 6 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 7 [1/2] (0.00ns)   --->   "call fastcc void @buffer_func1_C7([72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [72 x i32]* %C_mid_0, [72 x i32]* %C_mid_1, [48 x i32]* %C_mid_2, [48 x i32]* %C_mid_3, [48 x i32]* %C_mid_4, [48 x i32]* %C_mid_5, [48 x i32]* %C_mid_6, [48 x i32]* %C_mid_7)" [2mmDataflow/2mm.cc:80]   --->   Operation 7 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 8 [1/2] (0.00ns)   --->   "call fastcc void @func1_execute8([48 x i32]* %tmp_0, [48 x i32]* %tmp_1, [32 x i32]* %tmp_2, [32 x i32]* %tmp_3, [32 x i32]* %tmp_4, [32 x i32]* %tmp_5, [32 x i32]* %tmp_6, [32 x i32]* %tmp_7, [192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1)" [2mmDataflow/2mm.cc:84]   --->   Operation 8 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "ret void" [2mmDataflow/2mm.cc:90]   --->   Operation 9 'ret' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -895,9 +895,9 @@ StgValue_9 (ret ) [ 000]
 |----------|----------------------------|---------|---------|---------|---------|
 |          |  grp_func1_execute8_fu_66  |    16   |  30.073 |   1600  |   499   |
 |   call   |  grp_buffer_func1_C7_fu_94 |    0    |  15.921 |   442   |   197   |
-|          | grp_buffer_func1_D6_fu_130 |    0    |  1.769  |   135   |    89   |
+|          | grp_buffer_func1_D6_fu_130 |    0    |  1.769  |   159   |   152   |
 |----------|----------------------------|---------|---------|---------|---------|
-|   Total  |                            |    16   |  47.763 |   2177  |   785   |
+|   Total  |                            |    16   |  47.763 |   2201  |   848   |
 |----------|----------------------------|---------|---------|---------|---------|
 
 Memories:
@@ -919,10 +919,10 @@ N/A
 +-----------+--------+--------+--------+--------+
 |           | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+
-|  Function |   16   |   47   |  2177  |   785  |
+|  Function |   16   |   47   |  2201  |   848  |
 |   Memory  |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    -   |    -   |    -   |
 |  Register |    -   |    -   |    -   |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |   16   |   47   |  2177  |   785  |
+|   Total   |   16   |   47   |  2201  |   848  |
 +-----------+--------+--------+--------+--------+

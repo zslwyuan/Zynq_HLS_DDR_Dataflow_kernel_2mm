@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'readData32'
 ================================================================
-* Date:           Mon Sep  2 22:41:12 2019
+* Date:           Tue Sep  3 11:01:27 2019
 
 * Version:        2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)
 * Project:        2mmDataflow
@@ -195,14 +195,14 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 2.62>
-ST_1 : Operation 51 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str13, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 51 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 52 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str13, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 52 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 53 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str15, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 53 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 54 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str15, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 54 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 55 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 55 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 56 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 56 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 57 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 57 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 58 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 58 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str14, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 51 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str14, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 52 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 53 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 54 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 55 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 56 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 57 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 58 'specinterface' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 59 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_output_AXI_out, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 59 'specinterface' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%D_output_AXI_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %D_output_AXI)"   --->   Operation 60 'read' 'D_output_AXI_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%D_input_AXI_offset_r = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %D_input_AXI_offset)"   --->   Operation 61 'read' 'D_input_AXI_offset_r' <Predicate = true> <Delay = 0.00>
@@ -210,198 +210,198 @@ ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%C_AXI_offset_read = call i32 @_ssd
 ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%B_AXI_offset_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %B_AXI_offset)"   --->   Operation 63 'read' 'B_AXI_offset_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%A_AXI_offset_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %A_AXI_offset)"   --->   Operation 64 'read' 'A_AXI_offset_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 65 [1/1] (2.62ns)   --->   "call void @_ssdm_op_Write.ap_fifo.i32P(i32* %D_output_AXI_out, i32 %D_output_AXI_read)"   --->   Operation 65 'write' <Predicate = true> <Delay = 2.62> <Core = "FIFO">   --->   Core 32 'FIFO' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 3> <FIFO>
-ST_1 : Operation 66 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str13, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 66 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 67 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str15, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 67 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 68 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 68 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 69 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 69 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 70 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 70 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 71 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 71 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 72 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str15, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 72 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 73 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str13, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 73 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 74 [1/1] (0.00ns)   --->   "%tmp = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %A_AXI_offset_read, i32 2, i32 31)" [2mmDataflow/2mm.cc:163]   --->   Operation 74 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%sext_cast_i_i = zext i30 %tmp to i32" [2mmDataflow/2mm.cc:163]   --->   Operation 75 'zext' 'sext_cast_i_i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 76 [1/1] (1.76ns)   --->   "br label %.preheader13.i.i" [2mmDataflow/2mm.cc:163]   --->   Operation 76 'br' <Predicate = true> <Delay = 1.76>
+ST_1 : Operation 66 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str14, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 66 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 67 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 67 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 68 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 68 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 69 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 69 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 70 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_input_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 70 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 71 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %C_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 71 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 72 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %B_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 72 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 73 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %A_AXI, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str14, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 73 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 74 [1/1] (0.00ns)   --->   "%tmp = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %A_AXI_offset_read, i32 2, i32 31)" [2mmDataflow/2mm.cc:164]   --->   Operation 74 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%sext_cast_i_i = zext i30 %tmp to i32" [2mmDataflow/2mm.cc:164]   --->   Operation 75 'zext' 'sext_cast_i_i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 76 [1/1] (1.76ns)   --->   "br label %.preheader13.i.i" [2mmDataflow/2mm.cc:164]   --->   Operation 76 'br' <Predicate = true> <Delay = 1.76>
 
 State 2 <SV = 1> <Delay = 4.72>
 ST_2 : Operation 77 [1/1] (0.00ns)   --->   "%indvar_flatten_i_i = phi i9 [ 0, %entry ], [ %indvar_flatten_next_s, %0 ]"   --->   Operation 77 'phi' 'indvar_flatten_i_i' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 78 [1/1] (0.00ns)   --->   "%i_i_i = phi i5 [ 0, %entry ], [ %tmp_mid2_v_i_i, %0 ]" [2mmDataflow/2mm.cc:168]   --->   Operation 78 'phi' 'i_i_i' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 78 [1/1] (0.00ns)   --->   "%i_i_i = phi i5 [ 0, %entry ], [ %tmp_mid2_v_i_i, %0 ]" [2mmDataflow/2mm.cc:169]   --->   Operation 78 'phi' 'i_i_i' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 79 [1/1] (0.00ns)   --->   "%k_i_i = phi i5 [ 0, %entry ], [ %k, %0 ]"   --->   Operation 79 'phi' 'k_i_i' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 80 [1/1] (1.66ns)   --->   "%exitcond_flatten_i_i = icmp eq i9 %indvar_flatten_i_i, -128"   --->   Operation 80 'icmp' 'exitcond_flatten_i_i' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 81 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 384, i64 384, i64 384)"   --->   Operation 81 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 82 [1/1] (1.82ns)   --->   "%indvar_flatten_next_s = add i9 %indvar_flatten_i_i, 1"   --->   Operation 82 'add' 'indvar_flatten_next_s' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 83 [1/1] (0.00ns)   --->   "br i1 %exitcond_flatten_i_i, label %.preheader11.preheader.i.i, label %.preheader13.preheader.i.i"   --->   Operation 83 'br' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 84 [1/1] (1.78ns)   --->   "%i_2_i_i = add i5 1, %i_i_i" [2mmDataflow/2mm.cc:163]   --->   Operation 84 'add' 'i_2_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 85 [1/1] (1.36ns)   --->   "%exitcond6114_i_i = icmp eq i5 %k_i_i, -8" [2mmDataflow/2mm.cc:165]   --->   Operation 85 'icmp' 'exitcond6114_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 86 [1/1] (1.21ns)   --->   "%k_mid2_i_i = select i1 %exitcond6114_i_i, i5 0, i5 %k_i_i" [2mmDataflow/2mm.cc:165]   --->   Operation 86 'select' 'k_mid2_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_2 : Operation 87 [1/1] (1.21ns)   --->   "%tmp_mid2_v_i_i = select i1 %exitcond6114_i_i, i5 %i_2_i_i, i5 %i_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 87 'select' 'tmp_mid2_v_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_2 : Operation 88 [1/1] (0.00ns)   --->   "%tmp_i_i = call i10 @_ssdm_op_BitConcatenate.i10.i5.i5(i5 %tmp_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:168]   --->   Operation 88 'bitconcatenate' 'tmp_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 89 [1/1] (0.00ns)   --->   "%p_shl1_cast_i_i = zext i10 %tmp_i_i to i11" [2mmDataflow/2mm.cc:168]   --->   Operation 89 'zext' 'p_shl1_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 90 [1/1] (0.00ns)   --->   "%tmp_8_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i5.i3(i5 %tmp_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:168]   --->   Operation 90 'bitconcatenate' 'tmp_8_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 91 [1/1] (0.00ns)   --->   "%p_shl2_cast_i_i = zext i8 %tmp_8_i_i to i11" [2mmDataflow/2mm.cc:168]   --->   Operation 91 'zext' 'p_shl2_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 92 [1/1] (1.73ns)   --->   "%tmp_11_i_i = sub i11 %p_shl1_cast_i_i, %p_shl2_cast_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 92 'sub' 'tmp_11_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 93 [1/1] (0.00ns)   --->   "%tmp_5_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str5)" [2mmDataflow/2mm.cc:166]   --->   Operation 93 'specregionbegin' 'tmp_5_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 94 [1/1] (0.00ns)   --->   "%tmp_2 = trunc i5 %k_mid2_i_i to i1" [2mmDataflow/2mm.cc:165]   --->   Operation 94 'trunc' 'tmp_2' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 95 [1/1] (0.00ns)   --->   "%tmp_3 = call i4 @_ssdm_op_PartSelect.i4.i5.i32.i32(i5 %k_mid2_i_i, i32 1, i32 4)" [2mmDataflow/2mm.cc:168]   --->   Operation 95 'partselect' 'tmp_3' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 96 [1/1] (0.00ns)   --->   "br i1 %tmp_2, label %branch1.i.i, label %branch0.i.i" [2mmDataflow/2mm.cc:168]   --->   Operation 96 'br' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 97 [1/1] (0.00ns)   --->   "%empty_9 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str5, i32 %tmp_5_i_i)" [2mmDataflow/2mm.cc:169]   --->   Operation 97 'specregionend' 'empty_9' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_2 : Operation 98 [1/1] (1.78ns)   --->   "%k = add i5 %k_mid2_i_i, 1" [2mmDataflow/2mm.cc:165]   --->   Operation 98 'add' 'k' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 99 [1/1] (0.00ns)   --->   "br label %.preheader13.i.i" [2mmDataflow/2mm.cc:165]   --->   Operation 99 'br' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 84 [1/1] (1.78ns)   --->   "%i_2_i_i = add i5 1, %i_i_i" [2mmDataflow/2mm.cc:164]   --->   Operation 84 'add' 'i_2_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 85 [1/1] (1.36ns)   --->   "%exitcond6114_i_i = icmp eq i5 %k_i_i, -8" [2mmDataflow/2mm.cc:166]   --->   Operation 85 'icmp' 'exitcond6114_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 86 [1/1] (1.21ns)   --->   "%k_mid2_i_i = select i1 %exitcond6114_i_i, i5 0, i5 %k_i_i" [2mmDataflow/2mm.cc:166]   --->   Operation 86 'select' 'k_mid2_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 87 [1/1] (1.21ns)   --->   "%tmp_mid2_v_i_i = select i1 %exitcond6114_i_i, i5 %i_2_i_i, i5 %i_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 87 'select' 'tmp_mid2_v_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 88 [1/1] (0.00ns)   --->   "%tmp_i_i = call i10 @_ssdm_op_BitConcatenate.i10.i5.i5(i5 %tmp_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:169]   --->   Operation 88 'bitconcatenate' 'tmp_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 89 [1/1] (0.00ns)   --->   "%p_shl1_cast_i_i = zext i10 %tmp_i_i to i11" [2mmDataflow/2mm.cc:169]   --->   Operation 89 'zext' 'p_shl1_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 90 [1/1] (0.00ns)   --->   "%tmp_8_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i5.i3(i5 %tmp_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:169]   --->   Operation 90 'bitconcatenate' 'tmp_8_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 91 [1/1] (0.00ns)   --->   "%p_shl2_cast_i_i = zext i8 %tmp_8_i_i to i11" [2mmDataflow/2mm.cc:169]   --->   Operation 91 'zext' 'p_shl2_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 92 [1/1] (1.73ns)   --->   "%tmp_11_i_i = sub i11 %p_shl1_cast_i_i, %p_shl2_cast_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 92 'sub' 'tmp_11_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 93 [1/1] (0.00ns)   --->   "%tmp_5_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6)" [2mmDataflow/2mm.cc:167]   --->   Operation 93 'specregionbegin' 'tmp_5_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 94 [1/1] (0.00ns)   --->   "%tmp_2 = trunc i5 %k_mid2_i_i to i1" [2mmDataflow/2mm.cc:166]   --->   Operation 94 'trunc' 'tmp_2' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 95 [1/1] (0.00ns)   --->   "%tmp_3 = call i4 @_ssdm_op_PartSelect.i4.i5.i32.i32(i5 %k_mid2_i_i, i32 1, i32 4)" [2mmDataflow/2mm.cc:169]   --->   Operation 95 'partselect' 'tmp_3' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 96 [1/1] (0.00ns)   --->   "br i1 %tmp_2, label %branch1.i.i, label %branch0.i.i" [2mmDataflow/2mm.cc:169]   --->   Operation 96 'br' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 97 [1/1] (0.00ns)   --->   "%empty_9 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str6, i32 %tmp_5_i_i)" [2mmDataflow/2mm.cc:170]   --->   Operation 97 'specregionend' 'empty_9' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_2 : Operation 98 [1/1] (1.78ns)   --->   "%k = add i5 %k_mid2_i_i, 1" [2mmDataflow/2mm.cc:166]   --->   Operation 98 'add' 'k' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 99 [1/1] (0.00ns)   --->   "br label %.preheader13.i.i" [2mmDataflow/2mm.cc:166]   --->   Operation 99 'br' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
 
 State 3 <SV = 2> <Delay = 4.13>
-ST_3 : Operation 100 [1/1] (0.00ns)   --->   "%tmp_11_cast_i_i = sext i11 %tmp_11_i_i to i12" [2mmDataflow/2mm.cc:168]   --->   Operation 100 'sext' 'tmp_11_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_3 : Operation 101 [1/1] (0.00ns)   --->   "%tmp_6_cast_i_i = zext i5 %k_mid2_i_i to i12" [2mmDataflow/2mm.cc:168]   --->   Operation 101 'zext' 'tmp_6_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_3 : Operation 102 [1/1] (1.63ns)   --->   "%tmp_15_i_i = add i12 %tmp_6_cast_i_i, %tmp_11_cast_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 102 'add' 'tmp_15_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 103 [1/1] (0.00ns)   --->   "%tmp_15_cast_i_i = sext i12 %tmp_15_i_i to i32" [2mmDataflow/2mm.cc:168]   --->   Operation 103 'sext' 'tmp_15_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_3 : Operation 104 [1/1] (2.49ns)   --->   "%sum_i_i = add i32 %tmp_15_cast_i_i, %sext_cast_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 104 'add' 'sum_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 100 [1/1] (0.00ns)   --->   "%tmp_11_cast_i_i = sext i11 %tmp_11_i_i to i12" [2mmDataflow/2mm.cc:169]   --->   Operation 100 'sext' 'tmp_11_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_3 : Operation 101 [1/1] (0.00ns)   --->   "%tmp_6_cast_i_i = zext i5 %k_mid2_i_i to i12" [2mmDataflow/2mm.cc:169]   --->   Operation 101 'zext' 'tmp_6_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_3 : Operation 102 [1/1] (1.63ns)   --->   "%tmp_15_i_i = add i12 %tmp_6_cast_i_i, %tmp_11_cast_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 102 'add' 'tmp_15_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 103 [1/1] (0.00ns)   --->   "%tmp_15_cast_i_i = sext i12 %tmp_15_i_i to i32" [2mmDataflow/2mm.cc:169]   --->   Operation 103 'sext' 'tmp_15_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_3 : Operation 104 [1/1] (2.49ns)   --->   "%sum_i_i = add i32 %tmp_15_cast_i_i, %sext_cast_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 104 'add' 'sum_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
 State 4 <SV = 3> <Delay = 5.25>
-ST_4 : Operation 105 [1/1] (0.00ns)   --->   "%sum_cast_i_i = sext i32 %sum_i_i to i64" [2mmDataflow/2mm.cc:168]   --->   Operation 105 'sext' 'sum_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_4 : Operation 106 [1/1] (0.00ns)   --->   "%A_AXI_addr = getelementptr i32* %A_AXI, i64 %sum_cast_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 106 'getelementptr' 'A_AXI_addr' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_4 : Operation 107 [7/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:168]   --->   Operation 107 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_4 : Operation 105 [1/1] (0.00ns)   --->   "%sum_cast_i_i = sext i32 %sum_i_i to i64" [2mmDataflow/2mm.cc:169]   --->   Operation 105 'sext' 'sum_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_4 : Operation 106 [1/1] (0.00ns)   --->   "%A_AXI_addr = getelementptr i32* %A_AXI, i64 %sum_cast_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 106 'getelementptr' 'A_AXI_addr' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_4 : Operation 107 [7/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:169]   --->   Operation 107 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 5 <SV = 4> <Delay = 5.25>
-ST_5 : Operation 108 [6/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:168]   --->   Operation 108 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_5 : Operation 108 [6/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:169]   --->   Operation 108 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 6 <SV = 5> <Delay = 5.25>
-ST_6 : Operation 109 [5/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:168]   --->   Operation 109 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_6 : Operation 109 [5/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:169]   --->   Operation 109 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 7 <SV = 6> <Delay = 5.25>
-ST_7 : Operation 110 [4/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:168]   --->   Operation 110 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_7 : Operation 110 [4/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:169]   --->   Operation 110 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 8 <SV = 7> <Delay = 5.25>
-ST_8 : Operation 111 [3/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:168]   --->   Operation 111 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_8 : Operation 111 [3/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:169]   --->   Operation 111 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 9 <SV = 8> <Delay = 5.25>
-ST_9 : Operation 112 [2/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:168]   --->   Operation 112 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_9 : Operation 112 [2/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:169]   --->   Operation 112 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 10 <SV = 9> <Delay = 5.25>
-ST_10 : Operation 113 [1/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:168]   --->   Operation 113 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_10 : Operation 113 [1/7] (5.25ns)   --->   "%A_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %A_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:169]   --->   Operation 113 'readreq' 'A_AXI_load_i_i_req' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 11 <SV = 10> <Delay = 5.25>
-ST_11 : Operation 114 [1/1] (0.00ns)   --->   "%tmp_12_i_i = call i9 @_ssdm_op_BitConcatenate.i9.i5.i4(i5 %tmp_mid2_v_i_i, i4 0)" [2mmDataflow/2mm.cc:168]   --->   Operation 114 'bitconcatenate' 'tmp_12_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_11 : Operation 115 [1/1] (0.00ns)   --->   "%tmp_13_i_i = call i7 @_ssdm_op_BitConcatenate.i7.i5.i2(i5 %tmp_mid2_v_i_i, i2 0)" [2mmDataflow/2mm.cc:168]   --->   Operation 115 'bitconcatenate' 'tmp_13_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_11 : Operation 116 [1/1] (0.00ns)   --->   "%p_shl3_cast_i_i = zext i7 %tmp_13_i_i to i9" [2mmDataflow/2mm.cc:168]   --->   Operation 116 'zext' 'p_shl3_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_11 : Operation 117 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_14_i_i = sub i9 %tmp_12_i_i, %p_shl3_cast_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 117 'sub' 'tmp_14_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_11 : Operation 118 [1/1] (5.25ns)   --->   "%A_AXI_addr_read = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %A_AXI_addr)" [2mmDataflow/2mm.cc:168]   --->   Operation 118 'read' 'A_AXI_addr_read' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_11 : Operation 119 [1/1] (0.00ns)   --->   "%newIndex1_cast_i_i = zext i4 %tmp_3 to i9" [2mmDataflow/2mm.cc:168]   --->   Operation 119 'zext' 'newIndex1_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_11 : Operation 120 [1/1] (3.69ns) (root node of TernaryAdder)   --->   "%tmp_16_i_i = add i9 %newIndex1_cast_i_i, %tmp_14_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 120 'add' 'tmp_16_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 3.69> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_11 : Operation 114 [1/1] (0.00ns)   --->   "%tmp_12_i_i = call i9 @_ssdm_op_BitConcatenate.i9.i5.i4(i5 %tmp_mid2_v_i_i, i4 0)" [2mmDataflow/2mm.cc:169]   --->   Operation 114 'bitconcatenate' 'tmp_12_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_11 : Operation 115 [1/1] (0.00ns)   --->   "%tmp_13_i_i = call i7 @_ssdm_op_BitConcatenate.i7.i5.i2(i5 %tmp_mid2_v_i_i, i2 0)" [2mmDataflow/2mm.cc:169]   --->   Operation 115 'bitconcatenate' 'tmp_13_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_11 : Operation 116 [1/1] (0.00ns)   --->   "%p_shl3_cast_i_i = zext i7 %tmp_13_i_i to i9" [2mmDataflow/2mm.cc:169]   --->   Operation 116 'zext' 'p_shl3_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_11 : Operation 117 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_14_i_i = sub i9 %tmp_12_i_i, %p_shl3_cast_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 117 'sub' 'tmp_14_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_11 : Operation 118 [1/1] (5.25ns)   --->   "%A_AXI_addr_read = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %A_AXI_addr)" [2mmDataflow/2mm.cc:169]   --->   Operation 118 'read' 'A_AXI_addr_read' <Predicate = (!exitcond_flatten_i_i)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_11 : Operation 119 [1/1] (0.00ns)   --->   "%newIndex1_cast_i_i = zext i4 %tmp_3 to i9" [2mmDataflow/2mm.cc:169]   --->   Operation 119 'zext' 'newIndex1_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_11 : Operation 120 [1/1] (3.69ns) (root node of TernaryAdder)   --->   "%tmp_16_i_i = add i9 %newIndex1_cast_i_i, %tmp_14_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 120 'add' 'tmp_16_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 3.69> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 
 State 12 <SV = 11> <Delay = 3.25>
-ST_12 : Operation 121 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:167]   --->   Operation 121 'specpipeline' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_12 : Operation 122 [1/1] (0.00ns)   --->   "%tmp_16_cast_i_i = sext i9 %tmp_16_i_i to i64" [2mmDataflow/2mm.cc:168]   --->   Operation 122 'sext' 'tmp_16_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_12 : Operation 123 [1/1] (0.00ns)   --->   "%A_0_addr = getelementptr [192 x i32]* %A_0, i64 0, i64 %tmp_16_cast_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 123 'getelementptr' 'A_0_addr' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_12 : Operation 124 [1/1] (0.00ns)   --->   "%A_1_addr = getelementptr [192 x i32]* %A_1, i64 0, i64 %tmp_16_cast_i_i" [2mmDataflow/2mm.cc:168]   --->   Operation 124 'getelementptr' 'A_1_addr' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
-ST_12 : Operation 125 [1/1] (3.25ns)   --->   "store i32 %A_AXI_addr_read, i32* %A_0_addr, align 4" [2mmDataflow/2mm.cc:168]   --->   Operation 125 'store' <Predicate = (!tmp_2)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_12 : Operation 126 [1/1] (0.00ns)   --->   "br label %0" [2mmDataflow/2mm.cc:168]   --->   Operation 126 'br' <Predicate = (!tmp_2)> <Delay = 0.00>
-ST_12 : Operation 127 [1/1] (3.25ns)   --->   "store i32 %A_AXI_addr_read, i32* %A_1_addr, align 4" [2mmDataflow/2mm.cc:168]   --->   Operation 127 'store' <Predicate = (tmp_2)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_12 : Operation 128 [1/1] (0.00ns)   --->   "br label %0" [2mmDataflow/2mm.cc:168]   --->   Operation 128 'br' <Predicate = (tmp_2)> <Delay = 0.00>
+ST_12 : Operation 121 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:168]   --->   Operation 121 'specpipeline' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_12 : Operation 122 [1/1] (0.00ns)   --->   "%tmp_16_cast_i_i = sext i9 %tmp_16_i_i to i64" [2mmDataflow/2mm.cc:169]   --->   Operation 122 'sext' 'tmp_16_cast_i_i' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_12 : Operation 123 [1/1] (0.00ns)   --->   "%A_0_addr = getelementptr [192 x i32]* %A_0, i64 0, i64 %tmp_16_cast_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 123 'getelementptr' 'A_0_addr' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_12 : Operation 124 [1/1] (0.00ns)   --->   "%A_1_addr = getelementptr [192 x i32]* %A_1, i64 0, i64 %tmp_16_cast_i_i" [2mmDataflow/2mm.cc:169]   --->   Operation 124 'getelementptr' 'A_1_addr' <Predicate = (!exitcond_flatten_i_i)> <Delay = 0.00>
+ST_12 : Operation 125 [1/1] (3.25ns)   --->   "store i32 %A_AXI_addr_read, i32* %A_0_addr, align 4" [2mmDataflow/2mm.cc:169]   --->   Operation 125 'store' <Predicate = (!tmp_2)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_12 : Operation 126 [1/1] (0.00ns)   --->   "br label %0" [2mmDataflow/2mm.cc:169]   --->   Operation 126 'br' <Predicate = (!tmp_2)> <Delay = 0.00>
+ST_12 : Operation 127 [1/1] (3.25ns)   --->   "store i32 %A_AXI_addr_read, i32* %A_1_addr, align 4" [2mmDataflow/2mm.cc:169]   --->   Operation 127 'store' <Predicate = (tmp_2)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_12 : Operation 128 [1/1] (0.00ns)   --->   "br label %0" [2mmDataflow/2mm.cc:169]   --->   Operation 128 'br' <Predicate = (tmp_2)> <Delay = 0.00>
 
 State 13 <SV = 2> <Delay = 1.76>
-ST_13 : Operation 129 [1/1] (0.00ns)   --->   "%tmp_1 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %B_AXI_offset_read, i32 2, i32 31)" [2mmDataflow/2mm.cc:173]   --->   Operation 129 'partselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 130 [1/1] (0.00ns)   --->   "%sext4_cast_i_i = zext i30 %tmp_1 to i31" [2mmDataflow/2mm.cc:173]   --->   Operation 130 'zext' 'sext4_cast_i_i' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 131 [1/1] (1.76ns)   --->   "br label %.preheader11.i.i" [2mmDataflow/2mm.cc:173]   --->   Operation 131 'br' <Predicate = true> <Delay = 1.76>
+ST_13 : Operation 129 [1/1] (0.00ns)   --->   "%tmp_1 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %B_AXI_offset_read, i32 2, i32 31)" [2mmDataflow/2mm.cc:174]   --->   Operation 129 'partselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 130 [1/1] (0.00ns)   --->   "%sext4_cast_i_i = zext i30 %tmp_1 to i31" [2mmDataflow/2mm.cc:174]   --->   Operation 130 'zext' 'sext4_cast_i_i' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 131 [1/1] (1.76ns)   --->   "br label %.preheader11.i.i" [2mmDataflow/2mm.cc:174]   --->   Operation 131 'br' <Predicate = true> <Delay = 1.76>
 
 State 14 <SV = 3> <Delay = 4.35>
 ST_14 : Operation 132 [1/1] (0.00ns)   --->   "%indvar_flatten6_i_i = phi i9 [ %indvar_flatten_next7, %1 ], [ 0, %.preheader11.preheader.i.i ]"   --->   Operation 132 'phi' 'indvar_flatten6_i_i' <Predicate = true> <Delay = 0.00>
-ST_14 : Operation 133 [1/1] (0.00ns)   --->   "%k_1_i_i = phi i5 [ %tmp_4_mid2_v_i_i, %1 ], [ 0, %.preheader11.preheader.i.i ]" [2mmDataflow/2mm.cc:177]   --->   Operation 133 'phi' 'k_1_i_i' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 133 [1/1] (0.00ns)   --->   "%k_1_i_i = phi i5 [ %tmp_4_mid2_v_i_i, %1 ], [ 0, %.preheader11.preheader.i.i ]" [2mmDataflow/2mm.cc:178]   --->   Operation 133 'phi' 'k_1_i_i' <Predicate = true> <Delay = 0.00>
 ST_14 : Operation 134 [1/1] (0.00ns)   --->   "%j_i_i = phi i5 [ %j, %1 ], [ 0, %.preheader11.preheader.i.i ]"   --->   Operation 134 'phi' 'j_i_i' <Predicate = true> <Delay = 0.00>
 ST_14 : Operation 135 [1/1] (1.66ns)   --->   "%exitcond_flatten8_i_s = icmp eq i9 %indvar_flatten6_i_i, -80"   --->   Operation 135 'icmp' 'exitcond_flatten8_i_s' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_14 : Operation 136 [1/1] (0.00ns)   --->   "%empty_10 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 432, i64 432, i64 432)"   --->   Operation 136 'speclooptripcount' 'empty_10' <Predicate = true> <Delay = 0.00>
 ST_14 : Operation 137 [1/1] (1.82ns)   --->   "%indvar_flatten_next7 = add i9 %indvar_flatten6_i_i, 1"   --->   Operation 137 'add' 'indvar_flatten_next7' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_14 : Operation 138 [1/1] (0.00ns)   --->   "br i1 %exitcond_flatten8_i_s, label %.preheader9.preheader.i.i, label %.preheader12.i.i"   --->   Operation 138 'br' <Predicate = true> <Delay = 0.00>
-ST_14 : Operation 139 [1/1] (1.78ns)   --->   "%k_5_i_i = add i5 1, %k_1_i_i" [2mmDataflow/2mm.cc:172]   --->   Operation 139 'add' 'k_5_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 140 [1/1] (1.36ns)   --->   "%exitcond4116_i_i = icmp eq i5 %j_i_i, -14" [2mmDataflow/2mm.cc:173]   --->   Operation 140 'icmp' 'exitcond4116_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 141 [1/1] (1.21ns)   --->   "%j_mid2_i_i = select i1 %exitcond4116_i_i, i5 0, i5 %j_i_i" [2mmDataflow/2mm.cc:173]   --->   Operation 141 'select' 'j_mid2_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_14 : Operation 142 [1/1] (1.21ns)   --->   "%tmp_4_mid2_v_i_i = select i1 %exitcond4116_i_i, i5 %k_5_i_i, i5 %k_1_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 142 'select' 'tmp_4_mid2_v_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_14 : Operation 143 [1/1] (0.00ns)   --->   "%tmp_5 = trunc i5 %tmp_4_mid2_v_i_i to i1" [2mmDataflow/2mm.cc:177]   --->   Operation 143 'trunc' 'tmp_5' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_14 : Operation 144 [1/1] (0.00ns)   --->   "%newIndex3_mid2_v_i_i = call i4 @_ssdm_op_PartSelect.i4.i5.i32.i32(i5 %tmp_4_mid2_v_i_i, i32 1, i32 4)" [2mmDataflow/2mm.cc:177]   --->   Operation 144 'partselect' 'newIndex3_mid2_v_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_14 : Operation 145 [1/1] (0.00ns)   --->   "%tmp_7_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6)" [2mmDataflow/2mm.cc:175]   --->   Operation 145 'specregionbegin' 'tmp_7_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_14 : Operation 146 [1/1] (0.00ns)   --->   "br i1 %tmp_5, label %branch3.i.i, label %branch2.i.i" [2mmDataflow/2mm.cc:177]   --->   Operation 146 'br' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_14 : Operation 147 [1/1] (0.00ns)   --->   "%empty_11 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str6, i32 %tmp_7_i_i)" [2mmDataflow/2mm.cc:178]   --->   Operation 147 'specregionend' 'empty_11' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_14 : Operation 148 [1/1] (1.78ns)   --->   "%j = add i5 %j_mid2_i_i, 1" [2mmDataflow/2mm.cc:173]   --->   Operation 148 'add' 'j' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 149 [1/1] (0.00ns)   --->   "br label %.preheader11.i.i" [2mmDataflow/2mm.cc:173]   --->   Operation 149 'br' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_14 : Operation 139 [1/1] (1.78ns)   --->   "%k_5_i_i = add i5 1, %k_1_i_i" [2mmDataflow/2mm.cc:173]   --->   Operation 139 'add' 'k_5_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 140 [1/1] (1.36ns)   --->   "%exitcond4116_i_i = icmp eq i5 %j_i_i, -14" [2mmDataflow/2mm.cc:174]   --->   Operation 140 'icmp' 'exitcond4116_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 141 [1/1] (1.21ns)   --->   "%j_mid2_i_i = select i1 %exitcond4116_i_i, i5 0, i5 %j_i_i" [2mmDataflow/2mm.cc:174]   --->   Operation 141 'select' 'j_mid2_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_14 : Operation 142 [1/1] (1.21ns)   --->   "%tmp_4_mid2_v_i_i = select i1 %exitcond4116_i_i, i5 %k_5_i_i, i5 %k_1_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 142 'select' 'tmp_4_mid2_v_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_14 : Operation 143 [1/1] (0.00ns)   --->   "%tmp_5 = trunc i5 %tmp_4_mid2_v_i_i to i1" [2mmDataflow/2mm.cc:178]   --->   Operation 143 'trunc' 'tmp_5' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_14 : Operation 144 [1/1] (0.00ns)   --->   "%newIndex3_mid2_v_i_i = call i4 @_ssdm_op_PartSelect.i4.i5.i32.i32(i5 %tmp_4_mid2_v_i_i, i32 1, i32 4)" [2mmDataflow/2mm.cc:178]   --->   Operation 144 'partselect' 'newIndex3_mid2_v_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_14 : Operation 145 [1/1] (0.00ns)   --->   "%tmp_7_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str7)" [2mmDataflow/2mm.cc:176]   --->   Operation 145 'specregionbegin' 'tmp_7_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_14 : Operation 146 [1/1] (0.00ns)   --->   "br i1 %tmp_5, label %branch3.i.i, label %branch2.i.i" [2mmDataflow/2mm.cc:178]   --->   Operation 146 'br' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_14 : Operation 147 [1/1] (0.00ns)   --->   "%empty_11 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str7, i32 %tmp_7_i_i)" [2mmDataflow/2mm.cc:179]   --->   Operation 147 'specregionend' 'empty_11' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_14 : Operation 148 [1/1] (1.78ns)   --->   "%j = add i5 %j_mid2_i_i, 1" [2mmDataflow/2mm.cc:174]   --->   Operation 148 'add' 'j' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 149 [1/1] (0.00ns)   --->   "br label %.preheader11.i.i" [2mmDataflow/2mm.cc:174]   --->   Operation 149 'br' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
 
 State 15 <SV = 4> <Delay = 3.72>
-ST_15 : Operation 150 [1/1] (0.00ns)   --->   "%tmp_17_i_i = call i9 @_ssdm_op_BitConcatenate.i9.i5.i4(i5 %tmp_4_mid2_v_i_i, i4 0)" [2mmDataflow/2mm.cc:177]   --->   Operation 150 'bitconcatenate' 'tmp_17_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_15 : Operation 151 [1/1] (0.00ns)   --->   "%p_shl4_cast_i_i = zext i9 %tmp_17_i_i to i10" [2mmDataflow/2mm.cc:177]   --->   Operation 151 'zext' 'p_shl4_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_15 : Operation 152 [1/1] (0.00ns)   --->   "%tmp_18_i_i = call i6 @_ssdm_op_BitConcatenate.i6.i5.i1(i5 %tmp_4_mid2_v_i_i, i1 false)" [2mmDataflow/2mm.cc:177]   --->   Operation 152 'bitconcatenate' 'tmp_18_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_15 : Operation 153 [1/1] (0.00ns)   --->   "%p_shl5_cast_i_i = zext i6 %tmp_18_i_i to i10" [2mmDataflow/2mm.cc:177]   --->   Operation 153 'zext' 'p_shl5_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_15 : Operation 154 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_19_i_i = add i10 %p_shl4_cast_i_i, %p_shl5_cast_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 154 'add' 'tmp_19_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_15 : Operation 155 [1/1] (0.00ns)   --->   "%tmp_cast_i_i = zext i5 %j_mid2_i_i to i10" [2mmDataflow/2mm.cc:177]   --->   Operation 155 'zext' 'tmp_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_15 : Operation 156 [1/1] (3.72ns) (root node of TernaryAdder)   --->   "%tmp_23_i_i = add i10 %tmp_cast_i_i, %tmp_19_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 156 'add' 'tmp_23_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 3.72> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_15 : Operation 150 [1/1] (0.00ns)   --->   "%tmp_17_i_i = call i9 @_ssdm_op_BitConcatenate.i9.i5.i4(i5 %tmp_4_mid2_v_i_i, i4 0)" [2mmDataflow/2mm.cc:178]   --->   Operation 150 'bitconcatenate' 'tmp_17_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_15 : Operation 151 [1/1] (0.00ns)   --->   "%p_shl4_cast_i_i = zext i9 %tmp_17_i_i to i10" [2mmDataflow/2mm.cc:178]   --->   Operation 151 'zext' 'p_shl4_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_15 : Operation 152 [1/1] (0.00ns)   --->   "%tmp_18_i_i = call i6 @_ssdm_op_BitConcatenate.i6.i5.i1(i5 %tmp_4_mid2_v_i_i, i1 false)" [2mmDataflow/2mm.cc:178]   --->   Operation 152 'bitconcatenate' 'tmp_18_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_15 : Operation 153 [1/1] (0.00ns)   --->   "%p_shl5_cast_i_i = zext i6 %tmp_18_i_i to i10" [2mmDataflow/2mm.cc:178]   --->   Operation 153 'zext' 'p_shl5_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_15 : Operation 154 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_19_i_i = add i10 %p_shl4_cast_i_i, %p_shl5_cast_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 154 'add' 'tmp_19_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_15 : Operation 155 [1/1] (0.00ns)   --->   "%tmp_cast_i_i = zext i5 %j_mid2_i_i to i10" [2mmDataflow/2mm.cc:178]   --->   Operation 155 'zext' 'tmp_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_15 : Operation 156 [1/1] (3.72ns) (root node of TernaryAdder)   --->   "%tmp_23_i_i = add i10 %tmp_cast_i_i, %tmp_19_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 156 'add' 'tmp_23_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 3.72> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 
 State 16 <SV = 5> <Delay = 2.49>
-ST_16 : Operation 157 [1/1] (0.00ns)   --->   "%tmp_23_cast_i_i = zext i10 %tmp_23_i_i to i31" [2mmDataflow/2mm.cc:177]   --->   Operation 157 'zext' 'tmp_23_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_16 : Operation 158 [1/1] (2.49ns)   --->   "%sum5_i_i = add i31 %tmp_23_cast_i_i, %sext4_cast_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 158 'add' 'sum5_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 157 [1/1] (0.00ns)   --->   "%tmp_23_cast_i_i = zext i10 %tmp_23_i_i to i31" [2mmDataflow/2mm.cc:178]   --->   Operation 157 'zext' 'tmp_23_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_16 : Operation 158 [1/1] (2.49ns)   --->   "%sum5_i_i = add i31 %tmp_23_cast_i_i, %sext4_cast_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 158 'add' 'sum5_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
 State 17 <SV = 6> <Delay = 5.25>
-ST_17 : Operation 159 [1/1] (0.00ns)   --->   "%sum5_cast_i_i = zext i31 %sum5_i_i to i64" [2mmDataflow/2mm.cc:177]   --->   Operation 159 'zext' 'sum5_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_17 : Operation 160 [1/1] (0.00ns)   --->   "%B_AXI_addr = getelementptr i32* %B_AXI, i64 %sum5_cast_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 160 'getelementptr' 'B_AXI_addr' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_17 : Operation 161 [7/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:177]   --->   Operation 161 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_17 : Operation 159 [1/1] (0.00ns)   --->   "%sum5_cast_i_i = zext i31 %sum5_i_i to i64" [2mmDataflow/2mm.cc:178]   --->   Operation 159 'zext' 'sum5_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_17 : Operation 160 [1/1] (0.00ns)   --->   "%B_AXI_addr = getelementptr i32* %B_AXI, i64 %sum5_cast_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 160 'getelementptr' 'B_AXI_addr' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_17 : Operation 161 [7/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:178]   --->   Operation 161 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 18 <SV = 7> <Delay = 5.25>
-ST_18 : Operation 162 [6/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:177]   --->   Operation 162 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_18 : Operation 162 [6/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:178]   --->   Operation 162 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 19 <SV = 8> <Delay = 5.25>
-ST_19 : Operation 163 [5/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:177]   --->   Operation 163 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_19 : Operation 163 [5/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:178]   --->   Operation 163 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 20 <SV = 9> <Delay = 5.25>
-ST_20 : Operation 164 [4/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:177]   --->   Operation 164 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_20 : Operation 164 [4/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:178]   --->   Operation 164 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 21 <SV = 10> <Delay = 5.25>
-ST_21 : Operation 165 [3/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:177]   --->   Operation 165 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_21 : Operation 165 [3/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:178]   --->   Operation 165 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 22 <SV = 11> <Delay = 5.25>
-ST_22 : Operation 166 [2/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:177]   --->   Operation 166 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_22 : Operation 166 [2/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:178]   --->   Operation 166 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 23 <SV = 12> <Delay = 5.25>
-ST_23 : Operation 167 [1/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:177]   --->   Operation 167 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_23 : Operation 167 [1/7] (5.25ns)   --->   "%B_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %B_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:178]   --->   Operation 167 'readreq' 'B_AXI_load_i_i_req' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 24 <SV = 13> <Delay = 5.25>
-ST_24 : Operation 168 [1/1] (0.00ns)   --->   "%tmp_20_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i4.i4(i4 %newIndex3_mid2_v_i_i, i4 0)" [2mmDataflow/2mm.cc:177]   --->   Operation 168 'bitconcatenate' 'tmp_20_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_24 : Operation 169 [1/1] (0.00ns)   --->   "%p_shl6_cast_i_i = zext i8 %tmp_20_i_i to i9" [2mmDataflow/2mm.cc:177]   --->   Operation 169 'zext' 'p_shl6_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_24 : Operation 170 [1/1] (0.00ns)   --->   "%tmp_21_i_i = call i5 @_ssdm_op_BitConcatenate.i5.i4.i1(i4 %newIndex3_mid2_v_i_i, i1 false)" [2mmDataflow/2mm.cc:177]   --->   Operation 170 'bitconcatenate' 'tmp_21_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_24 : Operation 171 [1/1] (0.00ns)   --->   "%p_shl7_cast_i_i = zext i5 %tmp_21_i_i to i9" [2mmDataflow/2mm.cc:177]   --->   Operation 171 'zext' 'p_shl7_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_24 : Operation 172 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_22_i_i = add i9 %p_shl6_cast_i_i, %p_shl7_cast_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 172 'add' 'tmp_22_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_24 : Operation 173 [1/1] (0.00ns)   --->   "%tmp_cast123_i_i = zext i5 %j_mid2_i_i to i9" [2mmDataflow/2mm.cc:177]   --->   Operation 173 'zext' 'tmp_cast123_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_24 : Operation 174 [1/1] (3.69ns) (root node of TernaryAdder)   --->   "%tmp_24_i_i = add i9 %tmp_cast123_i_i, %tmp_22_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 174 'add' 'tmp_24_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 3.69> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_24 : Operation 175 [1/1] (5.25ns)   --->   "%B_AXI_addr_read = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %B_AXI_addr)" [2mmDataflow/2mm.cc:177]   --->   Operation 175 'read' 'B_AXI_addr_read' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_24 : Operation 168 [1/1] (0.00ns)   --->   "%tmp_20_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i4.i4(i4 %newIndex3_mid2_v_i_i, i4 0)" [2mmDataflow/2mm.cc:178]   --->   Operation 168 'bitconcatenate' 'tmp_20_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_24 : Operation 169 [1/1] (0.00ns)   --->   "%p_shl6_cast_i_i = zext i8 %tmp_20_i_i to i9" [2mmDataflow/2mm.cc:178]   --->   Operation 169 'zext' 'p_shl6_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_24 : Operation 170 [1/1] (0.00ns)   --->   "%tmp_21_i_i = call i5 @_ssdm_op_BitConcatenate.i5.i4.i1(i4 %newIndex3_mid2_v_i_i, i1 false)" [2mmDataflow/2mm.cc:178]   --->   Operation 170 'bitconcatenate' 'tmp_21_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_24 : Operation 171 [1/1] (0.00ns)   --->   "%p_shl7_cast_i_i = zext i5 %tmp_21_i_i to i9" [2mmDataflow/2mm.cc:178]   --->   Operation 171 'zext' 'p_shl7_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_24 : Operation 172 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_22_i_i = add i9 %p_shl6_cast_i_i, %p_shl7_cast_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 172 'add' 'tmp_22_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_24 : Operation 173 [1/1] (0.00ns)   --->   "%tmp_cast123_i_i = zext i5 %j_mid2_i_i to i9" [2mmDataflow/2mm.cc:178]   --->   Operation 173 'zext' 'tmp_cast123_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_24 : Operation 174 [1/1] (3.69ns) (root node of TernaryAdder)   --->   "%tmp_24_i_i = add i9 %tmp_cast123_i_i, %tmp_22_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 174 'add' 'tmp_24_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 3.69> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_24 : Operation 175 [1/1] (5.25ns)   --->   "%B_AXI_addr_read = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %B_AXI_addr)" [2mmDataflow/2mm.cc:178]   --->   Operation 175 'read' 'B_AXI_addr_read' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 25 <SV = 14> <Delay = 3.25>
-ST_25 : Operation 176 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:176]   --->   Operation 176 'specpipeline' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_25 : Operation 177 [1/1] (0.00ns)   --->   "%tmp_24_cast_i_i = zext i9 %tmp_24_i_i to i64" [2mmDataflow/2mm.cc:177]   --->   Operation 177 'zext' 'tmp_24_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_25 : Operation 178 [1/1] (0.00ns)   --->   "%B_0_addr = getelementptr [216 x i32]* %B_0, i64 0, i64 %tmp_24_cast_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 178 'getelementptr' 'B_0_addr' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_25 : Operation 179 [1/1] (0.00ns)   --->   "%B_1_addr = getelementptr [216 x i32]* %B_1, i64 0, i64 %tmp_24_cast_i_i" [2mmDataflow/2mm.cc:177]   --->   Operation 179 'getelementptr' 'B_1_addr' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
-ST_25 : Operation 180 [1/1] (3.25ns)   --->   "store i32 %B_AXI_addr_read, i32* %B_0_addr, align 4" [2mmDataflow/2mm.cc:177]   --->   Operation 180 'store' <Predicate = (!tmp_5)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_25 : Operation 181 [1/1] (0.00ns)   --->   "br label %1" [2mmDataflow/2mm.cc:177]   --->   Operation 181 'br' <Predicate = (!tmp_5)> <Delay = 0.00>
-ST_25 : Operation 182 [1/1] (3.25ns)   --->   "store i32 %B_AXI_addr_read, i32* %B_1_addr, align 4" [2mmDataflow/2mm.cc:177]   --->   Operation 182 'store' <Predicate = (tmp_5)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_25 : Operation 183 [1/1] (0.00ns)   --->   "br label %1" [2mmDataflow/2mm.cc:177]   --->   Operation 183 'br' <Predicate = (tmp_5)> <Delay = 0.00>
+ST_25 : Operation 176 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:177]   --->   Operation 176 'specpipeline' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_25 : Operation 177 [1/1] (0.00ns)   --->   "%tmp_24_cast_i_i = zext i9 %tmp_24_i_i to i64" [2mmDataflow/2mm.cc:178]   --->   Operation 177 'zext' 'tmp_24_cast_i_i' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_25 : Operation 178 [1/1] (0.00ns)   --->   "%B_0_addr = getelementptr [216 x i32]* %B_0, i64 0, i64 %tmp_24_cast_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 178 'getelementptr' 'B_0_addr' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_25 : Operation 179 [1/1] (0.00ns)   --->   "%B_1_addr = getelementptr [216 x i32]* %B_1, i64 0, i64 %tmp_24_cast_i_i" [2mmDataflow/2mm.cc:178]   --->   Operation 179 'getelementptr' 'B_1_addr' <Predicate = (!exitcond_flatten8_i_s)> <Delay = 0.00>
+ST_25 : Operation 180 [1/1] (3.25ns)   --->   "store i32 %B_AXI_addr_read, i32* %B_0_addr, align 4" [2mmDataflow/2mm.cc:178]   --->   Operation 180 'store' <Predicate = (!tmp_5)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_25 : Operation 181 [1/1] (0.00ns)   --->   "br label %1" [2mmDataflow/2mm.cc:178]   --->   Operation 181 'br' <Predicate = (!tmp_5)> <Delay = 0.00>
+ST_25 : Operation 182 [1/1] (3.25ns)   --->   "store i32 %B_AXI_addr_read, i32* %B_1_addr, align 4" [2mmDataflow/2mm.cc:178]   --->   Operation 182 'store' <Predicate = (tmp_5)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_25 : Operation 183 [1/1] (0.00ns)   --->   "br label %1" [2mmDataflow/2mm.cc:178]   --->   Operation 183 'br' <Predicate = (tmp_5)> <Delay = 0.00>
 
 State 26 <SV = 4> <Delay = 1.76>
-ST_26 : Operation 184 [1/1] (0.00ns)   --->   "%tmp_4 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %C_AXI_offset_read, i32 2, i32 31)" [2mmDataflow/2mm.cc:181]   --->   Operation 184 'partselect' 'tmp_4' <Predicate = true> <Delay = 0.00>
-ST_26 : Operation 185 [1/1] (0.00ns)   --->   "%sext8_cast_i_i = zext i30 %tmp_4 to i32" [2mmDataflow/2mm.cc:181]   --->   Operation 185 'zext' 'sext8_cast_i_i' <Predicate = true> <Delay = 0.00>
-ST_26 : Operation 186 [1/1] (1.76ns)   --->   "br label %.preheader9.i.i" [2mmDataflow/2mm.cc:181]   --->   Operation 186 'br' <Predicate = true> <Delay = 1.76>
+ST_26 : Operation 184 [1/1] (0.00ns)   --->   "%tmp_4 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %C_AXI_offset_read, i32 2, i32 31)" [2mmDataflow/2mm.cc:182]   --->   Operation 184 'partselect' 'tmp_4' <Predicate = true> <Delay = 0.00>
+ST_26 : Operation 185 [1/1] (0.00ns)   --->   "%sext8_cast_i_i = zext i30 %tmp_4 to i32" [2mmDataflow/2mm.cc:182]   --->   Operation 185 'zext' 'sext8_cast_i_i' <Predicate = true> <Delay = 0.00>
+ST_26 : Operation 186 [1/1] (1.76ns)   --->   "br label %.preheader9.i.i" [2mmDataflow/2mm.cc:182]   --->   Operation 186 'br' <Predicate = true> <Delay = 1.76>
 
 State 27 <SV = 5> <Delay = 4.72>
 ST_27 : Operation 187 [1/1] (0.00ns)   --->   "%indvar_flatten1_i_i = phi i9 [ %indvar_flatten_next2, %2 ], [ 0, %.preheader9.preheader.i.i ]"   --->   Operation 187 'phi' 'indvar_flatten1_i_i' <Predicate = true> <Delay = 0.00>
-ST_27 : Operation 188 [1/1] (0.00ns)   --->   "%j_1_i_i = phi i5 [ %tmp_8_mid2_v_i_i, %2 ], [ 0, %.preheader9.preheader.i.i ]" [2mmDataflow/2mm.cc:184]   --->   Operation 188 'phi' 'j_1_i_i' <Predicate = true> <Delay = 0.00>
+ST_27 : Operation 188 [1/1] (0.00ns)   --->   "%j_1_i_i = phi i5 [ %tmp_8_mid2_v_i_i, %2 ], [ 0, %.preheader9.preheader.i.i ]" [2mmDataflow/2mm.cc:185]   --->   Operation 188 'phi' 'j_1_i_i' <Predicate = true> <Delay = 0.00>
 ST_27 : Operation 189 [1/1] (0.00ns)   --->   "%k_2_i_i = phi i5 [ %k_2, %2 ], [ 0, %.preheader9.preheader.i.i ]"   --->   Operation 189 'phi' 'k_2_i_i' <Predicate = true> <Delay = 0.00>
 ST_27 : Operation 190 [1/1] (1.66ns)   --->   "%exitcond_flatten1_i_s = icmp eq i9 %indvar_flatten1_i_i, -80"   --->   Operation 190 'icmp' 'exitcond_flatten1_i_s' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_27 : Operation 191 [1/1] (0.00ns)   --->   "%empty_12 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 432, i64 432, i64 432)"   --->   Operation 191 'speclooptripcount' 'empty_12' <Predicate = true> <Delay = 0.00>
 ST_27 : Operation 192 [1/1] (1.82ns)   --->   "%indvar_flatten_next2 = add i9 %indvar_flatten1_i_i, 1"   --->   Operation 192 'add' 'indvar_flatten_next2' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_27 : Operation 193 [1/1] (0.00ns)   --->   "br i1 %exitcond_flatten1_i_s, label %.preheader.preheader.i.i, label %.preheader10.i.i"   --->   Operation 193 'br' <Predicate = true> <Delay = 0.00>
-ST_27 : Operation 194 [1/1] (1.78ns)   --->   "%j_3_i_i = add i5 1, %j_1_i_i" [2mmDataflow/2mm.cc:180]   --->   Operation 194 'add' 'j_3_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 195 [1/1] (1.36ns)   --->   "%exitcond2118_i_i = icmp eq i5 %k_2_i_i, -8" [2mmDataflow/2mm.cc:181]   --->   Operation 195 'icmp' 'exitcond2118_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 196 [1/1] (1.21ns)   --->   "%k_2_mid2_i_i = select i1 %exitcond2118_i_i, i5 0, i5 %k_2_i_i" [2mmDataflow/2mm.cc:181]   --->   Operation 196 'select' 'k_2_mid2_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_27 : Operation 197 [1/1] (1.21ns)   --->   "%tmp_8_mid2_v_i_i = select i1 %exitcond2118_i_i, i5 %j_3_i_i, i5 %j_1_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 197 'select' 'tmp_8_mid2_v_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_27 : Operation 198 [1/1] (0.00ns)   --->   "%tmp_25_i_i = call i10 @_ssdm_op_BitConcatenate.i10.i5.i5(i5 %tmp_8_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:184]   --->   Operation 198 'bitconcatenate' 'tmp_25_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_27 : Operation 199 [1/1] (0.00ns)   --->   "%p_shl8_cast_i_i = zext i10 %tmp_25_i_i to i11" [2mmDataflow/2mm.cc:184]   --->   Operation 199 'zext' 'p_shl8_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_27 : Operation 200 [1/1] (0.00ns)   --->   "%tmp_26_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i5.i3(i5 %tmp_8_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:184]   --->   Operation 200 'bitconcatenate' 'tmp_26_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_27 : Operation 201 [1/1] (0.00ns)   --->   "%p_shl9_cast_i_i = zext i8 %tmp_26_i_i to i11" [2mmDataflow/2mm.cc:184]   --->   Operation 201 'zext' 'p_shl9_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_27 : Operation 202 [1/1] (1.73ns)   --->   "%tmp_27_i_i = sub i11 %p_shl8_cast_i_i, %p_shl9_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 202 'sub' 'tmp_27_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 203 [1/1] (0.00ns)   --->   "%tmp_7 = trunc i5 %tmp_8_mid2_v_i_i to i3" [2mmDataflow/2mm.cc:184]   --->   Operation 203 'trunc' 'tmp_7' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_27 : Operation 204 [1/1] (0.00ns)   --->   "%newIndex5_mid2_v_i_i = call i2 @_ssdm_op_PartSelect.i2.i5.i32.i32(i5 %tmp_8_mid2_v_i_i, i32 3, i32 4)" [2mmDataflow/2mm.cc:184]   --->   Operation 204 'partselect' 'newIndex5_mid2_v_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_27 : Operation 205 [1/1] (0.00ns)   --->   "%tmp_9_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str7)" [2mmDataflow/2mm.cc:182]   --->   Operation 205 'specregionbegin' 'tmp_9_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 194 [1/1] (1.78ns)   --->   "%j_3_i_i = add i5 1, %j_1_i_i" [2mmDataflow/2mm.cc:181]   --->   Operation 194 'add' 'j_3_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 195 [1/1] (1.36ns)   --->   "%exitcond2118_i_i = icmp eq i5 %k_2_i_i, -8" [2mmDataflow/2mm.cc:182]   --->   Operation 195 'icmp' 'exitcond2118_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 196 [1/1] (1.21ns)   --->   "%k_2_mid2_i_i = select i1 %exitcond2118_i_i, i5 0, i5 %k_2_i_i" [2mmDataflow/2mm.cc:182]   --->   Operation 196 'select' 'k_2_mid2_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_27 : Operation 197 [1/1] (1.21ns)   --->   "%tmp_8_mid2_v_i_i = select i1 %exitcond2118_i_i, i5 %j_3_i_i, i5 %j_1_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 197 'select' 'tmp_8_mid2_v_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_27 : Operation 198 [1/1] (0.00ns)   --->   "%tmp_25_i_i = call i10 @_ssdm_op_BitConcatenate.i10.i5.i5(i5 %tmp_8_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:185]   --->   Operation 198 'bitconcatenate' 'tmp_25_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 199 [1/1] (0.00ns)   --->   "%p_shl8_cast_i_i = zext i10 %tmp_25_i_i to i11" [2mmDataflow/2mm.cc:185]   --->   Operation 199 'zext' 'p_shl8_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 200 [1/1] (0.00ns)   --->   "%tmp_26_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i5.i3(i5 %tmp_8_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:185]   --->   Operation 200 'bitconcatenate' 'tmp_26_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 201 [1/1] (0.00ns)   --->   "%p_shl9_cast_i_i = zext i8 %tmp_26_i_i to i11" [2mmDataflow/2mm.cc:185]   --->   Operation 201 'zext' 'p_shl9_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 202 [1/1] (1.73ns)   --->   "%tmp_27_i_i = sub i11 %p_shl8_cast_i_i, %p_shl9_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 202 'sub' 'tmp_27_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 203 [1/1] (0.00ns)   --->   "%tmp_7 = trunc i5 %tmp_8_mid2_v_i_i to i3" [2mmDataflow/2mm.cc:185]   --->   Operation 203 'trunc' 'tmp_7' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 204 [1/1] (0.00ns)   --->   "%newIndex5_mid2_v_i_i = call i2 @_ssdm_op_PartSelect.i2.i5.i32.i32(i5 %tmp_8_mid2_v_i_i, i32 3, i32 4)" [2mmDataflow/2mm.cc:185]   --->   Operation 204 'partselect' 'newIndex5_mid2_v_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 205 [1/1] (0.00ns)   --->   "%tmp_9_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str8)" [2mmDataflow/2mm.cc:183]   --->   Operation 205 'specregionbegin' 'tmp_9_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
 ST_27 : Operation 206 [1/1] (1.36ns)   --->   "switch i3 %tmp_7, label %branch11.i.i [
     i3 0, label %branch4.i.i
     i3 1, label %branch5.i.i
@@ -410,144 +410,144 @@ ST_27 : Operation 206 [1/1] (1.36ns)   --->   "switch i3 %tmp_7, label %branch11
     i3 -4, label %branch8.i.i
     i3 -3, label %branch9.i.i
     i3 -2, label %branch10.i.i
-  ]" [2mmDataflow/2mm.cc:184]   --->   Operation 206 'switch' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.36>
-ST_27 : Operation 207 [1/1] (0.00ns)   --->   "%empty_13 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str7, i32 %tmp_9_i_i)" [2mmDataflow/2mm.cc:185]   --->   Operation 207 'specregionend' 'empty_13' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_27 : Operation 208 [1/1] (1.78ns)   --->   "%k_2 = add i5 %k_2_mid2_i_i, 1" [2mmDataflow/2mm.cc:181]   --->   Operation 208 'add' 'k_2' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 209 [1/1] (0.00ns)   --->   "br label %.preheader9.i.i" [2mmDataflow/2mm.cc:181]   --->   Operation 209 'br' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+  ]" [2mmDataflow/2mm.cc:185]   --->   Operation 206 'switch' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.36>
+ST_27 : Operation 207 [1/1] (0.00ns)   --->   "%empty_13 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str8, i32 %tmp_9_i_i)" [2mmDataflow/2mm.cc:186]   --->   Operation 207 'specregionend' 'empty_13' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_27 : Operation 208 [1/1] (1.78ns)   --->   "%k_2 = add i5 %k_2_mid2_i_i, 1" [2mmDataflow/2mm.cc:182]   --->   Operation 208 'add' 'k_2' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 209 [1/1] (0.00ns)   --->   "br label %.preheader9.i.i" [2mmDataflow/2mm.cc:182]   --->   Operation 209 'br' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
 
 State 28 <SV = 6> <Delay = 4.13>
-ST_28 : Operation 210 [1/1] (0.00ns)   --->   "%tmp_27_cast_i_i = sext i11 %tmp_27_i_i to i12" [2mmDataflow/2mm.cc:184]   --->   Operation 210 'sext' 'tmp_27_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_28 : Operation 211 [1/1] (0.00ns)   --->   "%tmp_2_cast_i_i = zext i5 %k_2_mid2_i_i to i12" [2mmDataflow/2mm.cc:184]   --->   Operation 211 'zext' 'tmp_2_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_28 : Operation 212 [1/1] (1.63ns)   --->   "%tmp_31_i_i = add i12 %tmp_2_cast_i_i, %tmp_27_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 212 'add' 'tmp_31_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_28 : Operation 213 [1/1] (0.00ns)   --->   "%tmp_31_cast_i_i = sext i12 %tmp_31_i_i to i32" [2mmDataflow/2mm.cc:184]   --->   Operation 213 'sext' 'tmp_31_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_28 : Operation 214 [1/1] (2.49ns)   --->   "%sum9_i_i = add i32 %tmp_31_cast_i_i, %sext8_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 214 'add' 'sum9_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_28 : Operation 210 [1/1] (0.00ns)   --->   "%tmp_27_cast_i_i = sext i11 %tmp_27_i_i to i12" [2mmDataflow/2mm.cc:185]   --->   Operation 210 'sext' 'tmp_27_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_28 : Operation 211 [1/1] (0.00ns)   --->   "%tmp_2_cast_i_i = zext i5 %k_2_mid2_i_i to i12" [2mmDataflow/2mm.cc:185]   --->   Operation 211 'zext' 'tmp_2_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_28 : Operation 212 [1/1] (1.63ns)   --->   "%tmp_31_i_i = add i12 %tmp_2_cast_i_i, %tmp_27_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 212 'add' 'tmp_31_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_28 : Operation 213 [1/1] (0.00ns)   --->   "%tmp_31_cast_i_i = sext i12 %tmp_31_i_i to i32" [2mmDataflow/2mm.cc:185]   --->   Operation 213 'sext' 'tmp_31_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_28 : Operation 214 [1/1] (2.49ns)   --->   "%sum9_i_i = add i32 %tmp_31_cast_i_i, %sext8_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 214 'add' 'sum9_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
 State 29 <SV = 7> <Delay = 5.25>
-ST_29 : Operation 215 [1/1] (0.00ns)   --->   "%sum9_cast_i_i = sext i32 %sum9_i_i to i64" [2mmDataflow/2mm.cc:184]   --->   Operation 215 'sext' 'sum9_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_29 : Operation 216 [1/1] (0.00ns)   --->   "%C_AXI_addr = getelementptr i32* %C_AXI, i64 %sum9_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 216 'getelementptr' 'C_AXI_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_29 : Operation 217 [7/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:184]   --->   Operation 217 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_29 : Operation 215 [1/1] (0.00ns)   --->   "%sum9_cast_i_i = sext i32 %sum9_i_i to i64" [2mmDataflow/2mm.cc:185]   --->   Operation 215 'sext' 'sum9_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_29 : Operation 216 [1/1] (0.00ns)   --->   "%C_AXI_addr = getelementptr i32* %C_AXI, i64 %sum9_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 216 'getelementptr' 'C_AXI_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_29 : Operation 217 [7/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:185]   --->   Operation 217 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 30 <SV = 8> <Delay = 5.25>
-ST_30 : Operation 218 [6/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:184]   --->   Operation 218 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_30 : Operation 218 [6/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:185]   --->   Operation 218 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 31 <SV = 9> <Delay = 5.25>
-ST_31 : Operation 219 [5/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:184]   --->   Operation 219 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_31 : Operation 219 [5/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:185]   --->   Operation 219 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 32 <SV = 10> <Delay = 5.25>
-ST_32 : Operation 220 [4/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:184]   --->   Operation 220 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_32 : Operation 220 [4/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:185]   --->   Operation 220 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 33 <SV = 11> <Delay = 5.25>
-ST_33 : Operation 221 [3/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:184]   --->   Operation 221 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_33 : Operation 221 [3/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:185]   --->   Operation 221 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 34 <SV = 12> <Delay = 5.25>
-ST_34 : Operation 222 [2/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:184]   --->   Operation 222 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_34 : Operation 222 [2/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:185]   --->   Operation 222 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 35 <SV = 13> <Delay = 5.25>
-ST_35 : Operation 223 [1/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:184]   --->   Operation 223 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_35 : Operation 223 [1/7] (5.25ns)   --->   "%C_AXI_load_i_i_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %C_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:185]   --->   Operation 223 'readreq' 'C_AXI_load_i_i_req' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 36 <SV = 14> <Delay = 5.25>
-ST_36 : Operation 224 [1/1] (0.00ns)   --->   "%tmp_28_i_i = call i7 @_ssdm_op_BitConcatenate.i7.i2.i5(i2 %newIndex5_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:184]   --->   Operation 224 'bitconcatenate' 'tmp_28_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_36 : Operation 225 [1/1] (0.00ns)   --->   "%p_shl10_cast_i_i = zext i7 %tmp_28_i_i to i8" [2mmDataflow/2mm.cc:184]   --->   Operation 225 'zext' 'p_shl10_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_36 : Operation 226 [1/1] (0.00ns)   --->   "%tmp_29_i_i = call i5 @_ssdm_op_BitConcatenate.i5.i2.i3(i2 %newIndex5_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:184]   --->   Operation 226 'bitconcatenate' 'tmp_29_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_36 : Operation 227 [1/1] (0.00ns)   --->   "%p_shl11_cast_i_i = zext i5 %tmp_29_i_i to i8" [2mmDataflow/2mm.cc:184]   --->   Operation 227 'zext' 'p_shl11_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_36 : Operation 228 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_30_i_i = sub i8 %p_shl10_cast_i_i, %p_shl11_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 228 'sub' 'tmp_30_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_36 : Operation 229 [1/1] (0.00ns)   --->   "%tmp_2_cast122_i_i = zext i5 %k_2_mid2_i_i to i8" [2mmDataflow/2mm.cc:184]   --->   Operation 229 'zext' 'tmp_2_cast122_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_36 : Operation 230 [1/1] (3.66ns) (root node of TernaryAdder)   --->   "%tmp_32_i_i = add i8 %tmp_2_cast122_i_i, %tmp_30_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 230 'add' 'tmp_32_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 3.66> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_36 : Operation 231 [1/1] (5.25ns)   --->   "%C_AXI_addr_read = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %C_AXI_addr)" [2mmDataflow/2mm.cc:184]   --->   Operation 231 'read' 'C_AXI_addr_read' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_36 : Operation 224 [1/1] (0.00ns)   --->   "%tmp_28_i_i = call i7 @_ssdm_op_BitConcatenate.i7.i2.i5(i2 %newIndex5_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:185]   --->   Operation 224 'bitconcatenate' 'tmp_28_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_36 : Operation 225 [1/1] (0.00ns)   --->   "%p_shl10_cast_i_i = zext i7 %tmp_28_i_i to i8" [2mmDataflow/2mm.cc:185]   --->   Operation 225 'zext' 'p_shl10_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_36 : Operation 226 [1/1] (0.00ns)   --->   "%tmp_29_i_i = call i5 @_ssdm_op_BitConcatenate.i5.i2.i3(i2 %newIndex5_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:185]   --->   Operation 226 'bitconcatenate' 'tmp_29_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_36 : Operation 227 [1/1] (0.00ns)   --->   "%p_shl11_cast_i_i = zext i5 %tmp_29_i_i to i8" [2mmDataflow/2mm.cc:185]   --->   Operation 227 'zext' 'p_shl11_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_36 : Operation 228 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp_30_i_i = sub i8 %p_shl10_cast_i_i, %p_shl11_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 228 'sub' 'tmp_30_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_36 : Operation 229 [1/1] (0.00ns)   --->   "%tmp_2_cast122_i_i = zext i5 %k_2_mid2_i_i to i8" [2mmDataflow/2mm.cc:185]   --->   Operation 229 'zext' 'tmp_2_cast122_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_36 : Operation 230 [1/1] (3.66ns) (root node of TernaryAdder)   --->   "%tmp_32_i_i = add i8 %tmp_2_cast122_i_i, %tmp_30_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 230 'add' 'tmp_32_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 3.66> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.83> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_36 : Operation 231 [1/1] (5.25ns)   --->   "%C_AXI_addr_read = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %C_AXI_addr)" [2mmDataflow/2mm.cc:185]   --->   Operation 231 'read' 'C_AXI_addr_read' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 37 <SV = 15> <Delay = 3.25>
-ST_37 : Operation 232 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:183]   --->   Operation 232 'specpipeline' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 233 [1/1] (0.00ns)   --->   "%tmp_32_cast_i_i = sext i8 %tmp_32_i_i to i64" [2mmDataflow/2mm.cc:184]   --->   Operation 233 'sext' 'tmp_32_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 234 [1/1] (0.00ns)   --->   "%C_0_addr = getelementptr [72 x i32]* %C_0, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 234 'getelementptr' 'C_0_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 235 [1/1] (0.00ns)   --->   "%C_1_addr = getelementptr [72 x i32]* %C_1, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 235 'getelementptr' 'C_1_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 236 [1/1] (0.00ns)   --->   "%C_2_addr = getelementptr [48 x i32]* %C_2, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 236 'getelementptr' 'C_2_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 237 [1/1] (0.00ns)   --->   "%C_3_addr = getelementptr [48 x i32]* %C_3, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 237 'getelementptr' 'C_3_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 238 [1/1] (0.00ns)   --->   "%C_4_addr = getelementptr [48 x i32]* %C_4, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 238 'getelementptr' 'C_4_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 239 [1/1] (0.00ns)   --->   "%C_5_addr = getelementptr [48 x i32]* %C_5, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 239 'getelementptr' 'C_5_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 240 [1/1] (0.00ns)   --->   "%C_6_addr = getelementptr [48 x i32]* %C_6, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 240 'getelementptr' 'C_6_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 241 [1/1] (0.00ns)   --->   "%C_7_addr = getelementptr [48 x i32]* %C_7, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:184]   --->   Operation 241 'getelementptr' 'C_7_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
-ST_37 : Operation 242 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_6_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 242 'store' <Predicate = (tmp_7 == 6)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 243 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 243 'br' <Predicate = (tmp_7 == 6)> <Delay = 0.00>
-ST_37 : Operation 244 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_5_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 244 'store' <Predicate = (tmp_7 == 5)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 245 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 245 'br' <Predicate = (tmp_7 == 5)> <Delay = 0.00>
-ST_37 : Operation 246 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_4_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 246 'store' <Predicate = (tmp_7 == 4)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 247 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 247 'br' <Predicate = (tmp_7 == 4)> <Delay = 0.00>
-ST_37 : Operation 248 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_3_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 248 'store' <Predicate = (tmp_7 == 3)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 249 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 249 'br' <Predicate = (tmp_7 == 3)> <Delay = 0.00>
-ST_37 : Operation 250 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_2_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 250 'store' <Predicate = (tmp_7 == 2)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 251 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 251 'br' <Predicate = (tmp_7 == 2)> <Delay = 0.00>
-ST_37 : Operation 252 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_1_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 252 'store' <Predicate = (tmp_7 == 1)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 253 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 253 'br' <Predicate = (tmp_7 == 1)> <Delay = 0.00>
-ST_37 : Operation 254 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_0_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 254 'store' <Predicate = (tmp_7 == 0)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 255 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 255 'br' <Predicate = (tmp_7 == 0)> <Delay = 0.00>
-ST_37 : Operation 256 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_7_addr, align 4" [2mmDataflow/2mm.cc:184]   --->   Operation 256 'store' <Predicate = (tmp_7 == 7)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_37 : Operation 257 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:184]   --->   Operation 257 'br' <Predicate = (tmp_7 == 7)> <Delay = 0.00>
+ST_37 : Operation 232 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:184]   --->   Operation 232 'specpipeline' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 233 [1/1] (0.00ns)   --->   "%tmp_32_cast_i_i = sext i8 %tmp_32_i_i to i64" [2mmDataflow/2mm.cc:185]   --->   Operation 233 'sext' 'tmp_32_cast_i_i' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 234 [1/1] (0.00ns)   --->   "%C_0_addr = getelementptr [72 x i32]* %C_0, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 234 'getelementptr' 'C_0_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 235 [1/1] (0.00ns)   --->   "%C_1_addr = getelementptr [72 x i32]* %C_1, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 235 'getelementptr' 'C_1_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 236 [1/1] (0.00ns)   --->   "%C_2_addr = getelementptr [48 x i32]* %C_2, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 236 'getelementptr' 'C_2_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 237 [1/1] (0.00ns)   --->   "%C_3_addr = getelementptr [48 x i32]* %C_3, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 237 'getelementptr' 'C_3_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 238 [1/1] (0.00ns)   --->   "%C_4_addr = getelementptr [48 x i32]* %C_4, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 238 'getelementptr' 'C_4_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 239 [1/1] (0.00ns)   --->   "%C_5_addr = getelementptr [48 x i32]* %C_5, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 239 'getelementptr' 'C_5_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 240 [1/1] (0.00ns)   --->   "%C_6_addr = getelementptr [48 x i32]* %C_6, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 240 'getelementptr' 'C_6_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 241 [1/1] (0.00ns)   --->   "%C_7_addr = getelementptr [48 x i32]* %C_7, i64 0, i64 %tmp_32_cast_i_i" [2mmDataflow/2mm.cc:185]   --->   Operation 241 'getelementptr' 'C_7_addr' <Predicate = (!exitcond_flatten1_i_s)> <Delay = 0.00>
+ST_37 : Operation 242 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_6_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 242 'store' <Predicate = (tmp_7 == 6)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 243 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 243 'br' <Predicate = (tmp_7 == 6)> <Delay = 0.00>
+ST_37 : Operation 244 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_5_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 244 'store' <Predicate = (tmp_7 == 5)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 245 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 245 'br' <Predicate = (tmp_7 == 5)> <Delay = 0.00>
+ST_37 : Operation 246 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_4_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 246 'store' <Predicate = (tmp_7 == 4)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 247 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 247 'br' <Predicate = (tmp_7 == 4)> <Delay = 0.00>
+ST_37 : Operation 248 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_3_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 248 'store' <Predicate = (tmp_7 == 3)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 249 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 249 'br' <Predicate = (tmp_7 == 3)> <Delay = 0.00>
+ST_37 : Operation 250 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_2_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 250 'store' <Predicate = (tmp_7 == 2)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 251 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 251 'br' <Predicate = (tmp_7 == 2)> <Delay = 0.00>
+ST_37 : Operation 252 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_1_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 252 'store' <Predicate = (tmp_7 == 1)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 253 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 253 'br' <Predicate = (tmp_7 == 1)> <Delay = 0.00>
+ST_37 : Operation 254 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_0_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 254 'store' <Predicate = (tmp_7 == 0)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 255 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 255 'br' <Predicate = (tmp_7 == 0)> <Delay = 0.00>
+ST_37 : Operation 256 [1/1] (3.25ns)   --->   "store i32 %C_AXI_addr_read, i32* %C_7_addr, align 4" [2mmDataflow/2mm.cc:185]   --->   Operation 256 'store' <Predicate = (tmp_7 == 7)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_37 : Operation 257 [1/1] (0.00ns)   --->   "br label %2" [2mmDataflow/2mm.cc:185]   --->   Operation 257 'br' <Predicate = (tmp_7 == 7)> <Delay = 0.00>
 
 State 38 <SV = 6> <Delay = 1.76>
-ST_38 : Operation 258 [1/1] (0.00ns)   --->   "%tmp_6 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %D_input_AXI_offset_r, i32 2, i32 31)" [2mmDataflow/2mm.cc:188]   --->   Operation 258 'partselect' 'tmp_6' <Predicate = true> <Delay = 0.00>
-ST_38 : Operation 259 [1/1] (0.00ns)   --->   "%sext1_cast_i_i = zext i30 %tmp_6 to i32" [2mmDataflow/2mm.cc:188]   --->   Operation 259 'zext' 'sext1_cast_i_i' <Predicate = true> <Delay = 0.00>
-ST_38 : Operation 260 [1/1] (1.76ns)   --->   "br label %.preheader.i.i" [2mmDataflow/2mm.cc:188]   --->   Operation 260 'br' <Predicate = true> <Delay = 1.76>
+ST_38 : Operation 258 [1/1] (0.00ns)   --->   "%tmp_6 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %D_input_AXI_offset_r, i32 2, i32 31)" [2mmDataflow/2mm.cc:189]   --->   Operation 258 'partselect' 'tmp_6' <Predicate = true> <Delay = 0.00>
+ST_38 : Operation 259 [1/1] (0.00ns)   --->   "%sext1_cast_i_i = zext i30 %tmp_6 to i32" [2mmDataflow/2mm.cc:189]   --->   Operation 259 'zext' 'sext1_cast_i_i' <Predicate = true> <Delay = 0.00>
+ST_38 : Operation 260 [1/1] (1.76ns)   --->   "br label %.preheader.i.i" [2mmDataflow/2mm.cc:189]   --->   Operation 260 'br' <Predicate = true> <Delay = 1.76>
 
 State 39 <SV = 7> <Delay = 4.72>
 ST_39 : Operation 261 [1/1] (0.00ns)   --->   "%indvar_flatten2_i_i = phi i9 [ %indvar_flatten_next1, %.preheader8.i.i ], [ 0, %.preheader.preheader.i.i ]"   --->   Operation 261 'phi' 'indvar_flatten2_i_i' <Predicate = true> <Delay = 0.00>
-ST_39 : Operation 262 [1/1] (0.00ns)   --->   "%i_1_i_i = phi i5 [ %tmp_1_mid2_v_i_i, %.preheader8.i.i ], [ 0, %.preheader.preheader.i.i ]" [2mmDataflow/2mm.cc:191]   --->   Operation 262 'phi' 'i_1_i_i' <Predicate = true> <Delay = 0.00>
+ST_39 : Operation 262 [1/1] (0.00ns)   --->   "%i_1_i_i = phi i5 [ %tmp_1_mid2_v_i_i, %.preheader8.i.i ], [ 0, %.preheader.preheader.i.i ]" [2mmDataflow/2mm.cc:192]   --->   Operation 262 'phi' 'i_1_i_i' <Predicate = true> <Delay = 0.00>
 ST_39 : Operation 263 [1/1] (0.00ns)   --->   "%k_3_i_i = phi i5 [ %k_1, %.preheader8.i.i ], [ 0, %.preheader.preheader.i.i ]"   --->   Operation 263 'phi' 'k_3_i_i' <Predicate = true> <Delay = 0.00>
 ST_39 : Operation 264 [1/1] (1.66ns)   --->   "%exitcond_flatten2_i_s = icmp eq i9 %indvar_flatten2_i_i, -128"   --->   Operation 264 'icmp' 'exitcond_flatten2_i_s' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_39 : Operation 265 [1/1] (0.00ns)   --->   "%empty_14 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 384, i64 384, i64 384)"   --->   Operation 265 'speclooptripcount' 'empty_14' <Predicate = true> <Delay = 0.00>
 ST_39 : Operation 266 [1/1] (1.82ns)   --->   "%indvar_flatten_next1 = add i9 %indvar_flatten2_i_i, 1"   --->   Operation 266 'add' 'indvar_flatten_next1' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_39 : Operation 267 [1/1] (0.00ns)   --->   "br i1 %exitcond_flatten2_i_s, label %.exit, label %.preheader8.i.i"   --->   Operation 267 'br' <Predicate = true> <Delay = 0.00>
-ST_39 : Operation 268 [1/1] (1.78ns)   --->   "%i_3_i_i = add i5 %i_1_i_i, 1" [2mmDataflow/2mm.cc:187]   --->   Operation 268 'add' 'i_3_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_39 : Operation 269 [1/1] (1.36ns)   --->   "%exitcond120_i_i = icmp eq i5 %k_3_i_i, -8" [2mmDataflow/2mm.cc:188]   --->   Operation 269 'icmp' 'exitcond120_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_39 : Operation 270 [1/1] (1.21ns)   --->   "%k_3_mid2_i_i = select i1 %exitcond120_i_i, i5 0, i5 %k_3_i_i" [2mmDataflow/2mm.cc:188]   --->   Operation 270 'select' 'k_3_mid2_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_39 : Operation 271 [1/1] (1.21ns)   --->   "%tmp_1_mid2_v_i_i = select i1 %exitcond120_i_i, i5 %i_3_i_i, i5 %i_1_i_i" [2mmDataflow/2mm.cc:191]   --->   Operation 271 'select' 'tmp_1_mid2_v_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_39 : Operation 272 [1/1] (0.00ns)   --->   "%tmp_33_i_i = call i10 @_ssdm_op_BitConcatenate.i10.i5.i5(i5 %tmp_1_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:191]   --->   Operation 272 'bitconcatenate' 'tmp_33_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_39 : Operation 273 [1/1] (0.00ns)   --->   "%p_shl12_cast_i_i = zext i10 %tmp_33_i_i to i11" [2mmDataflow/2mm.cc:191]   --->   Operation 273 'zext' 'p_shl12_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_39 : Operation 274 [1/1] (0.00ns)   --->   "%tmp_34_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i5.i3(i5 %tmp_1_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:191]   --->   Operation 274 'bitconcatenate' 'tmp_34_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_39 : Operation 275 [1/1] (0.00ns)   --->   "%p_shl13_cast_i_i = zext i8 %tmp_34_i_i to i11" [2mmDataflow/2mm.cc:191]   --->   Operation 275 'zext' 'p_shl13_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_39 : Operation 276 [1/1] (1.73ns)   --->   "%tmp_35_i_i = sub i11 %p_shl12_cast_i_i, %p_shl13_cast_i_i" [2mmDataflow/2mm.cc:191]   --->   Operation 276 'sub' 'tmp_35_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_39 : Operation 277 [1/1] (1.78ns)   --->   "%k_1 = add i5 %k_3_mid2_i_i, 1" [2mmDataflow/2mm.cc:188]   --->   Operation 277 'add' 'k_1' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_39 : Operation 268 [1/1] (1.78ns)   --->   "%i_3_i_i = add i5 %i_1_i_i, 1" [2mmDataflow/2mm.cc:188]   --->   Operation 268 'add' 'i_3_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_39 : Operation 269 [1/1] (1.36ns)   --->   "%exitcond120_i_i = icmp eq i5 %k_3_i_i, -8" [2mmDataflow/2mm.cc:189]   --->   Operation 269 'icmp' 'exitcond120_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_39 : Operation 270 [1/1] (1.21ns)   --->   "%k_3_mid2_i_i = select i1 %exitcond120_i_i, i5 0, i5 %k_3_i_i" [2mmDataflow/2mm.cc:189]   --->   Operation 270 'select' 'k_3_mid2_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_39 : Operation 271 [1/1] (1.21ns)   --->   "%tmp_1_mid2_v_i_i = select i1 %exitcond120_i_i, i5 %i_3_i_i, i5 %i_1_i_i" [2mmDataflow/2mm.cc:192]   --->   Operation 271 'select' 'tmp_1_mid2_v_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_39 : Operation 272 [1/1] (0.00ns)   --->   "%tmp_33_i_i = call i10 @_ssdm_op_BitConcatenate.i10.i5.i5(i5 %tmp_1_mid2_v_i_i, i5 0)" [2mmDataflow/2mm.cc:192]   --->   Operation 272 'bitconcatenate' 'tmp_33_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_39 : Operation 273 [1/1] (0.00ns)   --->   "%p_shl12_cast_i_i = zext i10 %tmp_33_i_i to i11" [2mmDataflow/2mm.cc:192]   --->   Operation 273 'zext' 'p_shl12_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_39 : Operation 274 [1/1] (0.00ns)   --->   "%tmp_34_i_i = call i8 @_ssdm_op_BitConcatenate.i8.i5.i3(i5 %tmp_1_mid2_v_i_i, i3 0)" [2mmDataflow/2mm.cc:192]   --->   Operation 274 'bitconcatenate' 'tmp_34_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_39 : Operation 275 [1/1] (0.00ns)   --->   "%p_shl13_cast_i_i = zext i8 %tmp_34_i_i to i11" [2mmDataflow/2mm.cc:192]   --->   Operation 275 'zext' 'p_shl13_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_39 : Operation 276 [1/1] (1.73ns)   --->   "%tmp_35_i_i = sub i11 %p_shl12_cast_i_i, %p_shl13_cast_i_i" [2mmDataflow/2mm.cc:192]   --->   Operation 276 'sub' 'tmp_35_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_39 : Operation 277 [1/1] (1.78ns)   --->   "%k_1 = add i5 %k_3_mid2_i_i, 1" [2mmDataflow/2mm.cc:189]   --->   Operation 277 'add' 'k_1' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
 State 40 <SV = 8> <Delay = 4.13>
-ST_40 : Operation 278 [1/1] (0.00ns)   --->   "%tmp_35_cast_i_i = sext i11 %tmp_35_i_i to i12" [2mmDataflow/2mm.cc:191]   --->   Operation 278 'sext' 'tmp_35_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_40 : Operation 279 [1/1] (0.00ns)   --->   "%tmp_3_cast_i_i = zext i5 %k_3_mid2_i_i to i12" [2mmDataflow/2mm.cc:191]   --->   Operation 279 'zext' 'tmp_3_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_40 : Operation 280 [1/1] (1.63ns)   --->   "%tmp_36_i_i = add i12 %tmp_35_cast_i_i, %tmp_3_cast_i_i" [2mmDataflow/2mm.cc:191]   --->   Operation 280 'add' 'tmp_36_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_40 : Operation 281 [1/1] (0.00ns)   --->   "%tmp_36_cast121_i_i = sext i12 %tmp_36_i_i to i32" [2mmDataflow/2mm.cc:191]   --->   Operation 281 'sext' 'tmp_36_cast121_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_40 : Operation 282 [1/1] (2.49ns)   --->   "%sum1_i_i = add i32 %sext1_cast_i_i, %tmp_36_cast121_i_i" [2mmDataflow/2mm.cc:188]   --->   Operation 282 'add' 'sum1_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_40 : Operation 278 [1/1] (0.00ns)   --->   "%tmp_35_cast_i_i = sext i11 %tmp_35_i_i to i12" [2mmDataflow/2mm.cc:192]   --->   Operation 278 'sext' 'tmp_35_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_40 : Operation 279 [1/1] (0.00ns)   --->   "%tmp_3_cast_i_i = zext i5 %k_3_mid2_i_i to i12" [2mmDataflow/2mm.cc:192]   --->   Operation 279 'zext' 'tmp_3_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_40 : Operation 280 [1/1] (1.63ns)   --->   "%tmp_36_i_i = add i12 %tmp_35_cast_i_i, %tmp_3_cast_i_i" [2mmDataflow/2mm.cc:192]   --->   Operation 280 'add' 'tmp_36_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_40 : Operation 281 [1/1] (0.00ns)   --->   "%tmp_36_cast121_i_i = sext i12 %tmp_36_i_i to i32" [2mmDataflow/2mm.cc:192]   --->   Operation 281 'sext' 'tmp_36_cast121_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_40 : Operation 282 [1/1] (2.49ns)   --->   "%sum1_i_i = add i32 %sext1_cast_i_i, %tmp_36_cast121_i_i" [2mmDataflow/2mm.cc:189]   --->   Operation 282 'add' 'sum1_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 2.49> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
 State 41 <SV = 9> <Delay = 5.25>
-ST_41 : Operation 283 [1/1] (0.00ns)   --->   "%sum1_cast_i_i = sext i32 %sum1_i_i to i64" [2mmDataflow/2mm.cc:188]   --->   Operation 283 'sext' 'sum1_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_41 : Operation 284 [1/1] (0.00ns)   --->   "%D_input_AXI_addr = getelementptr i32* %D_input_AXI, i64 %sum1_cast_i_i" [2mmDataflow/2mm.cc:188]   --->   Operation 284 'getelementptr' 'D_input_AXI_addr' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_41 : Operation 285 [7/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:191]   --->   Operation 285 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_41 : Operation 283 [1/1] (0.00ns)   --->   "%sum1_cast_i_i = sext i32 %sum1_i_i to i64" [2mmDataflow/2mm.cc:189]   --->   Operation 283 'sext' 'sum1_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_41 : Operation 284 [1/1] (0.00ns)   --->   "%D_input_AXI_addr = getelementptr i32* %D_input_AXI, i64 %sum1_cast_i_i" [2mmDataflow/2mm.cc:189]   --->   Operation 284 'getelementptr' 'D_input_AXI_addr' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_41 : Operation 285 [7/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:192]   --->   Operation 285 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 42 <SV = 10> <Delay = 5.25>
-ST_42 : Operation 286 [6/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:191]   --->   Operation 286 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_42 : Operation 286 [6/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:192]   --->   Operation 286 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 43 <SV = 11> <Delay = 5.25>
-ST_43 : Operation 287 [5/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:191]   --->   Operation 287 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_43 : Operation 287 [5/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:192]   --->   Operation 287 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 44 <SV = 12> <Delay = 5.25>
-ST_44 : Operation 288 [4/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:191]   --->   Operation 288 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_44 : Operation 288 [4/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:192]   --->   Operation 288 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 45 <SV = 13> <Delay = 5.25>
-ST_45 : Operation 289 [3/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:191]   --->   Operation 289 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_45 : Operation 289 [3/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:192]   --->   Operation 289 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 46 <SV = 14> <Delay = 5.25>
-ST_46 : Operation 290 [2/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:191]   --->   Operation 290 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_46 : Operation 290 [2/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:192]   --->   Operation 290 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 47 <SV = 15> <Delay = 5.25>
-ST_47 : Operation 291 [1/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:191]   --->   Operation 291 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_47 : Operation 291 [1/7] (5.25ns)   --->   "%D_input_AXI_load_i_i = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %D_input_AXI_addr, i32 1)" [2mmDataflow/2mm.cc:192]   --->   Operation 291 'readreq' 'D_input_AXI_load_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 48 <SV = 16> <Delay = 5.25>
-ST_48 : Operation 292 [1/1] (5.25ns)   --->   "%D_input_AXI_addr_rea = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %D_input_AXI_addr)" [2mmDataflow/2mm.cc:191]   --->   Operation 292 'read' 'D_input_AXI_addr_rea' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_48 : Operation 292 [1/1] (5.25ns)   --->   "%D_input_AXI_addr_rea = call i32 @_ssdm_op_Read.m_axi.i32P(i32* %D_input_AXI_addr)" [2mmDataflow/2mm.cc:192]   --->   Operation 292 'read' 'D_input_AXI_addr_rea' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 5.25> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 49 <SV = 17> <Delay = 3.25>
-ST_49 : Operation 293 [1/1] (0.00ns)   --->   "%tmp_1_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str8)" [2mmDataflow/2mm.cc:189]   --->   Operation 293 'specregionbegin' 'tmp_1_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_49 : Operation 294 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:190]   --->   Operation 294 'specpipeline' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_49 : Operation 295 [1/1] (0.00ns)   --->   "%tmp_36_cast_i_i = sext i12 %tmp_36_i_i to i64" [2mmDataflow/2mm.cc:191]   --->   Operation 295 'sext' 'tmp_36_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_49 : Operation 296 [1/1] (0.00ns)   --->   "%D_addr = getelementptr [384 x i32]* %D, i64 0, i64 %tmp_36_cast_i_i" [2mmDataflow/2mm.cc:191]   --->   Operation 296 'getelementptr' 'D_addr' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_49 : Operation 297 [1/1] (3.25ns)   --->   "store i32 %D_input_AXI_addr_rea, i32* %D_addr, align 4" [2mmDataflow/2mm.cc:191]   --->   Operation 297 'store' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
-ST_49 : Operation 298 [1/1] (0.00ns)   --->   "%empty_15 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str8, i32 %tmp_1_i_i)" [2mmDataflow/2mm.cc:192]   --->   Operation 298 'specregionend' 'empty_15' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
-ST_49 : Operation 299 [1/1] (0.00ns)   --->   "br label %.preheader.i.i" [2mmDataflow/2mm.cc:188]   --->   Operation 299 'br' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_49 : Operation 293 [1/1] (0.00ns)   --->   "%tmp_1_i_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str9)" [2mmDataflow/2mm.cc:190]   --->   Operation 293 'specregionbegin' 'tmp_1_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_49 : Operation 294 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:191]   --->   Operation 294 'specpipeline' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_49 : Operation 295 [1/1] (0.00ns)   --->   "%tmp_36_cast_i_i = sext i12 %tmp_36_i_i to i64" [2mmDataflow/2mm.cc:192]   --->   Operation 295 'sext' 'tmp_36_cast_i_i' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_49 : Operation 296 [1/1] (0.00ns)   --->   "%D_addr = getelementptr [384 x i32]* %D, i64 0, i64 %tmp_36_cast_i_i" [2mmDataflow/2mm.cc:192]   --->   Operation 296 'getelementptr' 'D_addr' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_49 : Operation 297 [1/1] (3.25ns)   --->   "store i32 %D_input_AXI_addr_rea, i32* %D_addr, align 4" [2mmDataflow/2mm.cc:192]   --->   Operation 297 'store' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 384> <RAM>
+ST_49 : Operation 298 [1/1] (0.00ns)   --->   "%empty_15 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str9, i32 %tmp_1_i_i)" [2mmDataflow/2mm.cc:193]   --->   Operation 298 'specregionend' 'empty_15' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
+ST_49 : Operation 299 [1/1] (0.00ns)   --->   "br label %.preheader.i.i" [2mmDataflow/2mm.cc:189]   --->   Operation 299 'br' <Predicate = (!exitcond_flatten2_i_s)> <Delay = 0.00>
 
 State 50 <SV = 8> <Delay = 0.00>
 ST_50 : Operation 300 [1/1] (0.00ns)   --->   "ret void"   --->   Operation 300 'ret' <Predicate = true> <Delay = 0.00>
@@ -565,53 +565,53 @@ The critical path consists of the following:
 
  <State 2>: 4.73ns
 The critical path consists of the following:
-	'phi' operation ('i_i_i', 2mmDataflow/2mm.cc:168) with incoming values : ('tmp_mid2_v_i_i', 2mmDataflow/2mm.cc:168) [52]  (0 ns)
-	'add' operation ('i_2_i_i', 2mmDataflow/2mm.cc:163) [59]  (1.78 ns)
-	'select' operation ('tmp_mid2_v_i_i', 2mmDataflow/2mm.cc:168) [62]  (1.22 ns)
-	'sub' operation ('tmp_11_i_i', 2mmDataflow/2mm.cc:168) [67]  (1.73 ns)
+	'phi' operation ('i_i_i', 2mmDataflow/2mm.cc:169) with incoming values : ('tmp_mid2_v_i_i', 2mmDataflow/2mm.cc:169) [52]  (0 ns)
+	'add' operation ('i_2_i_i', 2mmDataflow/2mm.cc:164) [59]  (1.78 ns)
+	'select' operation ('tmp_mid2_v_i_i', 2mmDataflow/2mm.cc:169) [62]  (1.22 ns)
+	'sub' operation ('tmp_11_i_i', 2mmDataflow/2mm.cc:169) [67]  (1.73 ns)
 
  <State 3>: 4.13ns
 The critical path consists of the following:
-	'add' operation ('tmp_15_i_i', 2mmDataflow/2mm.cc:168) [76]  (1.64 ns)
-	'add' operation ('sum_i_i', 2mmDataflow/2mm.cc:168) [78]  (2.49 ns)
+	'add' operation ('tmp_15_i_i', 2mmDataflow/2mm.cc:169) [76]  (1.64 ns)
+	'add' operation ('sum_i_i', 2mmDataflow/2mm.cc:169) [78]  (2.49 ns)
 
  <State 4>: 5.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('A_AXI_addr', 2mmDataflow/2mm.cc:168) [80]  (0 ns)
-	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:168) [81]  (5.25 ns)
+	'getelementptr' operation ('A_AXI_addr', 2mmDataflow/2mm.cc:169) [80]  (0 ns)
+	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:169) [81]  (5.25 ns)
 
  <State 5>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:168) [81]  (5.25 ns)
+	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:169) [81]  (5.25 ns)
 
  <State 6>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:168) [81]  (5.25 ns)
+	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:169) [81]  (5.25 ns)
 
  <State 7>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:168) [81]  (5.25 ns)
+	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:169) [81]  (5.25 ns)
 
  <State 8>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:168) [81]  (5.25 ns)
+	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:169) [81]  (5.25 ns)
 
  <State 9>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:168) [81]  (5.25 ns)
+	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:169) [81]  (5.25 ns)
 
  <State 10>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:168) [81]  (5.25 ns)
+	bus request on port 'A_AXI' (2mmDataflow/2mm.cc:169) [81]  (5.25 ns)
 
  <State 11>: 5.25ns
 The critical path consists of the following:
-	bus read on port 'A_AXI' (2mmDataflow/2mm.cc:168) [82]  (5.25 ns)
+	bus read on port 'A_AXI' (2mmDataflow/2mm.cc:169) [82]  (5.25 ns)
 
  <State 12>: 3.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('A_0_addr', 2mmDataflow/2mm.cc:168) [88]  (0 ns)
-	'store' operation (2mmDataflow/2mm.cc:168) of variable 'A_AXI_addr_read', 2mmDataflow/2mm.cc:168 on array 'A_0' [92]  (3.25 ns)
+	'getelementptr' operation ('A_0_addr', 2mmDataflow/2mm.cc:169) [88]  (0 ns)
+	'store' operation (2mmDataflow/2mm.cc:169) of variable 'A_AXI_addr_read', 2mmDataflow/2mm.cc:169 on array 'A_0' [92]  (3.25 ns)
 
  <State 13>: 1.77ns
 The critical path consists of the following:
@@ -619,57 +619,57 @@ The critical path consists of the following:
 
  <State 14>: 4.36ns
 The critical path consists of the following:
-	'phi' operation ('j') with incoming values : ('j', 2mmDataflow/2mm.cc:173) [108]  (0 ns)
-	'icmp' operation ('exitcond4116_i_i', 2mmDataflow/2mm.cc:173) [115]  (1.36 ns)
-	'select' operation ('j_mid2_i_i', 2mmDataflow/2mm.cc:173) [116]  (1.22 ns)
-	'add' operation ('j', 2mmDataflow/2mm.cc:173) [154]  (1.78 ns)
+	'phi' operation ('j') with incoming values : ('j', 2mmDataflow/2mm.cc:174) [108]  (0 ns)
+	'icmp' operation ('exitcond4116_i_i', 2mmDataflow/2mm.cc:174) [115]  (1.36 ns)
+	'select' operation ('j_mid2_i_i', 2mmDataflow/2mm.cc:174) [116]  (1.22 ns)
+	'add' operation ('j', 2mmDataflow/2mm.cc:174) [154]  (1.78 ns)
 
  <State 15>: 3.73ns
 The critical path consists of the following:
-	'add' operation ('tmp_19_i_i', 2mmDataflow/2mm.cc:177) [122]  (0 ns)
-	'add' operation ('tmp_23_i_i', 2mmDataflow/2mm.cc:177) [134]  (3.73 ns)
+	'add' operation ('tmp_19_i_i', 2mmDataflow/2mm.cc:178) [122]  (0 ns)
+	'add' operation ('tmp_23_i_i', 2mmDataflow/2mm.cc:178) [134]  (3.73 ns)
 
  <State 16>: 2.49ns
 The critical path consists of the following:
-	'add' operation ('sum5_i_i', 2mmDataflow/2mm.cc:177) [136]  (2.49 ns)
+	'add' operation ('sum5_i_i', 2mmDataflow/2mm.cc:178) [136]  (2.49 ns)
 
  <State 17>: 5.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('B_AXI_addr', 2mmDataflow/2mm.cc:177) [138]  (0 ns)
-	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:177) [143]  (5.25 ns)
+	'getelementptr' operation ('B_AXI_addr', 2mmDataflow/2mm.cc:178) [138]  (0 ns)
+	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:178) [143]  (5.25 ns)
 
  <State 18>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:177) [143]  (5.25 ns)
+	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:178) [143]  (5.25 ns)
 
  <State 19>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:177) [143]  (5.25 ns)
+	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:178) [143]  (5.25 ns)
 
  <State 20>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:177) [143]  (5.25 ns)
+	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:178) [143]  (5.25 ns)
 
  <State 21>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:177) [143]  (5.25 ns)
+	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:178) [143]  (5.25 ns)
 
  <State 22>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:177) [143]  (5.25 ns)
+	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:178) [143]  (5.25 ns)
 
  <State 23>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:177) [143]  (5.25 ns)
+	bus request on port 'B_AXI' (2mmDataflow/2mm.cc:178) [143]  (5.25 ns)
 
  <State 24>: 5.25ns
 The critical path consists of the following:
-	bus read on port 'B_AXI' (2mmDataflow/2mm.cc:177) [144]  (5.25 ns)
+	bus read on port 'B_AXI' (2mmDataflow/2mm.cc:178) [144]  (5.25 ns)
 
  <State 25>: 3.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('B_0_addr', 2mmDataflow/2mm.cc:177) [141]  (0 ns)
-	'store' operation (2mmDataflow/2mm.cc:177) of variable 'B_AXI_addr_read', 2mmDataflow/2mm.cc:177 on array 'B_0' [147]  (3.25 ns)
+	'getelementptr' operation ('B_0_addr', 2mmDataflow/2mm.cc:178) [141]  (0 ns)
+	'store' operation (2mmDataflow/2mm.cc:178) of variable 'B_AXI_addr_read', 2mmDataflow/2mm.cc:178 on array 'B_0' [147]  (3.25 ns)
 
  <State 26>: 1.77ns
 The critical path consists of the following:
@@ -677,53 +677,53 @@ The critical path consists of the following:
 
  <State 27>: 4.73ns
 The critical path consists of the following:
-	'phi' operation ('j_1_i_i', 2mmDataflow/2mm.cc:184) with incoming values : ('tmp_8_mid2_v_i_i', 2mmDataflow/2mm.cc:184) [162]  (0 ns)
-	'add' operation ('j_3_i_i', 2mmDataflow/2mm.cc:180) [169]  (1.78 ns)
-	'select' operation ('tmp_8_mid2_v_i_i', 2mmDataflow/2mm.cc:184) [172]  (1.22 ns)
-	'sub' operation ('tmp_27_i_i', 2mmDataflow/2mm.cc:184) [177]  (1.73 ns)
+	'phi' operation ('j_1_i_i', 2mmDataflow/2mm.cc:185) with incoming values : ('tmp_8_mid2_v_i_i', 2mmDataflow/2mm.cc:185) [162]  (0 ns)
+	'add' operation ('j_3_i_i', 2mmDataflow/2mm.cc:181) [169]  (1.78 ns)
+	'select' operation ('tmp_8_mid2_v_i_i', 2mmDataflow/2mm.cc:185) [172]  (1.22 ns)
+	'sub' operation ('tmp_27_i_i', 2mmDataflow/2mm.cc:185) [177]  (1.73 ns)
 
  <State 28>: 4.13ns
 The critical path consists of the following:
-	'add' operation ('tmp_31_i_i', 2mmDataflow/2mm.cc:184) [190]  (1.64 ns)
-	'add' operation ('sum9_i_i', 2mmDataflow/2mm.cc:184) [192]  (2.49 ns)
+	'add' operation ('tmp_31_i_i', 2mmDataflow/2mm.cc:185) [190]  (1.64 ns)
+	'add' operation ('sum9_i_i', 2mmDataflow/2mm.cc:185) [192]  (2.49 ns)
 
  <State 29>: 5.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('C_AXI_addr', 2mmDataflow/2mm.cc:184) [194]  (0 ns)
-	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:184) [205]  (5.25 ns)
+	'getelementptr' operation ('C_AXI_addr', 2mmDataflow/2mm.cc:185) [194]  (0 ns)
+	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:185) [205]  (5.25 ns)
 
  <State 30>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:184) [205]  (5.25 ns)
+	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:185) [205]  (5.25 ns)
 
  <State 31>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:184) [205]  (5.25 ns)
+	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:185) [205]  (5.25 ns)
 
  <State 32>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:184) [205]  (5.25 ns)
+	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:185) [205]  (5.25 ns)
 
  <State 33>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:184) [205]  (5.25 ns)
+	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:185) [205]  (5.25 ns)
 
  <State 34>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:184) [205]  (5.25 ns)
+	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:185) [205]  (5.25 ns)
 
  <State 35>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:184) [205]  (5.25 ns)
+	bus request on port 'C_AXI' (2mmDataflow/2mm.cc:185) [205]  (5.25 ns)
 
  <State 36>: 5.25ns
 The critical path consists of the following:
-	bus read on port 'C_AXI' (2mmDataflow/2mm.cc:184) [206]  (5.25 ns)
+	bus read on port 'C_AXI' (2mmDataflow/2mm.cc:185) [206]  (5.25 ns)
 
  <State 37>: 3.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('C_6_addr', 2mmDataflow/2mm.cc:184) [203]  (0 ns)
-	'store' operation (2mmDataflow/2mm.cc:184) of variable 'C_AXI_addr_read', 2mmDataflow/2mm.cc:184 on array 'C_6' [209]  (3.25 ns)
+	'getelementptr' operation ('C_6_addr', 2mmDataflow/2mm.cc:185) [203]  (0 ns)
+	'store' operation (2mmDataflow/2mm.cc:185) of variable 'C_AXI_addr_read', 2mmDataflow/2mm.cc:185 on array 'C_6' [209]  (3.25 ns)
 
  <State 38>: 1.77ns
 The critical path consists of the following:
@@ -731,53 +731,53 @@ The critical path consists of the following:
 
  <State 39>: 4.73ns
 The critical path consists of the following:
-	'phi' operation ('i_1_i_i', 2mmDataflow/2mm.cc:191) with incoming values : ('tmp_1_mid2_v_i_i', 2mmDataflow/2mm.cc:191) [242]  (0 ns)
-	'add' operation ('i_3_i_i', 2mmDataflow/2mm.cc:187) [249]  (1.78 ns)
-	'select' operation ('tmp_1_mid2_v_i_i', 2mmDataflow/2mm.cc:191) [252]  (1.22 ns)
-	'sub' operation ('tmp_35_i_i', 2mmDataflow/2mm.cc:191) [257]  (1.73 ns)
+	'phi' operation ('i_1_i_i', 2mmDataflow/2mm.cc:192) with incoming values : ('tmp_1_mid2_v_i_i', 2mmDataflow/2mm.cc:192) [242]  (0 ns)
+	'add' operation ('i_3_i_i', 2mmDataflow/2mm.cc:188) [249]  (1.78 ns)
+	'select' operation ('tmp_1_mid2_v_i_i', 2mmDataflow/2mm.cc:192) [252]  (1.22 ns)
+	'sub' operation ('tmp_35_i_i', 2mmDataflow/2mm.cc:192) [257]  (1.73 ns)
 
  <State 40>: 4.13ns
 The critical path consists of the following:
-	'add' operation ('tmp_36_i_i', 2mmDataflow/2mm.cc:191) [262]  (1.64 ns)
-	'add' operation ('sum1_i_i', 2mmDataflow/2mm.cc:188) [265]  (2.49 ns)
+	'add' operation ('tmp_36_i_i', 2mmDataflow/2mm.cc:192) [262]  (1.64 ns)
+	'add' operation ('sum1_i_i', 2mmDataflow/2mm.cc:189) [265]  (2.49 ns)
 
  <State 41>: 5.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('D_input_AXI_addr', 2mmDataflow/2mm.cc:188) [267]  (0 ns)
-	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [269]  (5.25 ns)
+	'getelementptr' operation ('D_input_AXI_addr', 2mmDataflow/2mm.cc:189) [267]  (0 ns)
+	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [269]  (5.25 ns)
 
  <State 42>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [269]  (5.25 ns)
+	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [269]  (5.25 ns)
 
  <State 43>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [269]  (5.25 ns)
+	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [269]  (5.25 ns)
 
  <State 44>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [269]  (5.25 ns)
+	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [269]  (5.25 ns)
 
  <State 45>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [269]  (5.25 ns)
+	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [269]  (5.25 ns)
 
  <State 46>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [269]  (5.25 ns)
+	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [269]  (5.25 ns)
 
  <State 47>: 5.25ns
 The critical path consists of the following:
-	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [269]  (5.25 ns)
+	bus request on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [269]  (5.25 ns)
 
  <State 48>: 5.25ns
 The critical path consists of the following:
-	bus read on port 'D_input_AXI' (2mmDataflow/2mm.cc:191) [270]  (5.25 ns)
+	bus read on port 'D_input_AXI' (2mmDataflow/2mm.cc:192) [270]  (5.25 ns)
 
  <State 49>: 3.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('D_addr', 2mmDataflow/2mm.cc:191) [268]  (0 ns)
-	'store' operation (2mmDataflow/2mm.cc:191) of variable 'D_input_AXI_addr_rea', 2mmDataflow/2mm.cc:191 on array 'D' [271]  (3.25 ns)
+	'getelementptr' operation ('D_addr', 2mmDataflow/2mm.cc:192) [268]  (0 ns)
+	'store' operation (2mmDataflow/2mm.cc:192) of variable 'D_input_AXI_addr_rea', 2mmDataflow/2mm.cc:192 on array 'D' [271]  (3.25 ns)
 
  <State 50>: 0ns
 The critical path consists of the following:

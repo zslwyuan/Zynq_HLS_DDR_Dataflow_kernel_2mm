@@ -283,11 +283,13 @@
 
 /* Definitions for Fabric interrupts connected to ps7_scugic_0 */
 #define XPAR_FABRIC_KERNEL_2MM_WRAPPER_0_INTERRUPT_INTR 61U
+#define XPAR_FABRIC_TIMER_0_INTERRUPT_INTR 62U
 
 /******************************************************************/
 
 /* Canonical definitions for Fabric interrupts connected to ps7_scugic_0 */
 #define XPAR_FABRIC_KERNEL_2MM_WRAPPER_0_VEC_ID XPAR_FABRIC_KERNEL_2MM_WRAPPER_0_INTERRUPT_INTR
+#define XPAR_FABRIC_TIMER_0_VEC_ID XPAR_FABRIC_TIMER_0_INTERRUPT_INTR
 
 /******************************************************************/
 
@@ -378,6 +380,25 @@
 #define XPAR_XSDPS_0_BUS_WIDTH 0
 #define XPAR_XSDPS_0_MIO_BANK 0
 #define XPAR_XSDPS_0_HAS_EMIO 0
+
+
+/******************************************************************/
+
+/* Definitions for driver TIMER */
+#define XPAR_XTIMER_NUM_INSTANCES 1
+
+/* Definitions for peripheral TIMER_0 */
+#define XPAR_TIMER_0_DEVICE_ID 0
+#define XPAR_TIMER_0_S_AXI_BUS_A_BASEADDR 0x43C10000
+#define XPAR_TIMER_0_S_AXI_BUS_A_HIGHADDR 0x43C1FFFF
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral TIMER_0 */
+#define XPAR_XTIMER_0_DEVICE_ID XPAR_TIMER_0_DEVICE_ID
+#define XPAR_XTIMER_0_S_AXI_BUS_A_BASEADDR 0x43C10000
+#define XPAR_XTIMER_0_S_AXI_BUS_A_HIGHADDR 0x43C1FFFF
 
 
 /******************************************************************/

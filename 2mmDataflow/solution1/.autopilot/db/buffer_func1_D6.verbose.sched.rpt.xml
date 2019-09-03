@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'buffer_func1_D6'" level="0">
-<item name = "Date">Mon Sep  2 22:41:12 2019
+<item name = "Date">Tue Sep  3 11:01:27 2019
 </item>
 <item name = "Version">2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)</item>
 <item name = "Project">2mmDataflow</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">6.00, 4.985, 0.75</column>
+<column name="ap_clk">6.00, 4.359, 0.75</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">1185, 1185, 1185, 1185, none</column>
+<column name="">389, 389, 389, 389, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,8 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">1184, 1184, 74, -, -, 16, no</column>
-<column name=" + Loop 1.1">72, 72, 3, -, -, 24, no</column>
+<column name="- Loop 1">387, 387, 5, 1, 1, 384, yes</column>
 </table>
 </item>
 </section>

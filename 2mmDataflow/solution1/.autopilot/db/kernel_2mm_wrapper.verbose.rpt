@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'kernel_2mm_wrapper'
 ================================================================
-* Date:           Mon Sep  2 22:41:21 2019
+* Date:           Tue Sep  3 11:01:37 2019
 
 * Version:        2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)
 * Project:        2mmDataflow
@@ -58,12 +58,12 @@
 |DSP              |        -|      -|       -|      -|
 |Expression       |        -|      -|       0|     58|
 |FIFO             |        0|      -|       5|     44|
-|Instance         |       27|     52|    9643|   7276|
+|Instance         |       27|     52|    9787|   7399|
 |Memory           |       14|      -|       0|      0|
 |Multiplexer      |        -|      -|       -|    117|
 |Register         |        -|      -|      13|      -|
 +-----------------+---------+-------+--------+-------+
-|Total            |       41|     52|    9661|   7495|
+|Total            |       41|     52|    9805|   7618|
 +-----------------+---------+-------+--------+-------+
 |Available        |      280|    220|  106400|  53200|
 +-----------------+---------+-------+--------+-------+
@@ -75,7 +75,7 @@
     +----------------------------------------+--------------------------------------+---------+-------+------+------+
     |                Instance                |                Module                | BRAM_18K| DSP48E|  FF  |  LUT |
     +----------------------------------------+--------------------------------------+---------+-------+------+------+
-    |kernel_2mm_U0                           |kernel_2mm                            |       17|     52|  5109|  1998|
+    |kernel_2mm_U0                           |kernel_2mm                            |       17|     52|  5253|  2121|
     |kernel_2mm_wrapper_for_control_s_axi_U  |kernel_2mm_wrapper_for_control_s_axi  |        0|      0|   226|   360|
     |kernel_2mm_wrapper_gmem0_m_axi_U        |kernel_2mm_wrapper_gmem0_m_axi        |        2|      0|   512|   580|
     |kernel_2mm_wrapper_gmem1_m_axi_U        |kernel_2mm_wrapper_gmem1_m_axi        |        2|      0|   512|   580|
@@ -85,7 +85,7 @@
     |readData32_U0                           |readData32                            |        0|      0|  1537|  1689|
     |writeData_U0                            |writeData                             |        0|      0|   211|   329|
     +----------------------------------------+--------------------------------------+---------+-------+------+------+
-    |Total                                   |                                      |       27|     52|  9643|  7276|
+    |Total                                   |                                      |       27|     52|  9787|  7399|
     +----------------------------------------+--------------------------------------+---------+-------+------+------+
 
     * DSP48: 
@@ -510,33 +510,33 @@ ST_1 : Operation 9 [1/1] (1.00ns)   --->   "%C_AXI_read = call i32 @_ssdm_op_Rea
 ST_1 : Operation 10 [1/1] (1.00ns)   --->   "%B_AXI_read = call i32 @_ssdm_op_Read.s_axilite.i32(i32 %B_AXI)"   --->   Operation 10 'read' 'B_AXI_read' <Predicate = true> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
 ST_1 : Operation 11 [1/1] (1.00ns)   --->   "%A_AXI_read = call i32 @_ssdm_op_Read.s_axilite.i32(i32 %A_AXI)"   --->   Operation 11 'read' 'A_AXI_read' <Predicate = true> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
 ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%D_output_AXI_c = alloca i32, align 4"   --->   Operation 12 'alloca' 'D_output_AXI_c' <Predicate = true> <Delay = 0.00> <Core = "FIFO">   --->   Core 32 'FIFO' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 3> <FIFO>
-ST_1 : Operation 13 [1/1] (3.25ns)   --->   "%A_0 = alloca [192 x i32], align 4" [2mmDataflow/2mm.cc:224]   --->   Operation 13 'alloca' 'A_0' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 14 [1/1] (3.25ns)   --->   "%A_1 = alloca [192 x i32], align 4" [2mmDataflow/2mm.cc:224]   --->   Operation 14 'alloca' 'A_1' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 15 [1/1] (3.25ns)   --->   "%B_0 = alloca [216 x i32], align 4" [2mmDataflow/2mm.cc:225]   --->   Operation 15 'alloca' 'B_0' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 16 [1/1] (3.25ns)   --->   "%B_1 = alloca [216 x i32], align 4" [2mmDataflow/2mm.cc:225]   --->   Operation 16 'alloca' 'B_1' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 17 [1/1] (3.25ns)   --->   "%C_0 = alloca [72 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 17 'alloca' 'C_0' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 18 [1/1] (3.25ns)   --->   "%C_1 = alloca [72 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 18 'alloca' 'C_1' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 19 [1/1] (3.25ns)   --->   "%C_2 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 19 'alloca' 'C_2' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 20 [1/1] (3.25ns)   --->   "%C_3 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 20 'alloca' 'C_3' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 21 [1/1] (3.25ns)   --->   "%C_4 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 21 'alloca' 'C_4' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 22 [1/1] (3.25ns)   --->   "%C_5 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 22 'alloca' 'C_5' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 23 [1/1] (3.25ns)   --->   "%C_6 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 23 'alloca' 'C_6' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 24 [1/1] (3.25ns)   --->   "%C_7 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 24 'alloca' 'C_7' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 25 [1/1] (3.25ns)   --->   "%D = alloca [384 x i32], align 4" [2mmDataflow/2mm.cc:228]   --->   Operation 25 'alloca' 'D' <Predicate = true> <Delay = 3.25>
-ST_1 : Operation 26 [1/1] (3.25ns)   --->   "%D_output = alloca [384 x i32], align 4" [2mmDataflow/2mm.cc:229]   --->   Operation 26 'alloca' 'D_output' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 13 [1/1] (3.25ns)   --->   "%A_0 = alloca [192 x i32], align 4" [2mmDataflow/2mm.cc:225]   --->   Operation 13 'alloca' 'A_0' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 14 [1/1] (3.25ns)   --->   "%A_1 = alloca [192 x i32], align 4" [2mmDataflow/2mm.cc:225]   --->   Operation 14 'alloca' 'A_1' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 15 [1/1] (3.25ns)   --->   "%B_0 = alloca [216 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 15 'alloca' 'B_0' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 16 [1/1] (3.25ns)   --->   "%B_1 = alloca [216 x i32], align 4" [2mmDataflow/2mm.cc:226]   --->   Operation 16 'alloca' 'B_1' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 17 [1/1] (3.25ns)   --->   "%C_0 = alloca [72 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 17 'alloca' 'C_0' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 18 [1/1] (3.25ns)   --->   "%C_1 = alloca [72 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 18 'alloca' 'C_1' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 19 [1/1] (3.25ns)   --->   "%C_2 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 19 'alloca' 'C_2' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 20 [1/1] (3.25ns)   --->   "%C_3 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 20 'alloca' 'C_3' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 21 [1/1] (3.25ns)   --->   "%C_4 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 21 'alloca' 'C_4' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 22 [1/1] (3.25ns)   --->   "%C_5 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 22 'alloca' 'C_5' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 23 [1/1] (3.25ns)   --->   "%C_6 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 23 'alloca' 'C_6' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 24 [1/1] (3.25ns)   --->   "%C_7 = alloca [48 x i32], align 4" [2mmDataflow/2mm.cc:227]   --->   Operation 24 'alloca' 'C_7' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 25 [1/1] (3.25ns)   --->   "%D = alloca [384 x i32], align 4" [2mmDataflow/2mm.cc:229]   --->   Operation 25 'alloca' 'D' <Predicate = true> <Delay = 3.25>
+ST_1 : Operation 26 [1/1] (3.25ns)   --->   "%D_output = alloca [384 x i32], align 4" [2mmDataflow/2mm.cc:230]   --->   Operation 26 'alloca' 'D_output' <Predicate = true> <Delay = 3.25>
 ST_1 : Operation 27 [2/2] (2.62ns)   --->   "call fastcc void @readData32(i32* %gmem0, i32 %A_AXI_read, i32* %gmem1, i32 %B_AXI_read, i32* %gmem2, i32 %C_AXI_read, i32* %gmem3, i32 %D_input_AXI_read, [192 x i32]* nocapture %A_0, [192 x i32]* nocapture %A_1, [216 x i32]* nocapture %B_0, [216 x i32]* nocapture %B_1, [72 x i32]* nocapture %C_0, [72 x i32]* nocapture %C_1, [48 x i32]* nocapture %C_2, [48 x i32]* nocapture %C_3, [48 x i32]* nocapture %C_4, [48 x i32]* nocapture %C_5, [48 x i32]* nocapture %C_6, [48 x i32]* nocapture %C_7, [384 x i32]* nocapture %D, i32 %D_output_AXI_read, i32* %D_output_AXI_c)"   --->   Operation 27 'call' <Predicate = true> <Delay = 2.62> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>
 ST_2 : Operation 28 [1/2] (0.00ns)   --->   "call fastcc void @readData32(i32* %gmem0, i32 %A_AXI_read, i32* %gmem1, i32 %B_AXI_read, i32* %gmem2, i32 %C_AXI_read, i32* %gmem3, i32 %D_input_AXI_read, [192 x i32]* nocapture %A_0, [192 x i32]* nocapture %A_1, [216 x i32]* nocapture %B_0, [216 x i32]* nocapture %B_1, [72 x i32]* nocapture %C_0, [72 x i32]* nocapture %C_1, [48 x i32]* nocapture %C_2, [48 x i32]* nocapture %C_3, [48 x i32]* nocapture %C_4, [48 x i32]* nocapture %C_5, [48 x i32]* nocapture %C_6, [48 x i32]* nocapture %C_7, [384 x i32]* nocapture %D, i32 %D_output_AXI_read, i32* %D_output_AXI_c)"   --->   Operation 28 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 29 [2/2] (0.00ns)   --->   "call fastcc void @kernel_2mm([192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1, [72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [384 x i32]* %D, [384 x i32]* %D_output) nounwind" [2mmDataflow/2mm.cc:250]   --->   Operation 29 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 29 [2/2] (0.00ns)   --->   "call fastcc void @kernel_2mm([192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1, [72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [384 x i32]* %D, [384 x i32]* %D_output) nounwind" [2mmDataflow/2mm.cc:251]   --->   Operation 29 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 0.00>
-ST_4 : Operation 30 [1/2] (0.00ns)   --->   "call fastcc void @kernel_2mm([192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1, [72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [384 x i32]* %D, [384 x i32]* %D_output) nounwind" [2mmDataflow/2mm.cc:250]   --->   Operation 30 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 30 [1/2] (0.00ns)   --->   "call fastcc void @kernel_2mm([192 x i32]* %A_0, [192 x i32]* %A_1, [216 x i32]* %B_0, [216 x i32]* %B_1, [72 x i32]* %C_0, [72 x i32]* %C_1, [48 x i32]* %C_2, [48 x i32]* %C_3, [48 x i32]* %C_4, [48 x i32]* %C_5, [48 x i32]* %C_6, [48 x i32]* %C_7, [384 x i32]* %D, [384 x i32]* %D_output) nounwind" [2mmDataflow/2mm.cc:251]   --->   Operation 30 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 5 <SV = 4> <Delay = 0.00>
-ST_5 : Operation 31 [2/2] (0.00ns)   --->   "call fastcc void @writeData(i32* %gmem4, i32* nocapture %D_output_AXI_c, [384 x i32]* nocapture %D_output)" [2mmDataflow/2mm.cc:258]   --->   Operation 31 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 31 [2/2] (0.00ns)   --->   "call fastcc void @writeData(i32* %gmem4, i32* nocapture %D_output_AXI_c, [384 x i32]* nocapture %D_output)" [2mmDataflow/2mm.cc:259]   --->   Operation 31 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
 ST_6 : Operation 32 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %gmem4), !map !53"   --->   Operation 32 'specbitsmap' <Predicate = true> <Delay = 0.00>
@@ -544,23 +544,23 @@ ST_6 : Operation 33 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBits
 ST_6 : Operation 34 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %gmem2), !map !64"   --->   Operation 34 'specbitsmap' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 35 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %gmem1), !map !70"   --->   Operation 35 'specbitsmap' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 36 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %gmem0), !map !75"   --->   Operation 36 'specbitsmap' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 37 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:238]   --->   Operation 37 'specdataflowpipeline' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 37 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:239]   --->   Operation 37 'specdataflowpipeline' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 38 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([19 x i8]* @kernel_2mm_wrapper_s) nounwind"   --->   Operation 38 'spectopmodule' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 39 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str10, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [12 x i8]* @p_str11, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:216]   --->   Operation 39 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 40 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem0, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str13, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 40 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 41 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %A_AXI, [10 x i8]* @mode, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 41 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 42 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem1, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str15, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 42 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 43 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %B_AXI, [10 x i8]* @mode20, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle21, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 43 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 44 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem2, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 44 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 45 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %C_AXI, [10 x i8]* @mode22, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle23, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 45 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 46 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem3, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 46 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 47 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %D_input_AXI, [10 x i8]* @mode24, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle25, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 47 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 48 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem4, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 48 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 49 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %D_output_AXI, [10 x i8]* @mode26, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle27, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 49 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 39 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str11, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [12 x i8]* @p_str12, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind" [2mmDataflow/2mm.cc:217]   --->   Operation 39 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 40 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem0, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str14, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 40 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 41 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %A_AXI, [10 x i8]* @mode, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 41 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 42 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem1, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 42 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 43 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %B_AXI, [10 x i8]* @mode20, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle21, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 43 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 44 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem2, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 44 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 45 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %C_AXI, [10 x i8]* @mode22, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle23, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 45 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 46 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem3, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 46 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 47 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %D_input_AXI, [10 x i8]* @mode24, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle25, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 47 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 48 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %gmem4, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str19, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 48 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 49 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %D_output_AXI, [10 x i8]* @mode26, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle27, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 49 'specinterface' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 50 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecChannel([15 x i8]* @D_output_AXI_c_str, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 3, i32 0, i32* %D_output_AXI_c, i32* %D_output_AXI_c)"   --->   Operation 50 'specchannel' 'empty' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 51 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %D_output_AXI_c, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 51 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 52 [1/2] (0.00ns)   --->   "call fastcc void @writeData(i32* %gmem4, i32* nocapture %D_output_AXI_c, [384 x i32]* nocapture %D_output)" [2mmDataflow/2mm.cc:258]   --->   Operation 52 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_6 : Operation 53 [1/1] (0.00ns)   --->   "ret void" [2mmDataflow/2mm.cc:262]   --->   Operation 53 'ret' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 52 [1/2] (0.00ns)   --->   "call fastcc void @writeData(i32* %gmem4, i32* nocapture %D_output_AXI_c, [384 x i32]* nocapture %D_output)" [2mmDataflow/2mm.cc:259]   --->   Operation 52 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 53 [1/1] (0.00ns)   --->   "ret void" [2mmDataflow/2mm.cc:263]   --->   Operation 53 'ret' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -851,7 +851,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="47" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str10"/></StgValue>
+<StgValue><ssdm name="p_str11"/></StgValue>
 </bind>
 </comp>
 
@@ -860,7 +860,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="49" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str11"/></StgValue>
+<StgValue><ssdm name="p_str12"/></StgValue>
 </bind>
 </comp>
 
@@ -869,7 +869,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="51" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str12"/></StgValue>
+<StgValue><ssdm name="p_str13"/></StgValue>
 </bind>
 </comp>
 
@@ -878,7 +878,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="53" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str13"/></StgValue>
+<StgValue><ssdm name="p_str14"/></StgValue>
 </bind>
 </comp>
 
@@ -887,7 +887,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="55" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str14"/></StgValue>
+<StgValue><ssdm name="p_str15"/></StgValue>
 </bind>
 </comp>
 
@@ -923,7 +923,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="63" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str15"/></StgValue>
+<StgValue><ssdm name="p_str16"/></StgValue>
 </bind>
 </comp>
 
@@ -950,7 +950,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="69" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str16"/></StgValue>
+<StgValue><ssdm name="p_str17"/></StgValue>
 </bind>
 </comp>
 
@@ -977,7 +977,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="75" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str17"/></StgValue>
+<StgValue><ssdm name="p_str18"/></StgValue>
 </bind>
 </comp>
 
@@ -1004,7 +1004,7 @@ StgValue_53       (ret                 ) [ 0000000]
 <pin id="81" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str18"/></StgValue>
+<StgValue><ssdm name="p_str19"/></StgValue>
 </bind>
 </comp>
 
@@ -1605,7 +1605,7 @@ StgValue_53       (ret                 ) [ 0000000]
 |----------|-------------------------------|---------|---------|---------|---------|---------|
 | Operation|        Functional Unit        |   BRAM  |  DSP48E |  Delay  |    FF   |   LUT   |
 |----------|-------------------------------|---------|---------|---------|---------|---------|
-|          |     grp_kernel_2mm_fu_188     |    17   |    52   |  63.684 |   5330  |   1360  |
+|          |     grp_kernel_2mm_fu_188     |    17   |    52   |  63.684 |   5354  |   1423  |
 |   call   |     grp_readData32_fu_206     |    0    |    0    |  7.076  |   878   |   837   |
 |          |      grp_writeData_fu_255     |    0    |    0    |  5.307  |   192   |   161   |
 |----------|-------------------------------|---------|---------|---------|---------|---------|
@@ -1615,7 +1615,7 @@ StgValue_53       (ret                 ) [ 0000000]
 |          |     B_AXI_read_read_fu_176    |    0    |    0    |    0    |    0    |    0    |
 |          |     A_AXI_read_read_fu_182    |    0    |    0    |    0    |    0    |    0    |
 |----------|-------------------------------|---------|---------|---------|---------|---------|
-|   Total  |                               |    17   |    52   |  76.067 |   6400  |   2358  |
+|   Total  |                               |    17   |    52   |  76.067 |   6424  |   2421  |
 |----------|-------------------------------|---------|---------|---------|---------|---------|
 
 Memories:
@@ -1673,10 +1673,10 @@ Memories:
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |   17   |   52   |   76   |  6400  |  2358  |
+|  Function |   17   |   52   |   76   |  6424  |  2421  |
 |   Memory  |   14   |    -   |    -   |    0   |    0   |
 |Multiplexer|    -   |    -   |    8   |    -   |   45   |
 |  Register |    -   |    -   |    -   |   192  |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |   31   |   52   |   84   |  6592  |  2403  |
+|   Total   |   31   |   52   |   84   |  6616  |  2466  |
 +-----------+--------+--------+--------+--------+--------+

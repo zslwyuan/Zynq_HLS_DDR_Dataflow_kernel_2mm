@@ -1958,7 +1958,7 @@ branch15:1  br label %5
 
 <Node id="84" bw="32" op_0_bw="32" op_1_bw="0">
 <![CDATA[
-:0  %tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str2)
+:0  %tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str3)
 
 ]]></Node>
 <StgValue><ssdm name="tmp_2"/></StgValue>
@@ -2462,7 +2462,7 @@ branch23:1  br label %4
 
 <Node id="132" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32">
 <![CDATA[
-:1  %empty_26 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str2, i32 %tmp_2)
+:1  %empty_26 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str3, i32 %tmp_2)
 
 ]]></Node>
 <StgValue><ssdm name="empty_26"/></StgValue>

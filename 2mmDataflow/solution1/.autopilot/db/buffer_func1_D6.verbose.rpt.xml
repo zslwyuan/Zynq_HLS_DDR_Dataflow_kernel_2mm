@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'buffer_func1_D6'" level="0">
-<item name = "Date">Mon Sep  2 22:41:17 2019
+<item name = "Date">Tue Sep  3 11:01:32 2019
 </item>
 <item name = "Version">2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)</item>
 <item name = "Project">2mmDataflow</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">6.00, 4.985, 0.75</column>
+<column name="ap_clk">6.00, 4.359, 0.75</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">1185, 1185, 1185, 1185, none</column>
+<column name="">389, 389, 389, 389, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,8 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">1184, 1184, 74, -, -, 16, no</column>
-<column name=" + Loop 1.1">72, 72, 3, -, -, 24, no</column>
+<column name="- Loop 1">387, 387, 5, 1, 1, 384, yes</column>
 </table>
 </item>
 </section>
@@ -49,12 +48,12 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="DSP">-, -, -, -</column>
-<column name="Expression">-, -, 0, 80</column>
+<column name="Expression">-, -, 0, 147</column>
 <column name="FIFO">-, -, -, -</column>
 <column name="Instance">-, -, -, -</column>
 <column name="Memory">-, -, -, -</column>
-<column name="Multiplexer">-, -, -, 51</column>
-<column name="Register">-, -, 128, -</column>
+<column name="Multiplexer">-, -, -, 75</column>
+<column name="Register">0, -, 272, 32</column>
 <specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
 <specialColumn name="Utilization (%)">0, 0, ~0, ~0</specialColumn>
 </table>
@@ -79,31 +78,49 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="i_3_fu_80_p2">+, 0, 0, 15, 5, 1</column>
-<column name="j_3_fu_118_p2">+, 0, 0, 15, 5, 1</column>
-<column name="tmp_25_fu_128_p2">+, 0, 0, 14, 10, 10</column>
-<column name="tmp_24_fu_106_p2">-, 0, 0, 14, 10, 10</column>
-<column name="exitcond1_fu_74_p2">icmp, 0, 0, 11, 5, 6</column>
-<column name="exitcond_fu_112_p2">icmp, 0, 0, 11, 5, 5</column>
+<column name="i_3_fu_115_p2">+, 0, 0, 15, 5, 1</column>
+<column name="indvar_flatten_next_fu_109_p2">+, 0, 0, 15, 9, 1</column>
+<column name="j_3_fu_143_p2">+, 0, 0, 15, 5, 1</column>
+<column name="tmp_25_fu_176_p2">+, 0, 0, 32, 10, 10</column>
+<column name="tmp_24_fu_167_p2">-, 0, 0, 32, 10, 10</column>
+<column name="exitcond3_fu_121_p2">icmp, 0, 0, 11, 5, 5</column>
+<column name="exitcond_flatten_fu_103_p2">icmp, 0, 0, 13, 9, 9</column>
+<column name="j_mid2_fu_127_p3">select, 0, 0, 5, 1, 1</column>
+<column name="tmp_mid2_v_fu_135_p3">select, 0, 0, 5, 1, 5</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">xor, 0, 0, 2, 2, 1</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">33, 6, 1, 6</column>
-<column name="i_reg_52">9, 2, 5, 10</column>
-<column name="j_reg_63">9, 2, 5, 10</column>
+<column name="ap_NS_fsm">21, 4, 1, 4</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter4">9, 2, 1, 2</column>
+<column name="ap_phi_mux_i_phi_fu_85_p4">9, 2, 5, 10</column>
+<column name="i_reg_81">9, 2, 5, 10</column>
+<column name="indvar_flatten_reg_70">9, 2, 9, 18</column>
+<column name="j_reg_92">9, 2, 5, 10</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="D_input_load_reg_169">32, 0, 32, 0</column>
-<column name="ap_CS_fsm">5, 0, 5, 0</column>
-<column name="i_3_reg_141">5, 0, 5, 0</column>
-<column name="i_reg_52">5, 0, 5, 0</column>
-<column name="j_3_reg_154">5, 0, 5, 0</column>
-<column name="j_reg_63">5, 0, 5, 0</column>
-<column name="tmp_24_reg_146">7, 0, 10, 3</column>
-<column name="tmp_66_cast_reg_159">64, 0, 64, 0</column>
+<column name="D_input_load_reg_227">32, 0, 32, 0</column>
+<column name="ap_CS_fsm">3, 0, 3, 0</column>
+<column name="ap_enable_reg_pp0_iter0">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
+<column name="exitcond_flatten_reg_186">1, 0, 1, 0</column>
+<column name="i_reg_81">5, 0, 5, 0</column>
+<column name="indvar_flatten_reg_70">9, 0, 9, 0</column>
+<column name="j_mid2_reg_195">5, 0, 5, 0</column>
+<column name="j_reg_92">5, 0, 5, 0</column>
+<column name="tmp_25_reg_212">10, 0, 10, 0</column>
+<column name="tmp_66_cast_reg_217">64, 0, 64, 0</column>
+<column name="tmp_66_cast_reg_217_pp0_iter3_reg">64, 0, 64, 0</column>
+<column name="tmp_mid2_v_reg_200">5, 0, 5, 0</column>
+<column name="exitcond_flatten_reg_186">64, 32, 1, 0</column>
 </table>
 </item>
 </section>

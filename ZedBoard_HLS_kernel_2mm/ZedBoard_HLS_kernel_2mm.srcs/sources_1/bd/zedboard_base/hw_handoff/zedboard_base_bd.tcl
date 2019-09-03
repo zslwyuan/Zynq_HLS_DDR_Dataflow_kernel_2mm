@@ -205,6 +205,7 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_CLK1_FREQ {10000000} \
    CONFIG.PCW_CLK2_FREQ {10000000} \
    CONFIG.PCW_CLK3_FREQ {10000000} \
+   CONFIG.PCW_CORE0_FIQ_INTR {0} \
    CONFIG.PCW_CPU_CPU_PLL_FREQMHZ {1333.333} \
    CONFIG.PCW_CPU_PERIPHERAL_DIVISOR0 {2} \
    CONFIG.PCW_DCI_PERIPHERAL_DIVISOR0 {15} \
@@ -572,30 +573,39 @@ proc create_root_design { parentCell } {
   # Create instance: ps7_0_axi_periph, and set properties
   set ps7_0_axi_periph [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 ps7_0_axi_periph ]
   set_property -dict [ list \
-   CONFIG.NUM_MI {1} \
+   CONFIG.NUM_MI {2} \
  ] $ps7_0_axi_periph
 
-  # Create instance: rst_ps7_0_200M, and set properties
-  set rst_ps7_0_200M [ create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 rst_ps7_0_200M ]
+  # Create instance: rst_ps7_0_166M, and set properties
+  set rst_ps7_0_166M [ create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 rst_ps7_0_166M ]
+
+  # Create instance: timer_0, and set properties
+  set timer_0 [ create_bd_cell -type ip -vlnv xilinx.com:hls:timer:1.0 timer_0 ]
+
+  # Create instance: xlconcat_0, and set properties
+  set xlconcat_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0 ]
 
   # Create interface connections
   connect_bd_intf_net -intf_net axi_smc_M00_AXI [get_bd_intf_pins axi_smc/M00_AXI] [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
-  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem0 [get_bd_intf_pins axi_smc/S01_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem0]
-  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem1 [get_bd_intf_pins axi_smc/S02_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem1]
-  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem2 [get_bd_intf_pins axi_smc/S03_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem2]
-  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem3 [get_bd_intf_pins axi_smc/S04_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem3]
-  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem4 [get_bd_intf_pins axi_smc/S00_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem4]
+  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem0 [get_bd_intf_pins axi_smc/S00_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem0]
+  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem1 [get_bd_intf_pins axi_smc/S01_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem1]
+  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem2 [get_bd_intf_pins axi_smc/S02_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem2]
+  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem3 [get_bd_intf_pins axi_smc/S03_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem3]
+  connect_bd_intf_net -intf_net kernel_2mm_wrapper_0_m_axi_gmem4 [get_bd_intf_pins axi_smc/S04_AXI] [get_bd_intf_pins kernel_2mm_wrapper_0/m_axi_gmem4]
   connect_bd_intf_net -intf_net processing_system7_0_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins processing_system7_0/DDR]
   connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins processing_system7_0/FIXED_IO]
   connect_bd_intf_net -intf_net processing_system7_0_M_AXI_GP0 [get_bd_intf_pins processing_system7_0/M_AXI_GP0] [get_bd_intf_pins ps7_0_axi_periph/S00_AXI]
-  connect_bd_intf_net -intf_net ps7_0_axi_periph_M00_AXI [get_bd_intf_pins kernel_2mm_wrapper_0/s_axi_for_control] [get_bd_intf_pins ps7_0_axi_periph/M00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M00_AXI [get_bd_intf_pins ps7_0_axi_periph/M00_AXI] [get_bd_intf_pins timer_0/s_axi_BUS_A]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M01_AXI [get_bd_intf_pins kernel_2mm_wrapper_0/s_axi_for_control] [get_bd_intf_pins ps7_0_axi_periph/M01_AXI]
 
   # Create port connections
-  connect_bd_net -net kernel_2mm_wrapper_0_interrupt [get_bd_pins kernel_2mm_wrapper_0/interrupt] [get_bd_pins processing_system7_0/IRQ_F2P]
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins axi_smc/aclk] [get_bd_pins kernel_2mm_wrapper_0/ap_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_200M/slowest_sync_clk]
-  connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_200M/ext_reset_in]
-  connect_bd_net -net rst_ps7_0_200M_interconnect_aresetn [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins rst_ps7_0_200M/interconnect_aresetn]
-  connect_bd_net -net rst_ps7_0_200M_peripheral_aresetn [get_bd_pins axi_smc/aresetn] [get_bd_pins kernel_2mm_wrapper_0/ap_rst_n] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_200M/peripheral_aresetn]
+  connect_bd_net -net kernel_2mm_wrapper_0_interrupt [get_bd_pins kernel_2mm_wrapper_0/interrupt] [get_bd_pins xlconcat_0/In0]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins axi_smc/aclk] [get_bd_pins kernel_2mm_wrapper_0/ap_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_166M/slowest_sync_clk] [get_bd_pins timer_0/ap_clk]
+  connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_166M/ext_reset_in]
+  connect_bd_net -net rst_ps7_0_166M_interconnect_aresetn [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins rst_ps7_0_166M/interconnect_aresetn]
+  connect_bd_net -net rst_ps7_0_166M_peripheral_aresetn [get_bd_pins axi_smc/aresetn] [get_bd_pins kernel_2mm_wrapper_0/ap_rst_n] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_166M/peripheral_aresetn] [get_bd_pins timer_0/ap_rst_n]
+  connect_bd_net -net timer_0_interrupt [get_bd_pins timer_0/interrupt] [get_bd_pins xlconcat_0/In1]
+  connect_bd_net -net xlconcat_0_dout [get_bd_pins processing_system7_0/IRQ_F2P] [get_bd_pins xlconcat_0/dout]
 
   # Create address segments
   create_bd_addr_seg -range 0x20000000 -offset 0x00000000 [get_bd_addr_spaces kernel_2mm_wrapper_0/Data_m_axi_gmem0] [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] SEG_processing_system7_0_HP0_DDR_LOWOCM
@@ -604,6 +614,7 @@ proc create_root_design { parentCell } {
   create_bd_addr_seg -range 0x20000000 -offset 0x00000000 [get_bd_addr_spaces kernel_2mm_wrapper_0/Data_m_axi_gmem3] [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] SEG_processing_system7_0_HP0_DDR_LOWOCM
   create_bd_addr_seg -range 0x20000000 -offset 0x00000000 [get_bd_addr_spaces kernel_2mm_wrapper_0/Data_m_axi_gmem4] [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] SEG_processing_system7_0_HP0_DDR_LOWOCM
   create_bd_addr_seg -range 0x00010000 -offset 0x43C00000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs kernel_2mm_wrapper_0/s_axi_for_control/Reg] SEG_kernel_2mm_wrapper_0_Reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C10000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs timer_0/s_axi_BUS_A/Reg] SEG_timer_0_Reg
 
 
   # Restore current instance

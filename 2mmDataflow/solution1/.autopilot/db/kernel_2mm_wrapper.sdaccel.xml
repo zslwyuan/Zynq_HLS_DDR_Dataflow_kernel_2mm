@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'kernel_2mm_wrapper'" level="0">
-<item name = "Date">Mon Sep  2 22:41:21 2019
+<item name = "Date">Tue Sep  3 11:01:37 2019
 </item>
 <item name = "Version">2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)</item>
 <item name = "Project">2mmDataflow</item>
@@ -50,7 +50,7 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 58</column>
 <column name="FIFO">0, -, 5, 44</column>
-<column name="Instance">27, 52, 9643, 7276</column>
+<column name="Instance">27, 52, 9787, 7399</column>
 <column name="Memory">14, -, 0, 0</column>
 <column name="Multiplexer">-, -, -, 117</column>
 <column name="Register">-, -, 13, -</column>
@@ -62,7 +62,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="kernel_2mm_U0">kernel_2mm, 17, 52, 5109, 1998</column>
+<column name="kernel_2mm_U0">kernel_2mm, 17, 52, 5253, 2121</column>
 <column name="kernel_2mm_wrapper_for_control_s_axi_U">kernel_2mm_wrapper_for_control_s_axi, 0, 0, 226, 360</column>
 <column name="kernel_2mm_wrapper_gmem0_m_axi_U">kernel_2mm_wrapper_gmem0_m_axi, 2, 0, 512, 580</column>
 <column name="kernel_2mm_wrapper_gmem1_m_axi_U">kernel_2mm_wrapper_gmem1_m_axi, 2, 0, 512, 580</column>
@@ -427,7 +427,7 @@
 <item name = "Max Delay">5.88</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'A[0]', 2mmDataflow/2mm.cc:224">alloca, 3.25, 3.25, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'A[0]', 2mmDataflow/2mm.cc:225">alloca, 3.25, 3.25, -, -, -, -, -, -, -, -, -, -, -</column>
 <column name="">call, 2.62, 5.88, -, -, -, -, -, -, -, -, -, readData32, -</column>
 </table>
 </item>

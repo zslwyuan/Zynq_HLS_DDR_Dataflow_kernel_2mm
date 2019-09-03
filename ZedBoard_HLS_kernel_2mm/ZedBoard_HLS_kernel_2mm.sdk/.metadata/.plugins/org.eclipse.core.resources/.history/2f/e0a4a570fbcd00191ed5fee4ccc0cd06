@@ -1,0 +1,8 @@
+
+#include "hls_interrupts.h"
+
+
+int setup_interrupt()
+{
+
+}

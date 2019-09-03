@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="zedboard_base" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1567435520"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1567435520"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1567435520"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1567435520"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1567488912"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1567488912"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1567488912"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1567488912"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/zedboard_base_processing_system7_0_0/zedboard_base_processing_system7_0_0.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0"/>
@@ -34,7 +34,7 @@
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/zedboard_base_axi_smc_0/zedboard_base_axi_smc_0.xci" Type="IP">
+      <File Name="ip/zedboard_base_axi_smc_1/zedboard_base_axi_smc_1.xci" Type="IP">
         <Instance HierarchyPath="axi_smc"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
@@ -42,17 +42,41 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/zedboard_base_rst_ps7_0_200M_1/zedboard_base_rst_ps7_0_200M_1.xci" Type="IP">
-        <Instance HierarchyPath="rst_ps7_0_200M"/>
+      <File Name="ip/zedboard_base_rst_ps7_0_166M_0/zedboard_base_rst_ps7_0_166M_0.xci" Type="IP">
+        <Instance HierarchyPath="rst_ps7_0_166M"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/zedboard_base_ps7_0_axi_periph_0/zedboard_base_ps7_0_axi_periph_0.xci" Type="IP">
+      <File Name="ip/zedboard_base_ps7_0_axi_periph_1/zedboard_base_ps7_0_axi_periph_1.xci" Type="IP">
         <Instance HierarchyPath="ps7_0_axi_periph"/>
         <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zedboard_base_xlconcat_0_0/zedboard_base_xlconcat_0_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zedboard_base_xbar_1/zedboard_base_xbar_1.xci" Type="IP">
+        <Instance HierarchyPath="ps7_0_axi_periph/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zedboard_base_timer_0_1/zedboard_base_timer_0_1.xci" Type="IP">
+        <Instance HierarchyPath="timer_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>

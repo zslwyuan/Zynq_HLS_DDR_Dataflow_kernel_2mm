@@ -2798,7 +2798,7 @@ ng minimum {} maximum {}} value 0}}}}</spirit:value>
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>d44a4624</spirit:value>
+            <spirit:value>c49ae719</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2814,7 +2814,7 @@ ng minimum {} maximum {}} value 0}}}}</spirit:value>
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>1152efa2</spirit:value>
+            <spirit:value>4c0a5713</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2830,7 +2830,7 @@ ng minimum {} maximum {}} value 0}}}}</spirit:value>
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>357b364a</spirit:value>
+            <spirit:value>d824b0d7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2846,7 +2846,7 @@ ng minimum {} maximum {}} value 0}}}}</spirit:value>
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>4eb79377</spirit:value>
+            <spirit:value>adf4eaa7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -8156,7 +8156,7 @@ ng minimum {} maximum {}} value 0}}}}</spirit:value>
       <spirit:file>
         <spirit:name>hdl/vhdl/kernel_2mm_wrapper.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_87c5489a</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_38bf71a9</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -8996,15 +8996,15 @@ ng minimum {} maximum {}} value 0}}}}</spirit:value>
       </xilinx:taxonomies>
       <xilinx:displayName>Kernel_2mm_wrapper</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>1909022241</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-09-02T14:41:45Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>1909031101</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2019-09-03T03:02:10Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2018.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="c69ac713"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="3d9af69f"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="469fd3d1"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="23f5b438"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="46446a28"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="8a86b675"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="e714f827"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="15070162"/>

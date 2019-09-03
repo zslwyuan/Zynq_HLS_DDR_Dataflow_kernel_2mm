@@ -57,7 +57,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1185", "EstimateLatencyMax" : "1185",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "389", "EstimateLatencyMax" : "389",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -71,17 +71,18 @@ set RtlHierarchyInfo {[
 
 set ArgLastReadFirstWriteLatency {
 	buffer_func1_D6 {
-		D_input {Type I LastRead 2 FirstWrite -1}
-		D_mid {Type O LastRead -1 FirstWrite 4}}}
+		D_input {Type I LastRead 3 FirstWrite -1}
+		D_mid {Type O LastRead -1 FirstWrite 5}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "1185", "Max" : "1185"}
-	, {"Name" : "Interval", "Min" : "1185", "Max" : "1185"}
+	{"Name" : "Latency", "Min" : "389", "Max" : "389"}
+	, {"Name" : "Interval", "Min" : "389", "Max" : "389"}
 ]}
 
 set PipelineEnableSignalInfo {[
+	{"Pipeline" : "0", "EnableSignal" : "ap_enable_pp0"}
 ]}
 
 set Spec2ImplPortList { 

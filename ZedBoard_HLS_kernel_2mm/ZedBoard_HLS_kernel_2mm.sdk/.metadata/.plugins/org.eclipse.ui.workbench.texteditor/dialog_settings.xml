@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="D_output_AXI_check" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="HLS DDR3 A_AXI offset"/>
+			<item value="XTimer_Get_timeTicks_o_vld"/>
+			<item value="hls"/>
+			<item value="RunHlsMacc"/>
+			<item value="ResultAvailHlsMac"/>
+			<item value="XScuGic_Connect"/>
 			<item value="hls_test"/>
 			<item value="D_output_AXI_check"/>
-			<item value="check_result"/>
-			<item value="A_AXI"/>
-			<item value="0x14000000"/>
-			<item value="0x10000000"/>
-			<item value="Detecting interrupt from HLS"/>
-			<item value="INTERRUPT"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1567479698000">
+  <ports id="1" name="gmem0" type="PortType" bitwidth="32" iftype="IfTypeFifo">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="2" name="gmem1" type="PortType" bitwidth="32" iftype="IfTypeFifo">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="3" name="gmem2" type="PortType" bitwidth="32" iftype="IfTypeFifo">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="4" name="gmem3" type="PortType" bitwidth="32" iftype="IfTypeFifo">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="5" name="gmem4" type="PortType" bitwidth="32" direction="DirOut" iftype="IfTypeFifo">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="6" name="A_AXI" type="PortType" originalName="A_AXI" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="7" name="B_AXI" type="PortType" originalName="B_AXI" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="8" name="C_AXI" type="PortType" originalName="C_AXI" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="9" name="D_input_AXI" type="PortType" originalName="D_input_AXI" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="10" name="D_output_AXI" type="PortType" originalName="D_output_AXI" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <edges id="58" source_obj="//@ports.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="60" source_obj="//@ports.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="62" source_obj="//@ports.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="64" source_obj="//@ports.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="66" source_obj="//@ports.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.4"/>
+  <edges id="85" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="86" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="87" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="88" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="89" source_obj="//@ports.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="90" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="91" source_obj="//@ports.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="92" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="93" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="94" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="95" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="96" source_obj="//@regions.0/@basic_blocks.0/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="97" source_obj="//@regions.0/@basic_blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="98" source_obj="//@regions.0/@basic_blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="99" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="100" source_obj="//@regions.0/@basic_blocks.0/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="101" source_obj="//@regions.0/@basic_blocks.0/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="102" source_obj="//@regions.0/@basic_blocks.0/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="103" source_obj="//@regions.0/@basic_blocks.0/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="104" source_obj="//@regions.0/@basic_blocks.0/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="105" source_obj="//@regions.0/@basic_blocks.0/@node_objs.18" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="106" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="107" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="110" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="111" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="112" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="113" source_obj="//@regions.0/@basic_blocks.0/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="114" source_obj="//@regions.0/@basic_blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="115" source_obj="//@regions.0/@basic_blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="116" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="117" source_obj="//@regions.0/@basic_blocks.0/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="118" source_obj="//@regions.0/@basic_blocks.0/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="119" source_obj="//@regions.0/@basic_blocks.0/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="120" source_obj="//@regions.0/@basic_blocks.0/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="121" source_obj="//@regions.0/@basic_blocks.0/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="122" source_obj="//@regions.0/@basic_blocks.0/@node_objs.18" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="123" source_obj="//@regions.0/@basic_blocks.0/@node_objs.19" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="126" source_obj="//@regions.0/@basic_blocks.0/@node_objs.22" sink_obj="//@ports.4"/>
+  <edges id="127" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.22"/>
+  <edges id="128" source_obj="//@regions.0/@basic_blocks.0/@node_objs.19" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.22"/>
+  <regions anchor_node="-1" region_type="16" typeName="Dataflow" id="331" RegionName="kernel_2mm_wrapper">
+    <basic_blocks id="55" name="kernel_2mm_wrapper" type="BlockType">
+      <node_objs xsi:type="cdfg:CdfgNode" id="11" name="D_output_AXI_read" originalName="D_output_AXI" bitwidth="32" opcode="read" m_display="0" m_delay="1.0">
+        <dataInputObjs>D_output_AXI</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="D_input_AXI_read" originalName="D_input_AXI" bitwidth="32" opcode="read" m_display="0" m_delay="1.0">
+        <dataInputObjs>D_input_AXI</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="13" name="C_AXI_read" originalName="C_AXI" bitwidth="32" opcode="read" m_display="0" m_delay="1.0">
+        <dataInputObjs>C_AXI</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="14" name="B_AXI_read" originalName="B_AXI" bitwidth="32" opcode="read" m_display="0" m_delay="1.0">
+        <dataInputObjs>B_AXI</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="15" name="A_AXI_read" originalName="A_AXI" bitwidth="32" opcode="read" m_display="0" m_delay="1.0">
+        <dataInputObjs>A_AXI</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="D_output_AXI_c" rtlName="D_output_AXI_c_U" coreName="FIFO" bitwidth="32" opcode="alloca" m_display="0">
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="A_0" lineNumber="225" originalName="A[0]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="A_0_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="225" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="A_1" lineNumber="225" originalName="A[1]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="A_1_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="225" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="B_0" lineNumber="226" originalName="B[0]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="B_0_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="226" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="B_1" lineNumber="226" originalName="B[1]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="B_1_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="226" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="C_0" lineNumber="227" originalName="C[0]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_0_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="C_1" lineNumber="227" originalName="C[1]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_1_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="C_2" lineNumber="227" originalName="C[2]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_2_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="C_3" lineNumber="227" originalName="C[3]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_3_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="C_4" lineNumber="227" originalName="C[4]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_4_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="C_5" lineNumber="227" originalName="C[5]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_5_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="C_6" lineNumber="227" originalName="C[6]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_6_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="C_7" lineNumber="227" originalName="C[7]" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="C_7_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="227" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="D" lineNumber="229" originalName="D" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="D_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="229" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="D_output" lineNumber="230" originalName="D_output" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="D_output_U" coreName="RAM" contextFuncName="kernel_2mm_wrapper" bitwidth="32" opcode="alloca" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="230" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataOutputObjs>call</dataOutputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="node_51" rtlName="readData32_U0" opcode="call" nodeLatency="1" m_display="0" m_delay="2.62">
+        <dataInputObjs>gmem0</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>gmem1</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>gmem2</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>gmem3</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <constName>readData32</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="node_52" lineNumber="251" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="kernel_2mm_U0" contextFuncName="kernel_2mm_wrapper" opcode="call" nodeLabel="2.0" nodeLatency="1" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="251" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <constName>kernel_2mm</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="node_53" lineNumber="259" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="writeData_U0" contextFuncName="kernel_2mm_wrapper" opcode="call" nodeLabel="4.0" nodeLatency="1" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="259" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>gmem4</dataOutputObjs>
+        <constName>writeData</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="node_54" lineNumber="263" fileName="2mmDataflow/2mm.cc" fileDirectory=".." contextFuncName="kernel_2mm_wrapper" opcode="ret" nodeLabel="5.0" m_display="0">
+        <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="263" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="kernel_2mm_wrapper"/>
+      </node_objs>
+      <fileValidLineNumbers fileName="2mmDataflow/2mm.cc">
+        <validLinenumbers>225</validLinenumbers>
+        <validLinenumbers>226</validLinenumbers>
+        <validLinenumbers>227</validLinenumbers>
+        <validLinenumbers>229</validLinenumbers>
+        <validLinenumbers>230</validLinenumbers>
+        <validLinenumbers>251</validLinenumbers>
+        <validLinenumbers>259</validLinenumbers>
+        <validLinenumbers>263</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <ScheduleInfo time="5"/>
+  <regnodes realName="C_AXI_read_reg_273">
+    <nodeIds>13</nodeIds>
+  </regnodes>
+  <regnodes realName="D_output_AXI_c_reg_288">
+    <nodeIds>16</nodeIds>
+  </regnodes>
+  <regnodes realName="A_AXI_read_reg_283">
+    <nodeIds>15</nodeIds>
+  </regnodes>
+  <regnodes realName="D_input_AXI_read_reg_268">
+    <nodeIds>12</nodeIds>
+  </regnodes>
+  <regnodes realName="B_AXI_read_reg_278">
+    <nodeIds>14</nodeIds>
+  </regnodes>
+  <regnodes realName="D_output_AXI_read_reg_263">
+    <nodeIds>11</nodeIds>
+  </regnodes>
+  <expressionNodes realName="C_3_alloca_fu_130">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="D_output_alloca_fu_154">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="C_2_alloca_fu_126">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="B_1_alloca_fu_114">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="C_7_alloca_fu_146">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="C_0_alloca_fu_118">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="A_0_alloca_fu_102">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="C_4_alloca_fu_134">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="B_0_alloca_fu_110">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="C_5_alloca_fu_138">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="A_1_alloca_fu_106">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="D_alloca_fu_150">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="D_output_AXI_c_fu_98">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="C_6_alloca_fu_142">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="C_1_alloca_fu_122">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <moduleNodes realName="grp_readData32_fu_206">
+    <nodeIds>51</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_kernel_2mm_fu_188">
+    <nodeIds>52</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_writeData_fu_255">
+    <nodeIds>53</nodeIds>
+  </moduleNodes>
+  <ioNodes realName="D_output_AXI_read_read_fu_158">
+    <nodeIds>11</nodeIds>
+  </ioNodes>
+  <ioNodes realName="D_input_AXI_read_read_fu_164">
+    <nodeIds>12</nodeIds>
+  </ioNodes>
+  <ioNodes realName="B_AXI_read_read_fu_176">
+    <nodeIds>14</nodeIds>
+  </ioNodes>
+  <ioNodes realName="A_AXI_read_read_fu_182">
+    <nodeIds>15</nodeIds>
+  </ioNodes>
+  <ioNodes realName="C_AXI_read_read_fu_170">
+    <nodeIds>13</nodeIds>
+  </ioNodes>
+  <ioPorts name="A_AXI">
+    <contents name="read">
+      <nodeIds>15</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="B_AXI">
+    <contents name="read">
+      <nodeIds>14</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="C_AXI">
+    <contents name="read">
+      <nodeIds>13</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="D_input_AXI">
+    <contents name="read">
+      <nodeIds>12</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="D_output_AXI">
+    <contents name="read">
+      <nodeIds>11</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gmem0">
+    <contents name="call">
+      <nodeIds>51</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gmem1">
+    <contents name="call">
+      <nodeIds>51</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gmem2">
+    <contents name="call">
+      <nodeIds>51</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gmem3">
+    <contents name="call">
+      <nodeIds>51</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gmem4">
+    <contents name="call">
+      <nodeIds>53</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="51" stage="2" latency="2"/>
+    </states>
+    <states id="2">
+      <operations id="51" stage="1" latency="2"/>
+    </states>
+    <states id="3">
+      <operations id="52" stage="2" latency="2"/>
+    </states>
+    <states id="4">
+      <operations id="52" stage="1" latency="2"/>
+    </states>
+    <states id="5">
+      <operations id="53" stage="2" latency="2"/>
+    </states>
+    <states id="6">
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="2"/>
+      <operations id="54" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="2"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="3"/>
+    </transitions>
+    <transitions inState="5" outState="6">
+      <condition id="4"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="kernel_2mm_wrapper" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="41564" mMaxLatency="41564" mIsDfPipe="true">
+      <basicBlocks>55</basicBlocks>
+      <mDfPipe allPipePinInst="//@CFGRegionsRoot/@cfgRegions.0/@mDfPipe/@processe_list.0/@pins.0/@inst //@CFGRegionsRoot/@cfgRegions.0/@mDfPipe/@processe_list.1/@pins.0/@inst //@CFGRegionsRoot/@cfgRegions.0/@mDfPipe/@processe_list.2/@pins.0/@inst">
+        <processe_list name="readData32_U0" ssdmobj_id="51">
+          <pins>
+            <port name="A_AXI" dir="DirOut"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="A_AXI_offset" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="B_AXI" dir="DirOut"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="B_AXI_offset" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_AXI" dir="DirOut"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_AXI_offset" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="D_input_AXI" dir="DirOut"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="D_input_AXI_offset" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="A_0" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="A_1" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="B_0" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="B_1" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_0" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_1" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_2" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_3" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_4" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_5" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_6" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="C_7" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="D" dir="DirInOut" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="D_output_AXI" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+          <pins>
+            <port name="D_output_AXI_out" type="BUSType"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </pins>
+        </processe_list>
+        <processe_list name="kernel_2mm_U0" ssdmobj_id="52">
+          <pins>
+            <port name="A_0" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="A_1" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="B_0" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="B_1" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_0" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_1" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_2" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_3" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_4" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_5" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_6" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="C_7" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="D" dir="DirInOut"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+          <pins>
+            <port name="D_output" dir="DirInOut" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </pins>
+        </processe_list>
+        <processe_list name="writeData_U0" ssdmobj_id="53">
+          <pins>
+            <port name="D_output_AXI" dir="DirOut" type="BUSType"/>
+            <inst name="writeData_U0" ssdmobj_id="53" object_id="_191"/>
+          </pins>
+          <pins>
+            <port name="D_output_AXI_offset"/>
+            <inst name="writeData_U0" ssdmobj_id="53" object_id="_191"/>
+          </pins>
+          <pins>
+            <port name="D_output" dir="DirInOut"/>
+            <inst name="writeData_U0" ssdmobj_id="53" object_id="_191"/>
+          </pins>
+        </processe_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="A_0" ssdmobj_id="24">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="A_1" ssdmobj_id="25">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="B_0" ssdmobj_id="26">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="B_1" ssdmobj_id="27">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_0" ssdmobj_id="28">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_1" ssdmobj_id="29">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_2" ssdmobj_id="30">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_3" ssdmobj_id="31">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_4" ssdmobj_id="32">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_5" ssdmobj_id="33">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_6" ssdmobj_id="34">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="C_7" ssdmobj_id="35">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="D" ssdmobj_id="36">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="3" bitwidth="32" name="D_output_AXI_c" ssdmobj_id="16">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="readData32_U0" ssdmobj_id="51" object_id="_113"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="writeData_U0" ssdmobj_id="53" object_id="_191"/>
+          </sink>
+        </channel_list>
+        <channel_list depth="0" bitwidth="0" type="PIPO" name="D_output" ssdmobj_id="37">
+          <source>
+            <port name="in" dir="DirEnd"/>
+            <inst name="kernel_2mm_U0" ssdmobj_id="52" object_id="_161"/>
+          </source>
+          <sink>
+            <port name="out" dir="DirEnd" type="BUSType"/>
+            <inst name="writeData_U0" ssdmobj_id="53" object_id="_191"/>
+          </sink>
+        </channel_list>
+      </mDfPipe>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'kernel_2mm'" level="0">
-<item name = "Date">Mon Sep  2 22:41:20 2019
+<item name = "Date">Tue Sep  3 11:01:34 2019
 </item>
 <item name = "Version">2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)</item>
 <item name = "Project">2mmDataflow</item>
@@ -51,7 +51,7 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 74</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">0, 52, 5092, 1771</column>
+<column name="Instance">0, 52, 5236, 1894</column>
 <column name="Memory">17, -, 0, 0</column>
 <column name="Multiplexer">-, -, -, 153</column>
 <column name="Register">-, -, 17, -</column>
@@ -63,7 +63,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="func15_U0">func15, 0, 16, 1994, 1088</column>
+<column name="func15_U0">func15, 0, 16, 2138, 1211</column>
 <column name="func24_U0">func24, 0, 36, 3098, 683</column>
 </table>
 </item>

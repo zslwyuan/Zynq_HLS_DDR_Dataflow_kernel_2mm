@@ -1,0 +1,4 @@
+<annotationInfo>
+<item  id="13" filename="HLStimer/timer.cc" linenumber="10" name="tmp" contextFuncName="timer" moduleName="timer" rtlName="tmp_fu_41_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks"><\/item>
+<item  id="20" filename="HLStimer/timer.cc" linenumber="16" name="tmp_1" contextFuncName="timer" moduleName="timer" rtlName="tmp_1_fu_57_p2" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks"><\/item>
+</annotationInfo>

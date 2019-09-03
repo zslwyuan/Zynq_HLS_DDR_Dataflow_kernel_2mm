@@ -358,7 +358,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>47</lineNumber>
+						<lineNumber>48</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -373,7 +373,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>47</second>
+										<second>48</second>
 									</item>
 								</second>
 							</item>
@@ -437,7 +437,7 @@
 						<name>i</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -452,7 +452,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -616,7 +616,7 @@
 						<name>i_2</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>47</lineNumber>
+						<lineNumber>48</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -631,7 +631,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>47</second>
+										<second>48</second>
 									</item>
 								</second>
 							</item>
@@ -662,7 +662,7 @@
 						<name>exitcond1</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>48</lineNumber>
+						<lineNumber>49</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -677,7 +677,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>48</second>
+										<second>49</second>
 									</item>
 								</second>
 							</item>
@@ -708,7 +708,7 @@
 						<name>j_mid2</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>48</lineNumber>
+						<lineNumber>49</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -723,7 +723,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>48</second>
+										<second>49</second>
 									</item>
 								</second>
 							</item>
@@ -755,7 +755,7 @@
 						<name>tmp_mid2_v</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -770,7 +770,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -802,7 +802,7 @@
 						<name>tmp_mid2_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -817,7 +817,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -847,7 +847,7 @@
 						<name>tmp</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -862,7 +862,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -894,7 +894,7 @@
 						<name>p_shl2_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -909,7 +909,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -939,7 +939,7 @@
 						<name>tmp_s</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -954,7 +954,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -985,7 +985,7 @@
 						<name>tmp_14</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1000,7 +1000,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1032,7 +1032,7 @@
 						<name>tmp_53_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1047,7 +1047,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1077,7 +1077,7 @@
 						<name>tmp_15</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1092,7 +1092,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1124,7 +1124,7 @@
 						<name>tmp_16</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1139,7 +1139,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1170,7 +1170,7 @@
 						<name>tmp_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>48</lineNumber>
+						<lineNumber>49</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1185,7 +1185,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>48</second>
+										<second>49</second>
 									</item>
 								</second>
 							</item>
@@ -1215,7 +1215,7 @@
 						<name>tmp_8</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>48</lineNumber>
+						<lineNumber>49</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1230,7 +1230,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>48</second>
+										<second>49</second>
 									</item>
 								</second>
 							</item>
@@ -1260,7 +1260,7 @@
 						<name>tmp_10</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1275,7 +1275,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1308,7 +1308,7 @@
 						<name>newIndex7_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1323,7 +1323,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1353,7 +1353,7 @@
 						<name>tmp_17</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1368,7 +1368,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1399,7 +1399,7 @@
 						<name>tmp_57_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1414,7 +1414,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1444,7 +1444,7 @@
 						<name>tmp_mid_execute_0_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1459,7 +1459,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1491,7 +1491,7 @@
 						<name>tmp_mid_execute_1_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1506,7 +1506,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1538,7 +1538,7 @@
 						<name>tmp_18</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1553,7 +1553,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1584,7 +1584,7 @@
 						<name>tmp_58_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1599,7 +1599,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1629,7 +1629,7 @@
 						<name>tmp_mid_execute_2_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1644,7 +1644,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1676,7 +1676,7 @@
 						<name>tmp_mid_execute_3_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1691,7 +1691,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1723,7 +1723,7 @@
 						<name>tmp_mid_execute_4_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1738,7 +1738,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1770,7 +1770,7 @@
 						<name>tmp_mid_execute_5_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1785,7 +1785,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1817,7 +1817,7 @@
 						<name>tmp_mid_execute_6_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1832,7 +1832,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1864,7 +1864,7 @@
 						<name>tmp_mid_execute_7_a</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1879,7 +1879,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1911,7 +1911,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1926,7 +1926,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -1971,7 +1971,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1986,7 +1986,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2017,7 +2017,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2032,7 +2032,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2062,7 +2062,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2077,7 +2077,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2108,7 +2108,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2123,7 +2123,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2153,7 +2153,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2168,7 +2168,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2199,7 +2199,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2214,7 +2214,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2244,7 +2244,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2259,7 +2259,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2290,7 +2290,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2305,7 +2305,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2335,7 +2335,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2350,7 +2350,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2381,7 +2381,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2396,7 +2396,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2426,7 +2426,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2441,7 +2441,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2472,7 +2472,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2487,7 +2487,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2517,7 +2517,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2532,7 +2532,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2563,7 +2563,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2578,7 +2578,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2608,7 +2608,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2623,7 +2623,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2654,7 +2654,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2669,7 +2669,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -2699,7 +2699,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2714,7 +2714,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -2744,7 +2744,7 @@
 						<name>k</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2759,7 +2759,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -2792,7 +2792,7 @@
 						<name>exitcond</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2807,7 +2807,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -2838,7 +2838,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2853,7 +2853,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -2885,7 +2885,7 @@
 						<name>newIndex8</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2900,7 +2900,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -2933,7 +2933,7 @@
 						<name>newIndex9_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2948,7 +2948,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -2978,7 +2978,7 @@
 						<name>tmp_19</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2993,7 +2993,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -3024,7 +3024,7 @@
 						<name>tmp_59_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3039,7 +3039,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -3069,7 +3069,7 @@
 						<name>A_0_addr</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3084,7 +3084,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -3116,7 +3116,7 @@
 						<name>A_1_addr</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>50</lineNumber>
+						<lineNumber>51</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3131,7 +3131,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>50</second>
+										<second>51</second>
 									</item>
 								</second>
 							</item>
@@ -3163,7 +3163,7 @@
 						<name>tmp_20</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3178,7 +3178,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3210,7 +3210,7 @@
 						<name>p_shl3_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3225,7 +3225,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3255,7 +3255,7 @@
 						<name>tmp_21</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3270,7 +3270,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3302,7 +3302,7 @@
 						<name>p_shl4_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3317,7 +3317,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3347,7 +3347,7 @@
 						<name>tmp_22</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3362,7 +3362,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3393,7 +3393,7 @@
 						<name>tmp_23</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3408,7 +3408,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3439,7 +3439,7 @@
 						<name>tmp_63_cast</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3454,7 +3454,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3484,7 +3484,7 @@
 						<name>B_0_addr</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3499,7 +3499,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3531,7 +3531,7 @@
 						<name>B_1_addr</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3546,7 +3546,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -3578,7 +3578,7 @@
 						<name>A_0_load</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3593,7 +3593,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3623,7 +3623,7 @@
 						<name>B_0_load</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3638,7 +3638,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3668,7 +3668,7 @@
 						<name>tmp1</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3683,7 +3683,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3714,7 +3714,7 @@
 						<name>tmp_9</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3729,7 +3729,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3760,7 +3760,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3775,7 +3775,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3820,7 +3820,7 @@
 						<name>tmp_mid_execute_6_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3835,7 +3835,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3865,7 +3865,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3880,7 +3880,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3910,7 +3910,7 @@
 						<name>tmp_mid_execute_5_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3925,7 +3925,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -3955,7 +3955,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3970,7 +3970,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4000,7 +4000,7 @@
 						<name>tmp_mid_execute_4_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4015,7 +4015,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4045,7 +4045,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4060,7 +4060,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4090,7 +4090,7 @@
 						<name>tmp_mid_execute_3_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4105,7 +4105,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4135,7 +4135,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4150,7 +4150,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4180,7 +4180,7 @@
 						<name>tmp_mid_execute_2_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4195,7 +4195,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4225,7 +4225,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4240,7 +4240,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4270,7 +4270,7 @@
 						<name>tmp_mid_execute_1_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4285,7 +4285,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4315,7 +4315,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4330,7 +4330,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4360,7 +4360,7 @@
 						<name>tmp_mid_execute_0_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4375,7 +4375,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4405,7 +4405,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4420,7 +4420,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4450,7 +4450,7 @@
 						<name>tmp_mid_execute_7_l</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4465,7 +4465,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4495,7 +4495,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4510,7 +4510,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4540,7 +4540,7 @@
 						<name>tmp_mid_execute_load</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4555,7 +4555,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4600,7 +4600,7 @@
 						<name>A_1_load</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4615,7 +4615,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4645,7 +4645,7 @@
 						<name>B_1_load</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4660,7 +4660,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4690,7 +4690,7 @@
 						<name>tmp2</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4705,7 +4705,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4736,7 +4736,7 @@
 						<name>tmp_9_1</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4751,7 +4751,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4782,7 +4782,7 @@
 						<name>tmp3</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4797,7 +4797,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4828,7 +4828,7 @@
 						<name>tmp_10_1</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4843,7 +4843,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4874,7 +4874,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4889,7 +4889,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -4934,7 +4934,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4949,7 +4949,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5012,7 +5012,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5027,7 +5027,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5090,7 +5090,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5105,7 +5105,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5168,7 +5168,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5183,7 +5183,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5246,7 +5246,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5261,7 +5261,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5324,7 +5324,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5339,7 +5339,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5402,7 +5402,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5417,7 +5417,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5480,7 +5480,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>55</lineNumber>
+						<lineNumber>56</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5495,7 +5495,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>55</second>
+										<second>56</second>
 									</item>
 								</second>
 							</item>
@@ -5558,7 +5558,7 @@
 						<name>k_9_1</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5573,7 +5573,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -5604,7 +5604,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>51</lineNumber>
+						<lineNumber>52</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5619,7 +5619,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>51</second>
+										<second>52</second>
 									</item>
 								</second>
 							</item>
@@ -5649,7 +5649,7 @@
 						<name>j_2</name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>48</lineNumber>
+						<lineNumber>49</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5664,7 +5664,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>48</second>
+										<second>49</second>
 									</item>
 								</second>
 							</item>
@@ -5695,7 +5695,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>48</lineNumber>
+						<lineNumber>49</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5710,7 +5710,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>48</second>
+										<second>49</second>
 									</item>
 								</second>
 							</item>
@@ -5740,7 +5740,7 @@
 						<name></name>
 						<fileName>2mmDataflow/2mm.cc</fileName>
 						<fileDirectory>/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted</fileDirectory>
-						<lineNumber>59</lineNumber>
+						<lineNumber>60</lineNumber>
 						<contextFuncName>func1_execute</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5755,7 +5755,7 @@
 											<first>2mmDataflow/2mm.cc</first>
 											<second>func1_execute</second>
 										</first>
-										<second>59</second>
+										<second>60</second>
 									</item>
 								</second>
 							</item>

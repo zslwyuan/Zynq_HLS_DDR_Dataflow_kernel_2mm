@@ -15,44 +15,60 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/tingyuan/Documents/ddr_
 WARNING: [IP_Flow 19-3656] If you move the project, the path for repository '/home/tingyuan/Documents/ddr_check' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1'.)
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx_201802/Vivado/2018.2/data/ip'.
-add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1277.676 ; gain = 66.391 ; free physical = 5621 ; free virtual = 26634
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1291.621 ; gain = 80.344 ; free physical = 7967 ; free virtual = 27532
 Command: synth_design -top zedboard_base_wrapper -part xc7z020clg484-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 14769 
+INFO: Helper process launched with PID 2420 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1381.129 ; gain = 91.879 ; free physical = 5500 ; free virtual = 26516
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1385.074 ; gain = 81.879 ; free physical = 7865 ; free virtual = 27413
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'zedboard_base_wrapper' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/hdl/zedboard_base_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'zedboard_base' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:308]
-INFO: [Synth 8-6157] synthesizing module 'zedboard_base_axi_smc_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_axi_smc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_axi_smc_0' (1#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_axi_smc_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'zedboard_base_kernel_2mm_wrapper_0_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_kernel_2mm_wrapper_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_kernel_2mm_wrapper_0_0' (2#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_kernel_2mm_wrapper_0_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'kernel_2mm_wrapper_0' of module 'zedboard_base_kernel_2mm_wrapper_0_0' requires 195 connections, but only 185 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:833]
-INFO: [Synth 8-6157] synthesizing module 'zedboard_base_processing_system7_0_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_processing_system7_0_0' (3#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_processing_system7_0_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'zedboard_base_processing_system7_0_0' requires 114 connections, but only 103 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1019]
-INFO: [Synth 8-6157] synthesizing module 'zedboard_base_ps7_0_axi_periph_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1195]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_GCE1M4' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:12]
-INFO: [Synth 8-6157] synthesizing module 'zedboard_base_auto_pc_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_auto_pc_0' (4#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_auto_pc_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'auto_pc' of module 'zedboard_base_auto_pc_0' requires 59 connections, but only 57 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:247]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_GCE1M4' (5#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:12]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_ps7_0_axi_periph_0' (6#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1195]
-INFO: [Synth 8-6157] synthesizing module 'zedboard_base_rst_ps7_0_200M_1' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_rst_ps7_0_200M_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_rst_ps7_0_200M_1' (7#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-14762-tingyuan-OptiPlex-9010/realtime/zedboard_base_rst_ps7_0_200M_1_stub.v:6]
-WARNING: [Synth 8-350] instance 'rst_ps7_0_200M' of module 'zedboard_base_rst_ps7_0_200M_1' requires 10 connections, but only 7 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1185]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base' (8#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:308]
-INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_wrapper' (9#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/hdl/zedboard_base_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:582]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_axi_smc_1' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_axi_smc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_axi_smc_1' (1#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_axi_smc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_kernel_2mm_wrapper_0_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_kernel_2mm_wrapper_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_kernel_2mm_wrapper_0_0' (2#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_kernel_2mm_wrapper_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'kernel_2mm_wrapper_0' of module 'zedboard_base_kernel_2mm_wrapper_0_0' requires 195 connections, but only 185 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1126]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_processing_system7_0_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_processing_system7_0_0' (3#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'zedboard_base_processing_system7_0_0' requires 114 connections, but only 103 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1312]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_ps7_0_axi_periph_1' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1532]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_AAU18Z' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_AAU18Z' (4#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:12]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1GT4T1J' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1GT4T1J' (5#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:144]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_GCE1M4' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:276]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_auto_pc_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_auto_pc_0' (6#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_GCE1M4' (7#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:276]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_xbar_1' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_xbar_1' (8#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_xbar_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'xbar' of module 'zedboard_base_xbar_1' requires 40 connections, but only 38 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:2048]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_ps7_0_axi_periph_1' (9#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1532]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_rst_ps7_0_166M_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_rst_ps7_0_166M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_rst_ps7_0_166M_0' (10#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_rst_ps7_0_166M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_ps7_0_166M' of module 'zedboard_base_rst_ps7_0_166M_0' requires 10 connections, but only 7 given [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_timer_0_1' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_timer_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_timer_0_1' (11#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_timer_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'zedboard_base_xlconcat_0_0' [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_xlconcat_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_xlconcat_0_0' (12#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/.Xil/Vivado-2403-tingyuan-OptiPlex-9010/realtime/zedboard_base_xlconcat_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base' (13#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/synth/zedboard_base.v:582]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_base_wrapper' (14#1) [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/hdl/zedboard_base_wrapper.v:12]
 WARNING: [Synth 8-3331] design s00_couplers_imp_GCE1M4 has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_GCE1M4 has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_0 has unconnected port ACLK
-WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_0 has unconnected port ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_1GT4T1J has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_1GT4T1J has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_1GT4T1J has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_1GT4T1J has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_AAU18Z has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_AAU18Z has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_AAU18Z has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_AAU18Z has unconnected port S_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1425.754 ; gain = 136.504 ; free physical = 5512 ; free virtual = 26525
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1430.699 ; gain = 127.504 ; free physical = 7876 ; free virtual = 27425
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -65,10 +81,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1425.754 ; gain = 136.504 ; free physical = 5510 ; free virtual = 26526
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1430.699 ; gain = 127.504 ; free physical = 7877 ; free virtual = 27426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1425.754 ; gain = 136.504 ; free physical = 5510 ; free virtual = 26526
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1430.699 ; gain = 127.504 ; free physical = 7877 ; free virtual = 27426
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -79,10 +95,16 @@ Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboa
 Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_processing_system7_0_0/zedboard_base_processing_system7_0_0/zedboard_base_processing_system7_0_0_in_context.xdc] for cell 'zedboard_base_i/processing_system7_0'
 Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_kernel_2mm_wrapper_0_0/zedboard_base_kernel_2mm_wrapper_0_0/zedboard_base_kernel_2mm_wrapper_0_0_in_context.xdc] for cell 'zedboard_base_i/kernel_2mm_wrapper_0'
 Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_kernel_2mm_wrapper_0_0/zedboard_base_kernel_2mm_wrapper_0_0/zedboard_base_kernel_2mm_wrapper_0_0_in_context.xdc] for cell 'zedboard_base_i/kernel_2mm_wrapper_0'
-Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_axi_smc_0/zedboard_base_axi_smc_0/zedboard_base_axi_smc_0_in_context.xdc] for cell 'zedboard_base_i/axi_smc'
-Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_axi_smc_0/zedboard_base_axi_smc_0/zedboard_base_axi_smc_0_in_context.xdc] for cell 'zedboard_base_i/axi_smc'
-Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_rst_ps7_0_200M_1/zedboard_base_rst_ps7_0_200M_1/zedboard_base_rst_ps7_0_200M_1_in_context.xdc] for cell 'zedboard_base_i/rst_ps7_0_200M'
-Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_rst_ps7_0_200M_1/zedboard_base_rst_ps7_0_200M_1/zedboard_base_rst_ps7_0_200M_1_in_context.xdc] for cell 'zedboard_base_i/rst_ps7_0_200M'
+Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_axi_smc_1/zedboard_base_axi_smc_1/zedboard_base_axi_smc_1_in_context.xdc] for cell 'zedboard_base_i/axi_smc'
+Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_axi_smc_1/zedboard_base_axi_smc_1/zedboard_base_axi_smc_1_in_context.xdc] for cell 'zedboard_base_i/axi_smc'
+Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_rst_ps7_0_166M_0/zedboard_base_rst_ps7_0_166M_0/zedboard_base_rst_ps7_0_200M_1_in_context.xdc] for cell 'zedboard_base_i/rst_ps7_0_166M'
+Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_rst_ps7_0_166M_0/zedboard_base_rst_ps7_0_166M_0/zedboard_base_rst_ps7_0_200M_1_in_context.xdc] for cell 'zedboard_base_i/rst_ps7_0_166M'
+Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_xlconcat_0_0/zedboard_base_xlconcat_0_0/zedboard_base_xlconcat_0_0_in_context.xdc] for cell 'zedboard_base_i/xlconcat_0'
+Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_xlconcat_0_0/zedboard_base_xlconcat_0_0/zedboard_base_xlconcat_0_0_in_context.xdc] for cell 'zedboard_base_i/xlconcat_0'
+Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_xbar_1/zedboard_base_xbar_1/zedboard_base_xbar_1_in_context.xdc] for cell 'zedboard_base_i/ps7_0_axi_periph/xbar'
+Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_xbar_1/zedboard_base_xbar_1/zedboard_base_xbar_1_in_context.xdc] for cell 'zedboard_base_i/ps7_0_axi_periph/xbar'
+Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_timer_0_1/zedboard_base_timer_0_1/zedboard_base_timer_0_1_in_context.xdc] for cell 'zedboard_base_i/timer_0'
+Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_timer_0_1/zedboard_base_timer_0_1/zedboard_base_timer_0_1_in_context.xdc] for cell 'zedboard_base_i/timer_0'
 Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_auto_pc_0/zedboard_base_auto_pc_0/zedboard_base_auto_pc_0_in_context.xdc] for cell 'zedboard_base_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Finished Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_auto_pc_0/zedboard_base_auto_pc_0/zedboard_base_auto_pc_0_in_context.xdc] for cell 'zedboard_base_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Parsing XDC File [/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/dont_touch.xdc]
@@ -92,16 +114,16 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1712.980 ; gain = 0.000 ; free physical = 5229 ; free virtual = 26245
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1725.941 ; gain = 0.000 ; free physical = 7616 ; free virtual = 27144
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 1712.980 ; gain = 423.730 ; free physical = 5318 ; free virtual = 26331
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 1725.941 ; gain = 422.746 ; free physical = 7699 ; free virtual = 27228
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 1712.980 ; gain = 423.730 ; free physical = 5318 ; free virtual = 26331
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 1725.941 ; gain = 422.746 ; free physical = 7699 ; free virtual = 27228
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -370,14 +392,17 @@ Applied set_property DONT_TOUCH = true for zedboard_base_i. (constraint file  au
 Applied set_property DONT_TOUCH = true for zedboard_base_i/processing_system7_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for zedboard_base_i/kernel_2mm_wrapper_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for zedboard_base_i/axi_smc. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for zedboard_base_i/rst_ps7_0_200M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for zedboard_base_i/rst_ps7_0_166M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for zedboard_base_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for zedboard_base_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for zedboard_base_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for zedboard_base_i/timer_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for zedboard_base_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 1712.980 ; gain = 423.730 ; free physical = 5307 ; free virtual = 26324
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 1725.941 ; gain = 422.746 ; free physical = 7700 ; free virtual = 27229
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 1712.980 ; gain = 423.730 ; free physical = 5307 ; free virtual = 26323
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 1725.941 ; gain = 422.746 ; free physical = 7699 ; free virtual = 27228
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -412,12 +437,12 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_0 has unconnected port ACLK
-WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_0 has unconnected port ARESETN
-WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_1 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design zedboard_base_ps7_0_axi_periph_1 has unconnected port M01_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:34 . Memory (MB): peak = 1712.980 ; gain = 423.730 ; free physical = 5302 ; free virtual = 26321
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 1725.941 ; gain = 422.746 ; free physical = 7688 ; free virtual = 27218
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -431,13 +456,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'zedboard_base_i/processing_system7_0/FCLK_CLK0' to pin 'zedboard_base_i/processing_system7_0/bbstub_FCLK_CLK0/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1741.980 ; gain = 452.730 ; free physical = 5181 ; free virtual = 26200
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:44 . Memory (MB): peak = 1746.941 ; gain = 443.746 ; free physical = 7641 ; free virtual = 27091
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1741.980 ; gain = 452.730 ; free physical = 5181 ; free virtual = 26200
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:44 . Memory (MB): peak = 1746.941 ; gain = 443.746 ; free physical = 7646 ; free virtual = 27091
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -449,7 +474,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:44 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7645 ; free virtual = 27090
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -473,7 +498,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7658 ; free virtual = 27096
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -486,7 +511,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7658 ; free virtual = 27096
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -498,25 +523,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7658 ; free virtual = 27096
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7658 ; free virtual = 27096
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7658 ; free virtual = 27096
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7658 ; free virtual = 27096
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -526,11 +551,14 @@ Report BlackBoxes:
 +------+-------------------------------------+----------+
 |      |BlackBox name                        |Instances |
 +------+-------------------------------------+----------+
-|1     |zedboard_base_auto_pc_0              |         1|
-|2     |zedboard_base_axi_smc_0              |         1|
-|3     |zedboard_base_kernel_2mm_wrapper_0_0 |         1|
-|4     |zedboard_base_processing_system7_0_0 |         1|
-|5     |zedboard_base_rst_ps7_0_200M_1       |         1|
+|1     |zedboard_base_xbar_1                 |         1|
+|2     |zedboard_base_auto_pc_0              |         1|
+|3     |zedboard_base_axi_smc_1              |         1|
+|4     |zedboard_base_kernel_2mm_wrapper_0_0 |         1|
+|5     |zedboard_base_processing_system7_0_0 |         1|
+|6     |zedboard_base_rst_ps7_0_166M_0       |         1|
+|7     |zedboard_base_timer_0_1              |         1|
+|8     |zedboard_base_xlconcat_0_0           |         1|
 +------+-------------------------------------+----------+
 
 Report Cell Usage: 
@@ -538,27 +566,30 @@ Report Cell Usage:
 |      |Cell                                 |Count |
 +------+-------------------------------------+------+
 |1     |zedboard_base_auto_pc_0              |     1|
-|2     |zedboard_base_axi_smc_0              |     1|
+|2     |zedboard_base_axi_smc_1              |     1|
 |3     |zedboard_base_kernel_2mm_wrapper_0_0 |     1|
 |4     |zedboard_base_processing_system7_0_0 |     1|
-|5     |zedboard_base_rst_ps7_0_200M_1       |     1|
+|5     |zedboard_base_rst_ps7_0_166M_0       |     1|
+|6     |zedboard_base_timer_0_1              |     1|
+|7     |zedboard_base_xbar_1                 |     1|
+|8     |zedboard_base_xlconcat_0_0           |     1|
 +------+-------------------------------------+------+
 
 Report Instance Areas: 
 +------+---------------------+---------------------------------+------+
 |      |Instance             |Module                           |Cells |
 +------+---------------------+---------------------------------+------+
-|1     |top                  |                                 |  1755|
-|2     |  zedboard_base_i    |zedboard_base                    |  1755|
-|3     |    ps7_0_axi_periph |zedboard_base_ps7_0_axi_periph_0 |   177|
+|1     |top                  |                                 |  2062|
+|2     |  zedboard_base_i    |zedboard_base                    |  2062|
+|3     |    ps7_0_axi_periph |zedboard_base_ps7_0_axi_periph_1 |   440|
 |4     |      s00_couplers   |s00_couplers_imp_GCE1M4          |   177|
 +------+---------------------+---------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1742.980 ; gain = 453.730 ; free physical = 5180 ; free virtual = 26199
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.941 ; gain = 445.746 ; free physical = 7658 ; free virtual = 27096
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1742.980 ; gain = 166.504 ; free physical = 5239 ; free virtual = 26258
-Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:46 . Memory (MB): peak = 1742.988 ; gain = 453.730 ; free physical = 5248 ; free virtual = 26267
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1748.941 ; gain = 150.504 ; free physical = 7718 ; free virtual = 27155
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:45 . Memory (MB): peak = 1748.949 ; gain = 445.746 ; free physical = 7723 ; free virtual = 27161
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -566,11 +597,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-33 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+43 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:47 . Memory (MB): peak = 1761.980 ; gain = 484.305 ; free physical = 5216 ; free virtual = 26234
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:46 . Memory (MB): peak = 1766.941 ; gain = 475.320 ; free physical = 7701 ; free virtual = 27139
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint '/home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.runs/synth_1/zedboard_base_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file zedboard_base_wrapper_utilization_synth.rpt -pb zedboard_base_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1761.980 ; gain = 0.000 ; free physical = 5214 ; free virtual = 26233
-INFO: [Common 17-206] Exiting Vivado at Mon Sep  2 22:47:43 2019...
+report_utilization: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1766.941 ; gain = 0.000 ; free physical = 7700 ; free virtual = 27139
+INFO: [Common 17-206] Exiting Vivado at Tue Sep  3 13:38:15 2019...

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Mon Sep  2 22:57:35 2019
+| Date         : Tue Sep  3 13:42:59 2019
 | Host         : tingyuan-OptiPlex-9010 running 64-bit Ubuntu 18.04.2 LTS
 | Command      : report_methodology -file zedboard_base_wrapper_methodology_drc_routed.rpt -pb zedboard_base_wrapper_methodology_drc_routed.pb -rpx zedboard_base_wrapper_methodology_drc_routed.rpx
 | Design       : zedboard_base_wrapper

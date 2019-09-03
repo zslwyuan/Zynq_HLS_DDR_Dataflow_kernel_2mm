@@ -1,4 +1,4 @@
-INFO-FLOW: Workspace /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1 opened at Mon Sep 02 22:41:03 CST 2019
+INFO-FLOW: Workspace /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1 opened at Tue Sep 03 11:01:18 CST 2019
 Execute     config_clock -quiet -name default -period 6 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 6ns.
 Execute     open_platform DefaultPlatform 
@@ -49,8 +49,8 @@ Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xili
 Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
 Command         ap_source done; 0.11 sec.
 Execute         source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
-Command       ap_source done; 0.12 sec.
-Command     ap_source done; 0.12 sec.
+Command       ap_source done; 0.11 sec.
+Command     ap_source done; 0.11 sec.
 Execute     open_platform DefaultPlatform 
 Execute     import_lib /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6 
 Execute       source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv7.lib 
@@ -81,7 +81,7 @@ Execute     get_default_platform
 Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
 Execute     config_chip_info -quiet -speed slow 
 Execute     config_schedule -effort=medium -relax_ii_for_timing=1 -verbose=0 
-Command   open_solution done; 0.26 sec.
+Command   open_solution done; 0.21 sec.
 Execute   set_part xc7z020clg484-1 -tool vivado 
 Execute     add_library xilinx/zynq/zynq:xc7z020:clg484:-1 
 Execute       get_default_platform 
@@ -120,11 +120,11 @@ Execute       get_default_platform
 INFO-FLOW: Source preprocessing
 Execute       clang  -fno-limit-debug-info -gcc-toolchain "/opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "2mmDataflow/2mm.cc"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot" -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pp.0.cc" 
 INFO-FLOW: exec /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E 2mmDataflow/2mm.cc -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pp.0.cc
-Command       clang done; 1.23 sec.
+Command       clang done; 1.22 sec.
 INFO-FLOW: Syntax Checking before pre-processing...
 Execute       clang  -fno-limit-debug-info -gcc-toolchain "/opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot" -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  "/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pp.0.cc"  -o "/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/useless.bc"  
 INFO-FLOW: exec /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pp.0.cc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/useless.bc
-Command       clang done; 1.25 sec.
+Command       clang done; 1.22 sec.
 INFO-FLOW: GCC PP time: 2 seconds per iteration
 Execute       list_core -type functional_unit 
 Execute       tidy_31 xilinx-systemc-detector /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pp.0.cc std=gnu++98 -directive=/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/.systemc_flag 
@@ -144,49 +144,49 @@ INFO-FLOW: exec /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/clang-3.9-csynth/bi
 INFO-FLOW: Source preprocessing
 Execute       clang  -fno-limit-debug-info -gcc-toolchain "/opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pragma.1.cc"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot" -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pragma.2.cc" 
 INFO-FLOW: exec /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pragma.1.cc -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pragma.2.cc
-Command       clang done; 1.23 sec.
+Command       clang done; 1.21 sec.
 Execute       get_default_platform 
 INFO-FLOW: Processing labels
 Execute       clang -src /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pragma.2.cc  -fno-limit-debug-info -gcc-toolchain /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pragma.2.cc"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot" -I "/opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.bc" 
 INFO-FLOW: exec /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /opt/Xilinx_201802/Vivado/2018.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.pragma.2.cc -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot -I /opt/Xilinx_201802/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.bc
-Command       clang done; 1.25 sec.
+Command       clang done; 1.21 sec.
 INFO-FLOW: Linking Debug ...
 Execute       llvm-ld /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/2mm.g.bc -hls-opt -except-internalize kernel_2mm_wrapper -L/opt/Xilinx_201802/Vivado/2018.2/lnx64/lib -lhlsm -lhlsmc++ -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g 
-Command       llvm-ld done; 0.63 sec.
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 6192 ; free virtual = 27171
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 6192 ; free virtual = 27171
+Command       llvm-ld done; 0.61 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 9711 ; free virtual = 28511
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 9711 ; free virtual = 28511
 Execute       ::config_rtl 
 Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute         cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 Execute         transform -promote-dbg-pointer /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.pp.bc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.pp.0.bc -f 
 Execute         llvm-ld /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.pp.0.bc -disable-opt -L/opt/Xilinx_201802/Vivado/2018.2/lnx64/lib -lfloatconversion -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.0 
-Command         llvm-ld done; 0.65 sec.
+Command         llvm-ld done; 0.61 sec.
 INFO-FLOW: Running Standard Transforms...
 Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top kernel_2mm_wrapper -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.0.bc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 6191 ; free virtual = 27170
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 9716 ; free virtual = 28516
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.1.bc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.2.prechk.bc -f 
 INFO-FLOW: Checking Synthesizability 2/2..
 Execute         transform -syn-check /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.2.prechk.bc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 6191 ; free virtual = 27169
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 375.680 ; gain = 0.121 ; free physical = 9731 ; free virtual = 28531
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.g.1.bc to /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
 Execute         transform -hls -tmp /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -clib-intrinsic-prepare -dce -func-buffer -dce -array-normalize -func-legal -instcombine -gvn -constprop -dce -ptrArgReplace -mem2reg -instcombine -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg -instcombine -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -instcombine -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -inst-simplify -dce -norm-name -function-inline -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.o.1.bc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.o.1.tmp.bc -f 
-INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1.1' (2mmDataflow/2mm.cc:106) in function 'func2' partially with a factor of 8.
-INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1.1' (2mmDataflow/2mm.cc:51) in function 'func1_execute' partially with a factor of 2.
-INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1' (2mmDataflow/2mm.cc:31) in function 'buffer_func1_C' partially with a factor of 8.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1.1' (2mmDataflow/2mm.cc:107) in function 'func2' partially with a factor of 8.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1.1' (2mmDataflow/2mm.cc:52) in function 'func1_execute' partially with a factor of 2.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1' (2mmDataflow/2mm.cc:32) in function 'buffer_func1_C' partially with a factor of 8.
 WARNING: [XFORM 203-561] Updating loop upper bound from 3 to 2 for loop 'Loop-0-0-0' in function 'func2'.
 WARNING: [XFORM 203-561] Updating loop lower bound from 3 to 2 for loop 'Loop-0-0-0' in function 'func2'.
 WARNING: [XFORM 203-561] Updating loop upper bound from 3 to 2 for loop 'Loop-0-0' in function 'buffer_func1_C'.
 WARNING: [XFORM 203-561] Updating loop lower bound from 3 to 2 for loop 'Loop-0-0' in function 'buffer_func1_C'.
-INFO: [XFORM 203-101] Partitioning array 'A' (2mmDataflow/2mm.cc:224) in dimension 2 with a cyclic factor 2.
-INFO: [XFORM 203-101] Partitioning array 'B' (2mmDataflow/2mm.cc:225) in dimension 1 with a cyclic factor 2.
-INFO: [XFORM 203-101] Partitioning array 'C' (2mmDataflow/2mm.cc:226) in dimension 1 with a cyclic factor 8.
-INFO: [XFORM 203-101] Partitioning array 'tmp_mid' (2mmDataflow/2mm.cc:127) in dimension 2 with a cyclic factor 8.
-INFO: [XFORM 203-101] Partitioning array 'C_mid' (2mmDataflow/2mm.cc:126) in dimension 1 with a cyclic factor 8.
+INFO: [XFORM 203-101] Partitioning array 'A' (2mmDataflow/2mm.cc:225) in dimension 2 with a cyclic factor 2.
+INFO: [XFORM 203-101] Partitioning array 'B' (2mmDataflow/2mm.cc:226) in dimension 1 with a cyclic factor 2.
+INFO: [XFORM 203-101] Partitioning array 'C' (2mmDataflow/2mm.cc:227) in dimension 1 with a cyclic factor 8.
+INFO: [XFORM 203-101] Partitioning array 'tmp_mid' (2mmDataflow/2mm.cc:128) in dimension 2 with a cyclic factor 8.
+INFO: [XFORM 203-101] Partitioning array 'C_mid' (2mmDataflow/2mm.cc:127) in dimension 1 with a cyclic factor 8.
 WARNING: [XFORM 203-713] All the elements of global array 'tmp_mid[0]' should be updated in process function 'func1', otherwise it may not be synthesized correctly.
 WARNING: [XFORM 203-713] All the elements of global array 'tmp_mid[1]' should be updated in process function 'func1', otherwise it may not be synthesized correctly.
 WARNING: [XFORM 203-713] All the elements of global array 'tmp_mid[2]' should be updated in process function 'func1', otherwise it may not be synthesized correctly.
@@ -216,28 +216,29 @@ INFO: [XFORM 203-712] Applying dataflow to function 'kernel_2mm_wrapper', detect
 	 'readData'
 	 'kernel_2mm'
 	 'writeData'.
-Command         transform done; 0.41 sec.
+Command         transform done; 0.68 sec.
 INFO-FLOW: Presyn 2...
 Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.o.1.tmp.bc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
-INFO: [XFORM 203-11] Balancing expressions in function 'func2' (2mmDataflow/2mm.cc:92)...6 expression(s) balanced.
-Command         transform done; 0.27 sec.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 503.559 ; gain = 128.000 ; free physical = 6169 ; free virtual = 27148
+INFO: [XFORM 203-11] Balancing expressions in function 'func2' (2mmDataflow/2mm.cc:93)...6 expression(s) balanced.
+Command         transform done; 0.16 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 503.559 ; gain = 128.000 ; free physical = 9690 ; free virtual = 28491
 INFO-FLOW: Building ssdm...
 Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -bitwidth -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -dead-allocation-elimination -cdfg-build /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.o.2.bc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (2mmDataflow/2mm.cc:201:9) in function 'writeData'.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (2mmDataflow/2mm.cc:163:9) in function 'readData'.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-2' (2mmDataflow/2mm.cc:172:9) in function 'readData'.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-3' (2mmDataflow/2mm.cc:180:9) in function 'readData'.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-4' (2mmDataflow/2mm.cc:187:9) in function 'readData'.
-WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1.1' (2mmDataflow/2mm.cc:48:11) in function 'func1_execute' : 
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (2mmDataflow/2mm.cc:202:9) in function 'writeData'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (2mmDataflow/2mm.cc:164:9) in function 'readData'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-2' (2mmDataflow/2mm.cc:173:9) in function 'readData'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-3' (2mmDataflow/2mm.cc:181:9) in function 'readData'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-4' (2mmDataflow/2mm.cc:188:9) in function 'readData'.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1.1' (2mmDataflow/2mm.cc:49:11) in function 'func1_execute' : 
 
 the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop.
-INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (2mmDataflow/2mm.cc:47:9) in function 'func1_execute'.
-Command         transform done; 0.58 sec.
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 567.559 ; gain = 192.000 ; free physical = 6104 ; free virtual = 27083
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (2mmDataflow/2mm.cc:48:9) in function 'func1_execute'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (2mmDataflow/2mm.cc:15:9) in function 'buffer_func1_D'.
+Command         transform done; 0.53 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 567.559 ; gain = 192.000 ; free physical = 9615 ; free virtual = 28416
 INFO-FLOW: Finish building internal data model.
-Command       opt_and_import_c done; 2.11 sec.
-Command     elaborate done; 7.96 sec.
+Command       opt_and_import_c done; 2.19 sec.
+Command     elaborate done; 7.84 sec.
 Execute     autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO-FLOW: Synthesizing C/C++ design ...
@@ -335,10 +336,10 @@ INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 11
 INFO: [SCHED 204-61] Pipelining loop 'Loop 4'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 11.
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.2 sec.
-INFO: [HLS 200-111]  Elapsed time: 8.81 seconds; current allocated memory: 145.116 MB.
+Command       schedule done; 0.63 sec.
+INFO: [HLS 200-111]  Elapsed time: 9.04 seconds; current allocated memory: 145.107 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/readData32.verbose.sched.rpt -verbose -f 
-Command       report done; 0.12 sec.
+Command       report done; 0.11 sec.
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/readData32.sched.adb -f 
 INFO-FLOW: Finish scheduling readData32.
 Execute       set_default_model readData32 
@@ -351,9 +352,9 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 146.158 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 146.166 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/readData32.verbose.bind.rpt -verbose -f 
-Command       report done; 0.14 sec.
+Command       report done; 0.13 sec.
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/readData32.bind.adb -f 
 INFO-FLOW: Finish binding readData32.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -362,10 +363,11 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute       set_default_model buffer_func1_D6 
 Execute       schedule -model buffer_func1_D6 
 INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 5.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 146.347 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.18 seconds; current allocated memory: 146.427 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_D6.verbose.sched.rpt -verbose -f 
-INFO: [HLS 200-434] Only 0 loops out of a total 2 loops have been pipelined in this design.
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_D6.sched.adb -f 
 INFO-FLOW: Finish scheduling buffer_func1_D6.
 Execute       set_default_model buffer_func1_D6 
@@ -378,7 +380,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 146.465 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.03 seconds; current allocated memory: 146.598 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_D6.verbose.bind.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_D6.bind.adb -f 
 INFO-FLOW: Finish binding buffer_func1_D6.
@@ -389,8 +391,9 @@ Execute       set_default_model buffer_func1_C7
 Execute       schedule -model buffer_func1_C7 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 146.725 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.07 seconds; current allocated memory: 146.817 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_C7.verbose.sched.rpt -verbose -f 
+INFO: [HLS 200-434] Only 0 loops out of a total 2 loops have been pipelined in this design.
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_C7.sched.adb -f 
 INFO-FLOW: Finish scheduling buffer_func1_C7.
 Execute       set_default_model buffer_func1_C7 
@@ -403,7 +406,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 146.983 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 147.093 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_C7.verbose.bind.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_C7.bind.adb -f 
 INFO-FLOW: Finish binding buffer_func1_C7.
@@ -417,8 +420,8 @@ INFO: [SCHED 204-61] Pipelining loop 'Loop 1.1'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 4, Final II = 4, Depth = 17.
 WARNING: [SCHED 204-70] Cannot meet target clock period from 'load' operation ('tmp_mid_execute_2_l') on array 'tmp_mid_execute_2' to 'br' operation (combination delay: 5.2554 ns) to honor II or Latency constraint in region 'Loop 1.1'.
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.18 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.24 seconds; current allocated memory: 147.866 MB.
+Command       schedule done; 0.22 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.27 seconds; current allocated memory: 147.959 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func1_execute8.verbose.sched.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func1_execute8.sched.adb -f 
 INFO-FLOW: Finish scheduling func1_execute8.
@@ -432,7 +435,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.11 seconds; current allocated memory: 148.396 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.12 seconds; current allocated memory: 148.489 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func1_execute8.verbose.bind.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func1_execute8.bind.adb -f 
 INFO-FLOW: Finish binding func1_execute8.
@@ -443,7 +446,7 @@ Execute       set_default_model func15
 Execute       schedule -model func15 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.13 seconds; current allocated memory: 148.495 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.13 seconds; current allocated memory: 148.573 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func15.verbose.sched.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func15.sched.adb -f 
 INFO-FLOW: Finish scheduling func15.
@@ -458,7 +461,7 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
 Command       bind done; 0.14 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.14 seconds; current allocated memory: 148.585 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.14 seconds; current allocated memory: 148.663 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func15.verbose.bind.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func15.bind.adb -f 
 INFO-FLOW: Finish binding func15.
@@ -469,8 +472,8 @@ Execute       set_default_model func24
 Execute       schedule -model func24 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.27 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.41 seconds; current allocated memory: 149.281 MB.
+Command       schedule done; 0.38 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.16 seconds; current allocated memory: 149.374 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func24.verbose.sched.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func24.sched.adb -f 
 INFO-FLOW: Finish scheduling func24.
@@ -484,8 +487,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 1.11 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.19 seconds; current allocated memory: 149.860 MB.
+Command       bind done; 0.15 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 149.953 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func24.verbose.bind.rpt -verbose -f 
 Command       report done; 0.12 sec.
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func24.bind.adb -f 
@@ -497,7 +500,7 @@ Execute       set_default_model kernel_2mm
 Execute       schedule -model kernel_2mm 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.26 seconds; current allocated memory: 149.987 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 150.102 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm.verbose.sched.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm.sched.adb -f 
 INFO-FLOW: Finish scheduling kernel_2mm.
@@ -511,8 +514,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.19 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.19 seconds; current allocated memory: 150.145 MB.
+Command       bind done; 0.2 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.2 seconds; current allocated memory: 150.223 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm.verbose.bind.rpt -verbose -f 
 Command       report done; 0.16 sec.
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm.bind.adb -f 
@@ -526,7 +529,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 9.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 150.458 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 150.519 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.verbose.sched.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.sched.adb -f 
 INFO-FLOW: Finish scheduling writeData.
@@ -540,7 +543,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 150.652 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 150.715 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.verbose.bind.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.bind.adb -f 
 INFO-FLOW: Finish binding writeData.
@@ -551,7 +554,7 @@ Execute       set_default_model kernel_2mm_wrapper
 Execute       schedule -model kernel_2mm_wrapper 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 150.844 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.11 seconds; current allocated memory: 150.923 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.verbose.sched.rpt -verbose -f 
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.sched.adb -f 
 INFO-FLOW: Finish scheduling kernel_2mm_wrapper.
@@ -565,8 +568,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.32 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.33 seconds; current allocated memory: 151.123 MB.
+Command       bind done; 0.41 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.42 seconds; current allocated memory: 151.198 MB.
 Execute       report -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.verbose.bind.rpt -verbose -f 
 Command       report done; 0.32 sec.
 Execute       db_write -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.bind.adb -f 
@@ -590,8 +593,7 @@ Execute       get_config_rtl -prefix
 Execute       get_config_rtl -auto_prefix 
 Execute       create_rtl_model readData32 -vendor xilinx -mg_file /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/readData32.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'readData32'.
-Command       create_rtl_model done; 0.11 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.45 seconds; current allocated memory: 153.555 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.48 seconds; current allocated memory: 153.630 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl readData32 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/readData32 -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl readData32 -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/readData32 
@@ -600,7 +602,7 @@ Execute       gen_tb_info readData32 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benc
 Execute       report -model readData32 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/readData32_csynth.rpt -f 
 Execute       report -model readData32 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/readData32_csynth.xml -f -x 
 Execute       report -model readData32 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/readData32.verbose.rpt -verbose -f 
-Command       report done; 0.19 sec.
+Command       report done; 0.18 sec.
 Execute       db_write -model readData32 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/readData32.adb -f 
 Command       db_write done; 0.11 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -610,7 +612,7 @@ Execute       get_config_rtl -prefix
 Execute       get_config_rtl -auto_prefix 
 Execute       create_rtl_model buffer_func1_D6 -vendor xilinx -mg_file /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_D6.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'buffer_func1_D6'.
-INFO: [HLS 200-111]  Elapsed time: 0.61 seconds; current allocated memory: 157.451 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.59 seconds; current allocated memory: 157.622 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl buffer_func1_D6 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/buffer_func1_D6 -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl buffer_func1_D6 -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/buffer_func1_D6 
@@ -627,7 +629,7 @@ Execute       get_config_rtl -prefix
 Execute       get_config_rtl -auto_prefix 
 Execute       create_rtl_model buffer_func1_C7 -vendor xilinx -mg_file /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/buffer_func1_C7.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'buffer_func1_C7'.
-INFO: [HLS 200-111]  Elapsed time: 0.18 seconds; current allocated memory: 158.349 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.3 seconds; current allocated memory: 158.572 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl buffer_func1_C7 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/buffer_func1_C7 -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl buffer_func1_C7 -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/buffer_func1_C7 
@@ -648,8 +650,7 @@ INFO: [SYN 201-210] Renamed object name 'kernel_2mm_wrapper_mul_32s_32s_32_5_1' 
 INFO: [RTGEN 206-100] Generating core module 'kernel_2mm_wrappebkb': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'kernel_2mm_wrappecud': 2 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'func1_execute8'.
-Command       create_rtl_model done; 0.11 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.31 seconds; current allocated memory: 160.259 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.28 seconds; current allocated memory: 160.481 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl func1_execute8 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/func1_execute8 -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl func1_execute8 -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/func1_execute8 
@@ -658,7 +659,7 @@ Execute       gen_tb_info func1_execute8 -o /home/tingyuan/Dropbox/Hi-ClockFLow_
 Execute       report -model func1_execute8 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/func1_execute8_csynth.rpt -f 
 Execute       report -model func1_execute8 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/func1_execute8_csynth.xml -f -x 
 Execute       report -model func1_execute8 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func1_execute8.verbose.rpt -verbose -f 
-Command       report done; 0.13 sec.
+Command       report done; 0.12 sec.
 Execute       db_write -model func1_execute8 -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func1_execute8.adb -f 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'func15' 
@@ -667,7 +668,7 @@ Execute       get_config_rtl -prefix
 Execute       get_config_rtl -auto_prefix 
 Execute       create_rtl_model func15 -vendor xilinx -mg_file /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/func15.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'func15'.
-INFO: [HLS 200-111]  Elapsed time: 0.53 seconds; current allocated memory: 163.159 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.39 seconds; current allocated memory: 163.446 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl func15 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/func15 -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl func15 -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/func15 
@@ -687,7 +688,7 @@ INFO: [SYN 201-210] Renamed object name 'kernel_2mm_wrapper_mul_32s_10ns_32_5_1'
 INFO: [RTGEN 206-100] Generating core module 'kernel_2mm_wrappecud': 8 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'kernel_2mm_wrappedEe': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'func24'.
-INFO: [HLS 200-111]  Elapsed time: 0.31 seconds; current allocated memory: 164.508 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 164.883 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl func24 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/func24 -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl func24 -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/func24 
@@ -713,8 +714,8 @@ INFO: [SYN 201-210] Renamed object name 'kernel_2mm_tmp_mid_5' to 'kernel_2mm_tm
 INFO: [SYN 201-210] Renamed object name 'kernel_2mm_tmp_mid_6' to 'kernel_2mm_tmp_mikbM' due to the length limit 20
 INFO: [SYN 201-210] Renamed object name 'kernel_2mm_tmp_mid_7' to 'kernel_2mm_tmp_milbW' due to the length limit 20
 INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel_2mm'.
-Command       create_rtl_model done; 0.38 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.73 seconds; current allocated memory: 168.710 MB.
+Command       create_rtl_model done; 0.47 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.81 seconds; current allocated memory: 169.087 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl kernel_2mm -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/kernel_2mm -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl kernel_2mm -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/kernel_2mm 
@@ -732,7 +733,7 @@ Execute       get_config_rtl -prefix
 Execute       get_config_rtl -auto_prefix 
 Execute       create_rtl_model writeData -vendor xilinx -mg_file /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'writeData'.
-INFO: [HLS 200-111]  Elapsed time: 0.51 seconds; current allocated memory: 170.393 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.55 seconds; current allocated memory: 170.600 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl writeData -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/writeData -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl writeData -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/writeData 
@@ -741,6 +742,7 @@ Execute       gen_tb_info writeData -o /home/tingyuan/Dropbox/Hi-ClockFLow_Bench
 Execute       report -model writeData -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/writeData_csynth.rpt -f 
 Execute       report -model writeData -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/writeData_csynth.xml -f -x 
 Execute       report -model writeData -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.verbose.rpt -verbose -f 
+Command       report done; 0.15 sec.
 Execute       db_write -model writeData -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.adb -f 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'kernel_2mm_wrapper' 
@@ -775,8 +777,8 @@ INFO: [SYN 201-210] Renamed object name 'kernel_2mm_wrapper_C_7' to 'kernel_2mm_
 INFO: [SYN 201-210] Renamed object name 'kernel_2mm_wrapper_D' to 'kernel_2mm_wrappeyd2' due to the length limit 20
 INFO: [SYN 201-210] Renamed object name 'kernel_2mm_wrapper_D_output' to 'kernel_2mm_wrappezec' due to the length limit 20
 INFO: [RTGEN 206-100] Finished creating RTL model for 'kernel_2mm_wrapper'.
-Command       create_rtl_model done; 0.36 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.57 seconds; current allocated memory: 175.236 MB.
+Command       create_rtl_model done; 1 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.71 seconds; current allocated memory: 175.491 MB.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
 Execute       gen_rtl kernel_2mm_wrapper -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/systemc/kernel_2mm_wrapper -synmodules readData32 buffer_func1_D6 buffer_func1_C7 func1_execute8 func15 func24 kernel_2mm writeData kernel_2mm_wrapper 
 Execute       gen_rtl kernel_2mm_wrapper -istop -style xilinx -f -lang vhdl -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/vhdl/kernel_2mm_wrapper 
@@ -790,7 +792,7 @@ Execute       gen_tb_info kernel_2mm_wrapper -o /home/tingyuan/Dropbox/Hi-ClockF
 Execute       report -model kernel_2mm_wrapper -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/kernel_2mm_wrapper_csynth.rpt -f 
 Execute       report -model kernel_2mm_wrapper -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/syn/report/kernel_2mm_wrapper_csynth.xml -f -x 
 Execute       report -model kernel_2mm_wrapper -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.verbose.rpt -verbose -f 
-Command       report done; 0.36 sec.
+Command       report done; 0.35 sec.
 Execute       db_write -model kernel_2mm_wrapper -o /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.adb -f 
 Execute       sc_get_clocks kernel_2mm_wrapper 
 Execute       sc_get_portdomain kernel_2mm_wrapper 
@@ -892,7 +894,10 @@ Execute             source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xi
 Execute             source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
 Execute             source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
 Execute             source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source done; 0.11 sec.
 Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source done; 0.11 sec.
+Command       ap_source done; 0.11 sec.
 Execute       source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
 Execute         source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/global.setting.tcl 
@@ -912,7 +917,6 @@ INFO: [RTMG 210-278] Implementing memory 'kernel_2mm_D_mid_memcore_ram (RAM)' us
 INFO: [RTMG 210-278] Implementing memory 'kernel_2mm_C_mid_0_memcore_ram (RAM)' using block RAMs.
 INFO: [RTMG 210-278] Implementing memory 'kernel_2mm_C_mid_2_memcore_ram (RAM)' using block RAMs.
 INFO: [RTMG 210-278] Implementing memory 'kernel_2mm_tmp_mig8j_memcore_ram (RAM)' using block RAMs.
-Command       ap_source done; 0.15 sec.
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/writeData.compgen.tcl 
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.compgen.tcl 
 INFO: [RTMG 210-278] Implementing memory 'kernel_2mm_wrappemb6_memcore_ram (RAM)' using block RAMs.
@@ -923,7 +927,7 @@ INFO: [RTMG 210-278] Implementing memory 'kernel_2mm_wrappeyd2_memcore_ram (RAM)
 INFO: [RTMG 210-285] Implementing FIFO 'D_output_AXI_c_U(fifo_w32_d3_A)' using Shift Registers.
 Execute         source ./for_control.slave.tcl 
 Execute         is_m_axi_addr64 
-Command       ap_source done; 0.36 sec.
+Command       ap_source done; 0.42 sec.
 Execute       get_config_sdx -target 
 Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/global.setting.tcl 
 Execute       source /opt/Xilinx_201802/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
@@ -1006,15 +1010,15 @@ Execute       source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buff
 Execute       get_config_sdx -target 
 Execute       get_config_sdx -profile 
 Execute       ::config_rtl 
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 631.559 ; gain = 256.000 ; free physical = 6046 ; free virtual = 27035
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 631.559 ; gain = 256.000 ; free physical = 9561 ; free virtual = 28376
 INFO: [SYSC 207-301] Generating SystemC RTL for kernel_2mm_wrapper.
 INFO: [VHDL 208-304] Generating VHDL RTL for kernel_2mm_wrapper.
 INFO: [VLOG 209-307] Generating Verilog RTL for kernel_2mm_wrapper.
-Command     autosyn done; 12.34 sec.
-Command   csynth_design done; 20.3 sec.
-Command ap_source done; 20.68 sec.
+Command     autosyn done; 13.61 sec.
+Command   csynth_design done; 21.46 sec.
+Command ap_source done; 21.71 sec.
 Execute cleanup_all 
-INFO-FLOW: Workspace /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1 opened at Mon Sep 02 22:41:32 CST 2019
+INFO-FLOW: Workspace /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1 opened at Tue Sep 03 11:01:57 CST 2019
 Execute     config_clock -quiet -name default -period 6 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 6ns.
 Execute     open_platform DefaultPlatform 
@@ -1097,7 +1101,7 @@ Execute     get_default_platform
 Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
 Execute     config_chip_info -quiet -speed slow 
 Execute     config_schedule -effort=medium -relax_ii_for_timing=1 -verbose=0 
-Command   open_solution done; 0.22 sec.
+Command   open_solution done; 0.25 sec.
 Execute   export_design -rtl verilog -format ip_catalog 
 Execute     source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/global.setting.tcl 
 Execute     source /opt/Xilinx_201802/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
@@ -1122,8 +1126,6 @@ Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xili
 Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
 Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
 Execute         source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
-Command       ap_source done; 0.11 sec.
-Command     ap_source done; 0.11 sec.
 Execute     source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
 Execute       source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
 Execute     source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/global.setting.tcl 
@@ -1153,8 +1155,6 @@ Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xili
 Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
 Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
 Execute         source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
-Command       ap_source done; 0.11 sec.
-Command     ap_source done; 0.11 sec.
 Execute     source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
 Execute       source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
 Execute     source /home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted/2mmDataflow/solution1/.autopilot/db/kernel_2mm_wrapper.rtl_wrap.cfg.tcl 
@@ -1249,10 +1249,10 @@ Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xili
 Execute           source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
 Command         ap_source done; 0.11 sec.
 Execute         source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
-Command       ap_source done; 0.12 sec.
-Command     ap_source done; 0.12 sec.
+Command       ap_source done; 0.11 sec.
+Command     ap_source done; 0.11 sec.
 Execute     source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
 Execute       source /opt/Xilinx_201802/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command   export_design done; 12.84 sec.
-Command ap_source done; 13.07 sec.
+Command   export_design done; 12.45 sec.
+Command ap_source done; 12.7 sec.
 Execute cleanup_all 

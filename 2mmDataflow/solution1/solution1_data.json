@@ -2537,36 +2537,29 @@
       },
       "buffer_func1_D6": {
         "Latency": {
-          "LatencyBest": "1185",
-          "LatencyAvg": "1185",
-          "LatencyWorst": "1185",
-          "PipelineII": "1185",
+          "LatencyBest": "389",
+          "LatencyAvg": "389",
+          "LatencyWorst": "389",
+          "PipelineII": "389",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "6.00",
           "Uncertainty": "0.75",
-          "Estimate": "4.985"
+          "Estimate": "4.359"
         },
         "Loops": [{
             "Name": "Loop 1",
-            "TripCount": "16",
-            "Latency": "1184",
-            "PipelineII": "",
-            "PipelineDepth": "74",
-            "Loops": [{
-                "Name": "Loop 1.1",
-                "TripCount": "24",
-                "Latency": "72",
-                "PipelineII": "",
-                "PipelineDepth": "3"
-              }]
+            "TripCount": "384",
+            "Latency": "387",
+            "PipelineII": "1",
+            "PipelineDepth": "5"
           }],
         "Area": {
-          "FF": "128",
-          "LUT": "131",
           "BRAM_18K": "0",
+          "FF": "272",
+          "LUT": "254",
           "DSP48E": "0"
         }
       },
@@ -2657,8 +2650,8 @@
         "Area": {
           "BRAM_18K": "0",
           "DSP48E": "16",
-          "FF": "1994",
-          "LUT": "1088"
+          "FF": "2138",
+          "LUT": "1211"
         }
       },
       "func24": {
@@ -2720,8 +2713,8 @@
         "Area": {
           "BRAM_18K": "17",
           "DSP48E": "52",
-          "FF": "5109",
-          "LUT": "1998"
+          "FF": "5253",
+          "LUT": "2121"
         }
       },
       "writeData": {
@@ -2769,8 +2762,8 @@
         "Area": {
           "BRAM_18K": "41",
           "DSP48E": "52",
-          "FF": "9661",
-          "LUT": "7495"
+          "FF": "9805",
+          "LUT": "7618"
         }
       }
     }
@@ -2782,7 +2775,7 @@
   },
   "GenData": {
     "DataVersion": "0.1",
-    "Time": "2019-09-02 22:41:24 CST",
+    "Time": "2019-09-03 11:01:40 CST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2018.2"
   }

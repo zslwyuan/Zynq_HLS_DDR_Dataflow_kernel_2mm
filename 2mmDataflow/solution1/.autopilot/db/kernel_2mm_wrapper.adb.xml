@@ -558,7 +558,7 @@
 
 <Node id="38" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:27  call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str10, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [12 x i8]* @p_str11, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind
+:27  call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str11, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [12 x i8]* @p_str12, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -573,7 +573,7 @@
 
 <Node id="39" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:28  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem0, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str13, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:28  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem0, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str14, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -588,7 +588,7 @@
 
 <Node id="40" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:29  call void (...)* @_ssdm_op_SpecInterface(i32 %A_AXI, [10 x i8]* @mode, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:29  call void (...)* @_ssdm_op_SpecInterface(i32 %A_AXI, [10 x i8]* @mode, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -603,7 +603,7 @@
 
 <Node id="41" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:30  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem1, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str15, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:30  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem1, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -618,7 +618,7 @@
 
 <Node id="42" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:31  call void (...)* @_ssdm_op_SpecInterface(i32 %B_AXI, [10 x i8]* @mode20, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle21, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:31  call void (...)* @_ssdm_op_SpecInterface(i32 %B_AXI, [10 x i8]* @mode20, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle21, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -633,7 +633,7 @@
 
 <Node id="43" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:32  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem2, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str16, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:32  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem2, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -648,7 +648,7 @@
 
 <Node id="44" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:33  call void (...)* @_ssdm_op_SpecInterface(i32 %C_AXI, [10 x i8]* @mode22, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle23, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:33  call void (...)* @_ssdm_op_SpecInterface(i32 %C_AXI, [10 x i8]* @mode22, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle23, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -663,7 +663,7 @@
 
 <Node id="45" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:34  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem3, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str17, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:34  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem3, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -678,7 +678,7 @@
 
 <Node id="46" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:35  call void (...)* @_ssdm_op_SpecInterface(i32 %D_input_AXI, [10 x i8]* @mode24, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle25, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:35  call void (...)* @_ssdm_op_SpecInterface(i32 %D_input_AXI, [10 x i8]* @mode24, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle25, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -693,7 +693,7 @@
 
 <Node id="47" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:36  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem4, [6 x i8]* @p_str12, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str18, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:36  call void (...)* @_ssdm_op_SpecInterface(i32* %gmem4, [6 x i8]* @p_str13, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str19, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -708,7 +708,7 @@
 
 <Node id="48" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-:37  call void (...)* @_ssdm_op_SpecInterface(i32 %D_output_AXI, [10 x i8]* @mode26, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle27, [6 x i8]* @p_str14, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
+:37  call void (...)* @_ssdm_op_SpecInterface(i32 %D_output_AXI, [10 x i8]* @mode26, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle27, [6 x i8]* @p_str15, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -1060,7 +1060,7 @@
 </dataflow>
 <dataflow id="206" from="StgValue_205" to="StgValue_39" fromId="205" toId="39">
 </dataflow>
-<dataflow id="208" from="p_str10" to="StgValue_39" fromId="207" toId="39">
+<dataflow id="208" from="p_str11" to="StgValue_39" fromId="207" toId="39">
 </dataflow>
 <dataflow id="209" from="StgValue_205" to="StgValue_39" fromId="205" toId="39">
 </dataflow>
@@ -1072,7 +1072,7 @@
 </dataflow>
 <dataflow id="213" from="StgValue_205" to="StgValue_39" fromId="205" toId="39">
 </dataflow>
-<dataflow id="215" from="p_str11" to="StgValue_39" fromId="214" toId="39">
+<dataflow id="215" from="p_str12" to="StgValue_39" fromId="214" toId="39">
 </dataflow>
 <dataflow id="216" from="p_str" to="StgValue_39" fromId="197" toId="39">
 </dataflow>
@@ -1094,7 +1094,7 @@
 </dataflow>
 <dataflow id="225" from="gmem0" to="StgValue_40" fromId="60" toId="40">
 </dataflow>
-<dataflow id="227" from="p_str12" to="StgValue_40" fromId="226" toId="40">
+<dataflow id="227" from="p_str13" to="StgValue_40" fromId="226" toId="40">
 </dataflow>
 <dataflow id="228" from="StgValue_205" to="StgValue_40" fromId="205" toId="40">
 </dataflow>
@@ -1106,9 +1106,9 @@
 </dataflow>
 <dataflow id="232" from="StgValue_205" to="StgValue_40" fromId="205" toId="40">
 </dataflow>
-<dataflow id="234" from="p_str13" to="StgValue_40" fromId="233" toId="40">
+<dataflow id="234" from="p_str14" to="StgValue_40" fromId="233" toId="40">
 </dataflow>
-<dataflow id="236" from="p_str14" to="StgValue_40" fromId="235" toId="40">
+<dataflow id="236" from="p_str15" to="StgValue_40" fromId="235" toId="40">
 </dataflow>
 <dataflow id="237" from="p_str" to="StgValue_40" fromId="197" toId="40">
 </dataflow>
@@ -1142,7 +1142,7 @@
 </dataflow>
 <dataflow id="255" from="bundle" to="StgValue_41" fromId="254" toId="41">
 </dataflow>
-<dataflow id="256" from="p_str14" to="StgValue_41" fromId="235" toId="41">
+<dataflow id="256" from="p_str15" to="StgValue_41" fromId="235" toId="41">
 </dataflow>
 <dataflow id="257" from="p_str" to="StgValue_41" fromId="197" toId="41">
 </dataflow>
@@ -1162,7 +1162,7 @@
 </dataflow>
 <dataflow id="265" from="gmem1" to="StgValue_42" fromId="61" toId="42">
 </dataflow>
-<dataflow id="266" from="p_str12" to="StgValue_42" fromId="226" toId="42">
+<dataflow id="266" from="p_str13" to="StgValue_42" fromId="226" toId="42">
 </dataflow>
 <dataflow id="267" from="StgValue_205" to="StgValue_42" fromId="205" toId="42">
 </dataflow>
@@ -1174,9 +1174,9 @@
 </dataflow>
 <dataflow id="271" from="StgValue_205" to="StgValue_42" fromId="205" toId="42">
 </dataflow>
-<dataflow id="273" from="p_str15" to="StgValue_42" fromId="272" toId="42">
+<dataflow id="273" from="p_str16" to="StgValue_42" fromId="272" toId="42">
 </dataflow>
-<dataflow id="274" from="p_str14" to="StgValue_42" fromId="235" toId="42">
+<dataflow id="274" from="p_str15" to="StgValue_42" fromId="235" toId="42">
 </dataflow>
 <dataflow id="275" from="p_str" to="StgValue_42" fromId="197" toId="42">
 </dataflow>
@@ -1210,7 +1210,7 @@
 </dataflow>
 <dataflow id="292" from="bundle21" to="StgValue_43" fromId="291" toId="43">
 </dataflow>
-<dataflow id="293" from="p_str14" to="StgValue_43" fromId="235" toId="43">
+<dataflow id="293" from="p_str15" to="StgValue_43" fromId="235" toId="43">
 </dataflow>
 <dataflow id="294" from="p_str" to="StgValue_43" fromId="197" toId="43">
 </dataflow>
@@ -1230,7 +1230,7 @@
 </dataflow>
 <dataflow id="302" from="gmem2" to="StgValue_44" fromId="62" toId="44">
 </dataflow>
-<dataflow id="303" from="p_str12" to="StgValue_44" fromId="226" toId="44">
+<dataflow id="303" from="p_str13" to="StgValue_44" fromId="226" toId="44">
 </dataflow>
 <dataflow id="304" from="StgValue_205" to="StgValue_44" fromId="205" toId="44">
 </dataflow>
@@ -1242,9 +1242,9 @@
 </dataflow>
 <dataflow id="308" from="StgValue_205" to="StgValue_44" fromId="205" toId="44">
 </dataflow>
-<dataflow id="310" from="p_str16" to="StgValue_44" fromId="309" toId="44">
+<dataflow id="310" from="p_str17" to="StgValue_44" fromId="309" toId="44">
 </dataflow>
-<dataflow id="311" from="p_str14" to="StgValue_44" fromId="235" toId="44">
+<dataflow id="311" from="p_str15" to="StgValue_44" fromId="235" toId="44">
 </dataflow>
 <dataflow id="312" from="p_str" to="StgValue_44" fromId="197" toId="44">
 </dataflow>
@@ -1278,7 +1278,7 @@
 </dataflow>
 <dataflow id="329" from="bundle23" to="StgValue_45" fromId="328" toId="45">
 </dataflow>
-<dataflow id="330" from="p_str14" to="StgValue_45" fromId="235" toId="45">
+<dataflow id="330" from="p_str15" to="StgValue_45" fromId="235" toId="45">
 </dataflow>
 <dataflow id="331" from="p_str" to="StgValue_45" fromId="197" toId="45">
 </dataflow>
@@ -1298,7 +1298,7 @@
 </dataflow>
 <dataflow id="339" from="gmem3" to="StgValue_46" fromId="63" toId="46">
 </dataflow>
-<dataflow id="340" from="p_str12" to="StgValue_46" fromId="226" toId="46">
+<dataflow id="340" from="p_str13" to="StgValue_46" fromId="226" toId="46">
 </dataflow>
 <dataflow id="341" from="StgValue_205" to="StgValue_46" fromId="205" toId="46">
 </dataflow>
@@ -1310,9 +1310,9 @@
 </dataflow>
 <dataflow id="345" from="StgValue_205" to="StgValue_46" fromId="205" toId="46">
 </dataflow>
-<dataflow id="347" from="p_str17" to="StgValue_46" fromId="346" toId="46">
+<dataflow id="347" from="p_str18" to="StgValue_46" fromId="346" toId="46">
 </dataflow>
-<dataflow id="348" from="p_str14" to="StgValue_46" fromId="235" toId="46">
+<dataflow id="348" from="p_str15" to="StgValue_46" fromId="235" toId="46">
 </dataflow>
 <dataflow id="349" from="p_str" to="StgValue_46" fromId="197" toId="46">
 </dataflow>
@@ -1346,7 +1346,7 @@
 </dataflow>
 <dataflow id="366" from="bundle25" to="StgValue_47" fromId="365" toId="47">
 </dataflow>
-<dataflow id="367" from="p_str14" to="StgValue_47" fromId="235" toId="47">
+<dataflow id="367" from="p_str15" to="StgValue_47" fromId="235" toId="47">
 </dataflow>
 <dataflow id="368" from="p_str" to="StgValue_47" fromId="197" toId="47">
 </dataflow>
@@ -1366,7 +1366,7 @@
 </dataflow>
 <dataflow id="376" from="gmem4" to="StgValue_48" fromId="64" toId="48">
 </dataflow>
-<dataflow id="377" from="p_str12" to="StgValue_48" fromId="226" toId="48">
+<dataflow id="377" from="p_str13" to="StgValue_48" fromId="226" toId="48">
 </dataflow>
 <dataflow id="378" from="StgValue_205" to="StgValue_48" fromId="205" toId="48">
 </dataflow>
@@ -1378,9 +1378,9 @@
 </dataflow>
 <dataflow id="382" from="StgValue_205" to="StgValue_48" fromId="205" toId="48">
 </dataflow>
-<dataflow id="384" from="p_str18" to="StgValue_48" fromId="383" toId="48">
+<dataflow id="384" from="p_str19" to="StgValue_48" fromId="383" toId="48">
 </dataflow>
-<dataflow id="385" from="p_str14" to="StgValue_48" fromId="235" toId="48">
+<dataflow id="385" from="p_str15" to="StgValue_48" fromId="235" toId="48">
 </dataflow>
 <dataflow id="386" from="p_str" to="StgValue_48" fromId="197" toId="48">
 </dataflow>
@@ -1414,7 +1414,7 @@
 </dataflow>
 <dataflow id="403" from="bundle27" to="StgValue_49" fromId="402" toId="49">
 </dataflow>
-<dataflow id="404" from="p_str14" to="StgValue_49" fromId="235" toId="49">
+<dataflow id="404" from="p_str15" to="StgValue_49" fromId="235" toId="49">
 </dataflow>
 <dataflow id="405" from="p_str" to="StgValue_49" fromId="197" toId="49">
 </dataflow>

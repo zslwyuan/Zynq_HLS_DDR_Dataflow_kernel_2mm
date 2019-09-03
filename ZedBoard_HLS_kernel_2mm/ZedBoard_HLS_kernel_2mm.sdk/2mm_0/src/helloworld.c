@@ -51,17 +51,22 @@
 #include "xil_io.h"
 #include "xscugic.h"
 #include "xkernel_2mm_wrapper.h"
+#include "xtimer.h"
 #include "2mm_control.h"
 #include "test.h"
 
 // HLS macc HW instance
-XKernel_2mm_wrapper hls_test;
+XKernel_2mm_wrapper hls_2mm;
+XTimer hls_timer;
+
 //Interrupt Controller Instance
 XScuGic ScuGic;
 
-volatile int RunHlsMacc = 0;
-volatile int ResultAvailHlsMacc = 0;
+volatile int RunHlsMacc_2mm = 0;
+volatile int ResultAvailHlsMacc_2mm = 0;
 
+volatile int RunHlsMacc_timer = 0;
+volatile int ResultAvailHlsMacc_timer = 0;
 
 
 
@@ -78,11 +83,17 @@ int main()
 /////////////// Setup the control of the HLS module /////////////////
 /////////////////////////////////////////////////////////////////////
 
-    status = xkernel_2mm_wrapper_init(&hls_test); // you need to modify this function according to your HLS function
+    status = xkernel_2mm_wrapper_init(&hls_2mm); // you need to modify this function according to your HLS function
     if(status != XST_SUCCESS){
-       print("HLS peripheral setup failed\n\r");
+       print("HLS 2mm setup failed\n\r");
        exit(-1);
     }
+    status = xtimer_init(&hls_timer); // you need to modify this function according to your HLS function
+    if(status != XST_SUCCESS){
+       print("HLS timer setup failed\n\r");
+       exit(-1);
+    }
+
     //Setup the interrupt
     status = setup_interrupt(); // you need to modify this function according to your HLS function
     if(status != XST_SUCCESS){
@@ -105,11 +116,11 @@ int main()
 
     arrayInitialize(A_AXI, B_AXI, C_AXI, D_input_AXI, D_output_AXI);
 
-	XKernel_2mm_wrapper_Set_D_output_AXI(&hls_test,D_output_AXI);
-	XKernel_2mm_wrapper_Set_A_AXI(&hls_test,A_AXI);
-	XKernel_2mm_wrapper_Set_B_AXI(&hls_test,B_AXI);
-	XKernel_2mm_wrapper_Set_C_AXI(&hls_test,C_AXI);
-	XKernel_2mm_wrapper_Set_D_input_AXI(&hls_test,D_input_AXI);
+	XKernel_2mm_wrapper_Set_D_output_AXI(&hls_2mm,D_output_AXI);
+	XKernel_2mm_wrapper_Set_A_AXI(&hls_2mm,A_AXI);
+	XKernel_2mm_wrapper_Set_B_AXI(&hls_2mm,B_AXI);
+	XKernel_2mm_wrapper_Set_C_AXI(&hls_2mm,C_AXI);
+	XKernel_2mm_wrapper_Set_D_input_AXI(&hls_2mm,D_input_AXI);
 
 
 
@@ -118,27 +129,51 @@ int main()
 /////  start the acceleration of FPGA and monitor its ending. ///////
 /////////////////////////////////////////////////////////////////////
 
-    int timer_user = 0;
-    if (0) { // use interrupt
-    	xkernel_2mm_wrapper_start(&hls_test); // you need to modify this function according to your HLS function
-    //	print("Detecting interrupt from HLS HW.\n\r");
-       while(!ResultAvailHlsMacc)
-       {
-    	   timer_user++;
-       }
-          ; // spin
-       print("Interrupt received from HLS HW.\n\r");
-    } else { // Simple non-interrupt driven test
-    	xkernel_2mm_wrapper_start(&hls_test); // you need to modify this function according to your HLS function
-    //	print("Detecting HLS peripheral complete.\n\r");
-       do {
-    	   timer_user++;
-       }
-       while (!XKernel_2mm_wrapper_IsReady(&hls_test)); // because we are implementing dataflow, we should check IsReady but not IsDone
-       // you need to modify this function according to your HLS function
+	unsigned int ticks;
+	xtimer_start(&hls_timer); // enable the timer
+	int ticks_array[100];
 
-       print("Detected HLS peripheral complete. Result received.\n\r");
-    }
+	for (i=0;i<10;i++)
+	{
+	    int timer_user = 0;
+	    if (0) { // use interrupt
+	    	XTimer_Set_reset_signal(&hls_timer,1);
+	    	XTimer_Set_reset_signal(&hls_timer,0);
+	    	xkernel_2mm_wrapper_start(&hls_2mm); // you need to modify this function according to your HLS function
+
+	    //	print("Detecting interrupt from HLS HW.\n\r");
+	       while(!ResultAvailHlsMacc_2mm)
+	       {
+	    	   timer_user++;
+	       }
+	       ticks_array[i] = XTimer_Get_timeTicks(&hls_timer);
+	          ; // spin
+	       // print("Interrupt received from HLS HW.\n\r");
+	    } else
+	    { // Simple non-interrupt driven test
+	    	XTimer_Set_reset_signal(&hls_timer,1); // reset the timer
+	    	XTimer_Set_reset_signal(&hls_timer,0);
+	    	xkernel_2mm_wrapper_start(&hls_2mm); // you need to modify this function according to your HLS function
+
+	    //	print("Detecting HLS peripheral complete.\n\r");
+	       do {
+	    	   timer_user++;
+	       }
+	       while (!XKernel_2mm_wrapper_IsReady(&hls_2mm)); // because we are implementing dataflow, we should check IsReady but not IsDone
+	       // you need to modify this function according to your HLS function
+	       ticks_array[i] = XTimer_Get_timeTicks(&hls_timer);
+	       //print("Detected HLS peripheral complete. Result received.\n\r");
+	    }
+	}
+
+
+	for (i=0;i<10;i++)
+	{
+		// the initial interval will be raised gradually
+		// since the dataflow will go through faster until the data congest at the bottleneck module in the dataflow
+		printf("For data batch#%d: Timer FPGA ticks=%u.\n\r", i, ticks_array[i]);
+	}
+
 
 
 /////////////////////////////////////////////////////////////////////
@@ -154,7 +189,7 @@ int main()
     		D_input_AXI,
 			D_output_AXI_check);
 
-    printf("ticks: %d\n\r",timer_user);
+    // printf("ticks: %d\n\r",timer_user);
 
     print("-------------------------------------------------done and check as below\n\r");
   //  for(i=0;i<1000000000;i++);

@@ -10,14 +10,23 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_p
 # IP: bd/zedboard_base/ip/zedboard_base_kernel_2mm_wrapper_0_0/zedboard_base_kernel_2mm_wrapper_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_kernel_2mm_wrapper_0_0 || ORIG_REF_NAME==zedboard_base_kernel_2mm_wrapper_0_0} -quiet] -quiet
 
-# IP: bd/zedboard_base/ip/zedboard_base_axi_smc_0/zedboard_base_axi_smc_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_axi_smc_0 || ORIG_REF_NAME==zedboard_base_axi_smc_0} -quiet] -quiet
+# IP: bd/zedboard_base/ip/zedboard_base_axi_smc_1/zedboard_base_axi_smc_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_axi_smc_1 || ORIG_REF_NAME==zedboard_base_axi_smc_1} -quiet] -quiet
 
-# IP: bd/zedboard_base/ip/zedboard_base_rst_ps7_0_200M_1/zedboard_base_rst_ps7_0_200M_1.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_rst_ps7_0_200M_1 || ORIG_REF_NAME==zedboard_base_rst_ps7_0_200M_1} -quiet] -quiet
+# IP: bd/zedboard_base/ip/zedboard_base_rst_ps7_0_166M_0/zedboard_base_rst_ps7_0_166M_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_rst_ps7_0_166M_0 || ORIG_REF_NAME==zedboard_base_rst_ps7_0_166M_0} -quiet] -quiet
 
-# IP: bd/zedboard_base/ip/zedboard_base_ps7_0_axi_periph_0/zedboard_base_ps7_0_axi_periph_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_ps7_0_axi_periph_0 || ORIG_REF_NAME==zedboard_base_ps7_0_axi_periph_0} -quiet] -quiet
+# IP: bd/zedboard_base/ip/zedboard_base_ps7_0_axi_periph_1/zedboard_base_ps7_0_axi_periph_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_ps7_0_axi_periph_1 || ORIG_REF_NAME==zedboard_base_ps7_0_axi_periph_1} -quiet] -quiet
+
+# IP: bd/zedboard_base/ip/zedboard_base_xlconcat_0_0/zedboard_base_xlconcat_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_xlconcat_0_0 || ORIG_REF_NAME==zedboard_base_xlconcat_0_0} -quiet] -quiet
+
+# IP: bd/zedboard_base/ip/zedboard_base_xbar_1/zedboard_base_xbar_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_xbar_1 || ORIG_REF_NAME==zedboard_base_xbar_1} -quiet] -quiet
+
+# IP: bd/zedboard_base/ip/zedboard_base_timer_0_1/zedboard_base_timer_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_timer_0_1 || ORIG_REF_NAME==zedboard_base_timer_0_1} -quiet] -quiet
 
 # IP: bd/zedboard_base/ip/zedboard_base_auto_pc_0/zedboard_base_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zedboard_base_auto_pc_0 || ORIG_REF_NAME==zedboard_base_auto_pc_0} -quiet] -quiet

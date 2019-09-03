@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1567479693000">
+  <ports id="1" name="A_0" type="PortType" originalName="A[0]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="192">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="2" name="A_1" type="PortType" originalName="A[1]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="192">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="3" name="B_0" type="PortType" originalName="B[0]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="216">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="4" name="B_1" type="PortType" originalName="B[1]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="216">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="5" name="C_0" type="PortType" originalName="C[0]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="72">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="6" name="C_1" type="PortType" originalName="C[1]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="72">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="7" name="C_2" type="PortType" originalName="C[2]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="48">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="8" name="C_3" type="PortType" originalName="C[3]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="48">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="9" name="C_4" type="PortType" originalName="C[4]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="48">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="10" name="C_5" type="PortType" originalName="C[5]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="48">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="11" name="C_6" type="PortType" originalName="C[6]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="48">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="12" name="C_7" type="PortType" originalName="C[7]" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="48">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="13" name="D" type="PortType" originalName="D" coreName="RAM" bitwidth="32" iftype="IfTypeRegister" arraysize="384">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="14" name="tmp_0" type="PortType" originalName="tmp[0]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="15" name="tmp_1" type="PortType" originalName="tmp[1]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="16" name="tmp_2" type="PortType" originalName="tmp[2]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="32">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="17" name="tmp_3" type="PortType" originalName="tmp[3]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="32">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="18" name="tmp_4" type="PortType" originalName="tmp[4]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="32">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="19" name="tmp_5" type="PortType" originalName="tmp[5]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="32">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="20" name="tmp_6" type="PortType" originalName="tmp[6]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="32">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="21" name="tmp_7" type="PortType" originalName="tmp[7]" coreName="RAM" bitwidth="32" direction="DirInOut" iftype="IfTypeRegister" arraysize="32">
+    <dataInputObjs>call</dataInputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="22" name="C_mid_0" type="PortType" originalName="C_mid[0]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="72">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="23" name="C_mid_1" type="PortType" originalName="C_mid[1]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="72">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="24" name="C_mid_2" type="PortType" originalName="C_mid[2]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="25" name="C_mid_3" type="PortType" originalName="C_mid[3]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="26" name="C_mid_4" type="PortType" originalName="C_mid[4]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="27" name="C_mid_5" type="PortType" originalName="C_mid[5]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="28" name="C_mid_6" type="PortType" originalName="C_mid[6]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="29" name="C_mid_7" type="PortType" originalName="C_mid[7]" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="48">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="30" name="D_mid" type="PortType" originalName="D_mid" coreName="RAM" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="384">
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <edges id="38" source_obj="//@ports.12" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="39" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@ports.29"/>
+  <edges id="42" source_obj="//@ports.4" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="43" source_obj="//@ports.5" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="44" source_obj="//@ports.6" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="45" source_obj="//@ports.7" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="46" source_obj="//@ports.8" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="47" source_obj="//@ports.9" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="48" source_obj="//@ports.10" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="49" source_obj="//@ports.11" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="50" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.21"/>
+  <edges id="51" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.22"/>
+  <edges id="52" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.23"/>
+  <edges id="53" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.24"/>
+  <edges id="54" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.25"/>
+  <edges id="55" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.26"/>
+  <edges id="56" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.27"/>
+  <edges id="57" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.28"/>
+  <edges id="60" source_obj="//@ports.13" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="61" source_obj="//@ports.14" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="62" source_obj="//@ports.15" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="63" source_obj="//@ports.16" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="64" source_obj="//@ports.17" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="65" source_obj="//@ports.18" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="66" source_obj="//@ports.19" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="67" source_obj="//@ports.20" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="68" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="69" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="70" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="71" source_obj="//@ports.3" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="-60" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.13"/>
+  <edges id="-61" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.14"/>
+  <edges id="-62" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.15"/>
+  <edges id="-63" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.16"/>
+  <edges id="-64" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.17"/>
+  <edges id="-65" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.18"/>
+  <edges id="-66" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.19"/>
+  <edges id="-67" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.20"/>
+  <blocks id="35" name="func15" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="node_31" lineNumber="76" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="grp_buffer_func1_D6_fu_130" contextFuncName="func1" opcode="call" nodeLatency="1" m_display="0">
+      <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="76" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="func1"/>
+      <dataInputObjs>D</dataInputObjs>
+      <dataOutputObjs>D_mid</dataOutputObjs>
+      <constName>buffer_func1_D6</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="node_32" lineNumber="80" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="grp_buffer_func1_C7_fu_94" contextFuncName="func1" opcode="call" nodeLatency="1" m_display="0">
+      <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="80" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="func1"/>
+      <dataInputObjs>C_0</dataInputObjs>
+      <dataInputObjs>C_1</dataInputObjs>
+      <dataInputObjs>C_2</dataInputObjs>
+      <dataInputObjs>C_3</dataInputObjs>
+      <dataInputObjs>C_4</dataInputObjs>
+      <dataInputObjs>C_5</dataInputObjs>
+      <dataInputObjs>C_6</dataInputObjs>
+      <dataInputObjs>C_7</dataInputObjs>
+      <dataOutputObjs>C_mid_0</dataOutputObjs>
+      <dataOutputObjs>C_mid_1</dataOutputObjs>
+      <dataOutputObjs>C_mid_2</dataOutputObjs>
+      <dataOutputObjs>C_mid_3</dataOutputObjs>
+      <dataOutputObjs>C_mid_4</dataOutputObjs>
+      <dataOutputObjs>C_mid_5</dataOutputObjs>
+      <dataOutputObjs>C_mid_6</dataOutputObjs>
+      <dataOutputObjs>C_mid_7</dataOutputObjs>
+      <constName>buffer_func1_C7</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="node_33" lineNumber="84" fileName="2mmDataflow/2mm.cc" fileDirectory=".." rtlName="grp_func1_execute8_fu_66" contextFuncName="func1" opcode="call" nodeLatency="1" m_display="0">
+      <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="84" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="func1"/>
+      <dataInputObjs>tmp_0</dataInputObjs>
+      <dataInputObjs>tmp_1</dataInputObjs>
+      <dataInputObjs>tmp_2</dataInputObjs>
+      <dataInputObjs>tmp_3</dataInputObjs>
+      <dataInputObjs>tmp_4</dataInputObjs>
+      <dataInputObjs>tmp_5</dataInputObjs>
+      <dataInputObjs>tmp_6</dataInputObjs>
+      <dataInputObjs>tmp_7</dataInputObjs>
+      <dataInputObjs>A_0</dataInputObjs>
+      <dataInputObjs>A_1</dataInputObjs>
+      <dataInputObjs>B_0</dataInputObjs>
+      <dataInputObjs>B_1</dataInputObjs>
+      <dataOutputObjs>tmp_0</dataOutputObjs>
+      <dataOutputObjs>tmp_1</dataOutputObjs>
+      <dataOutputObjs>tmp_2</dataOutputObjs>
+      <dataOutputObjs>tmp_3</dataOutputObjs>
+      <dataOutputObjs>tmp_4</dataOutputObjs>
+      <dataOutputObjs>tmp_5</dataOutputObjs>
+      <dataOutputObjs>tmp_6</dataOutputObjs>
+      <dataOutputObjs>tmp_7</dataOutputObjs>
+      <constName>func1_execute8</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="node_34" lineNumber="90" fileName="2mmDataflow/2mm.cc" fileDirectory=".." contextFuncName="func1" opcode="ret" nodeLabel="1.0" m_display="0">
+      <inlineStackInfo fileName="2mmDataflow/2mm.cc" linenumber="90" fileDirectory="/home/tingyuan/Dropbox/Hi-ClockFLow_Benchmarks/2mm/hls_buffer_inserted" functionName="func1"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="2mmDataflow/2mm.cc">
+      <validLinenumbers>76</validLinenumbers>
+      <validLinenumbers>80</validLinenumbers>
+      <validLinenumbers>84</validLinenumbers>
+      <validLinenumbers>90</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <moduleNodes realName="grp_buffer_func1_C7_fu_94">
+    <nodeIds>32</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_func1_execute8_fu_66">
+    <nodeIds>33</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_buffer_func1_D6_fu_130">
+    <nodeIds>31</nodeIds>
+  </moduleNodes>
+  <fsm>
+    <states id="1">
+      <operations id="31" stage="2" latency="2"/>
+      <operations id="32" stage="2" latency="2"/>
+      <operations id="33" stage="2" latency="2"/>
+    </states>
+    <states id="2">
+      <operations id="31" stage="1" latency="2"/>
+      <operations id="32" stage="1" latency="2"/>
+      <operations id="33" stage="1" latency="2"/>
+      <operations id="34" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="2"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="func15" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="18722" mMaxLatency="18722">
+      <basicBlocks>35</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

@@ -12,5 +12,5 @@
   <xd:arg xd:name="D_input_AXI" xd:originalName="D_input_AXI" xd:direction="in" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem3" xd:dataWidth="32" xd:offset="0x28" xd:handshakeRef="ap_none"/>
   <xd:arg xd:name="D_output_AXI" xd:originalName="D_output_AXI" xd:direction="in" xd:interfaceRef="s_axi_for_control" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem4" xd:dataWidth="32" xd:offset="0x30" xd:handshakeRef="ap_none"/>
   <xd:latencyEstimates xd:best-case="41564" xd:worst-case="41564" xd:average-case="41564"/>
-  <xd:resourceEstimates xd:LUT="7495" xd:FF="9661" xd:BRAM="41" xd:DSP="52"/>
+  <xd:resourceEstimates xd:LUT="7618" xd:FF="9805" xd:BRAM="41" xd:DSP="52"/>
 </xd:acceleratorMap>

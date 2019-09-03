@@ -162,7 +162,8 @@ _ssdm_InlineSelf(2, "");
    for (i = 0; i < 16; i++)
      for (j = 0; j < 24; j++)
        {
-      D_mid[i][j] = D_input[i][j];
+_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
+ D_mid[i][j] = D_input[i][j];
        }
 }
 

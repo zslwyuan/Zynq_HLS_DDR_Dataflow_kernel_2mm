@@ -650,7 +650,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1185", "EstimateLatencyMax" : "1185",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "389", "EstimateLatencyMax" : "389",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -717,7 +717,7 @@ set ArgLastReadFirstWriteLatency {
 		C_5 {Type I LastRead 5 FirstWrite -1}
 		C_6 {Type I LastRead 5 FirstWrite -1}
 		C_7 {Type I LastRead 5 FirstWrite -1}
-		D {Type I LastRead 2 FirstWrite -1}
+		D {Type I LastRead 3 FirstWrite -1}
 		D_output {Type O LastRead -1 FirstWrite 19}}
 	func15 {
 		A_0 {Type I LastRead 11 FirstWrite -1}
@@ -732,7 +732,7 @@ set ArgLastReadFirstWriteLatency {
 		C_5 {Type I LastRead 5 FirstWrite -1}
 		C_6 {Type I LastRead 5 FirstWrite -1}
 		C_7 {Type I LastRead 5 FirstWrite -1}
-		D {Type I LastRead 2 FirstWrite -1}
+		D {Type I LastRead 3 FirstWrite -1}
 		tmp_0 {Type IO LastRead 17 FirstWrite 3}
 		tmp_1 {Type IO LastRead 17 FirstWrite 3}
 		tmp_2 {Type IO LastRead 17 FirstWrite 2}
@@ -749,7 +749,7 @@ set ArgLastReadFirstWriteLatency {
 		C_mid_5 {Type O LastRead -1 FirstWrite 7}
 		C_mid_6 {Type O LastRead -1 FirstWrite 7}
 		C_mid_7 {Type O LastRead -1 FirstWrite 7}
-		D_mid {Type O LastRead -1 FirstWrite 4}}
+		D_mid {Type O LastRead -1 FirstWrite 5}}
 	func1_execute8 {
 		tmp_mid_execute_0 {Type IO LastRead 17 FirstWrite 3}
 		tmp_mid_execute_1 {Type IO LastRead 17 FirstWrite 3}
@@ -781,8 +781,8 @@ set ArgLastReadFirstWriteLatency {
 		C_mid_6 {Type O LastRead -1 FirstWrite 7}
 		C_mid_7 {Type O LastRead -1 FirstWrite 7}}
 	buffer_func1_D6 {
-		D_input {Type I LastRead 2 FirstWrite -1}
-		D_mid {Type O LastRead -1 FirstWrite 4}}
+		D_input {Type I LastRead 3 FirstWrite -1}
+		D_mid {Type O LastRead -1 FirstWrite 5}}
 	func24 {
 		C_0 {Type I LastRead 11 FirstWrite -1}
 		C_1 {Type I LastRead 11 FirstWrite -1}

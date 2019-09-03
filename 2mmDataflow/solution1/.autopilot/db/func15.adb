@@ -862,7 +862,7 @@
               <name/>
               <fileName>2mmDataflow/2mm.cc</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>75</lineNumber>
+              <lineNumber>76</lineNumber>
               <contextFuncName>func1</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -877,7 +877,7 @@
                         <first>2mmDataflow/2mm.cc</first>
                         <second>func1</second>
                       </first>
-                      <second>75</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -909,7 +909,7 @@
               <name/>
               <fileName>2mmDataflow/2mm.cc</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>79</lineNumber>
+              <lineNumber>80</lineNumber>
               <contextFuncName>func1</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -924,7 +924,7 @@
                         <first>2mmDataflow/2mm.cc</first>
                         <second>func1</second>
                       </first>
-                      <second>79</second>
+                      <second>80</second>
                     </item>
                   </second>
                 </item>
@@ -970,7 +970,7 @@
               <name/>
               <fileName>2mmDataflow/2mm.cc</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>83</lineNumber>
+              <lineNumber>84</lineNumber>
               <contextFuncName>func1</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -985,7 +985,7 @@
                         <first>2mmDataflow/2mm.cc</first>
                         <second>func1</second>
                       </first>
-                      <second>83</second>
+                      <second>84</second>
                     </item>
                   </second>
                 </item>
@@ -1027,7 +1027,7 @@
               <name/>
               <fileName>2mmDataflow/2mm.cc</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>89</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>func1</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1042,7 +1042,7 @@
                         <first>2mmDataflow/2mm.cc</first>
                         <second>func1</second>
                       </first>
-                      <second>89</second>
+                      <second>90</second>
                     </item>
                   </second>
                 </item>
@@ -1525,15 +1525,19 @@
         <item>
           <first>grp_buffer_func1_D6_fu_130 (buffer_func1_D6)</first>
           <second>
-            <count>2</count>
+            <count>3</count>
             <item_version>0</item_version>
             <item>
+              <first>BRAM</first>
+              <second>0</second>
+            </item>
+            <item>
               <first>FF</first>
-              <second>128</second>
+              <second>272</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>131</second>
+              <second>254</second>
             </item>
           </second>
         </item>

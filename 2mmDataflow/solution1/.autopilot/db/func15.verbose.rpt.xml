@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'func15'" level="0">
-<item name = "Date">Mon Sep  2 22:41:18 2019
+<item name = "Date">Tue Sep  3 11:01:33 2019
 </item>
 <item name = "Version">2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)</item>
 <item name = "Project">2mmDataflow</item>
@@ -33,7 +33,7 @@
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
 <column name="grp_func1_execute8_fu_66">func1_execute8, 18721, 18721, 18721, 18721, none</column>
 <column name="grp_buffer_func1_C7_fu_94">buffer_func1_C7, 409, 409, 409, 409, none</column>
-<column name="grp_buffer_func1_D6_fu_130">buffer_func1_D6, 1185, 1185, 1185, 1185, none</column>
+<column name="grp_buffer_func1_D6_fu_130">buffer_func1_D6, 389, 389, 389, 389, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -52,12 +52,12 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 4</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">0, 16, 1988, 1060</column>
+<column name="Instance">0, 16, 2132, 1183</column>
 <column name="Memory">-, -, -, -</column>
 <column name="Multiplexer">-, -, -, 24</column>
 <column name="Register">-, -, 6, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
-<specialColumn name="Utilization (%)">0, 7, 1, 2</specialColumn>
+<specialColumn name="Utilization (%)">0, 7, 2, 2</specialColumn>
 </table>
 </item>
 <item name = "Detail">
@@ -65,7 +65,7 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="grp_buffer_func1_C7_fu_94">buffer_func1_C7, 0, 0, 397, 183</column>
-<column name="grp_buffer_func1_D6_fu_130">buffer_func1_D6, 0, 0, 128, 131</column>
+<column name="grp_buffer_func1_D6_fu_130">buffer_func1_D6, 0, 0, 272, 254</column>
 <column name="grp_func1_execute8_fu_66">func1_execute8, 0, 16, 1463, 746</column>
 </table>
 </item>

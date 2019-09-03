@@ -1,16 +1,8 @@
-22:58:58 **** Incremental Build of configuration Debug for project 2mm_0 ****
+14:41:25 **** Incremental Build of configuration Debug for project 2mm_0 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
-Building file: ../src/2mm_control.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/2mm_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../2mm_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/2mm_control.d" -MT"src/2mm_control.o" -o "src/2mm_control.o" "../src/2mm_control.c"
-../src/2mm_control.c:2:10: fatal error: xil_printf.h: No such file or directory
- #include "xil_printf.h"
-          ^~~~~~~~~~~~~~
-compilation terminated.
-make: *** [src/2mm_control.o] Error 1
-src/subdir.mk:33: recipe for target 'src/2mm_control.o' failed
+make: Nothing to be done for 'main-build'.
 
-22:58:59 Build Finished (took 479ms)
+14:41:26 Build Finished (took 425ms)
 

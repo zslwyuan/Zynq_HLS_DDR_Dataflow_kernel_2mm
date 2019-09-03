@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
--- Date        : Sun Sep  1 23:47:59 2019
+-- Date        : Tue Sep  3 11:07:59 2019
 -- Host        : tingyuan-OptiPlex-9010 running 64-bit Ubuntu 18.04.2 LTS
--- Command     : write_vhdl -force -mode synth_stub -rename_top zedboard_base_kernel_2mm_wrapper_0_0 -prefix
---               zedboard_base_kernel_2mm_wrapper_0_0_ zedboard_base_kernel_2mm_wrapper_0_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub
+--               /home/tingyuan/Documents/ddr_check/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.srcs/sources_1/bd/zedboard_base/ip/zedboard_base_kernel_2mm_wrapper_0_0/zedboard_base_kernel_2mm_wrapper_0_0_stub.vhdl
 -- Design      : zedboard_base_kernel_2mm_wrapper_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg484-1

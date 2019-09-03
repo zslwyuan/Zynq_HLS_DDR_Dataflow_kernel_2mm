@@ -15,6 +15,7 @@ void buffer_func1_D(
 	  for (i = 0; i < NI; i++)
 	    for (j = 0; j < NL; j++)
 	      {
+#pragma HLS pipeline
 	    	D_mid[i][j] = D_input[i][j];
 	      }
 }

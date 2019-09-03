@@ -33,8 +33,8 @@
 <Resources>
 <BRAM_18K>0</BRAM_18K>
 <DSP48E>16</DSP48E>
-<FF>1994</FF>
-<LUT>1088</LUT>
+<FF>2138</FF>
+<LUT>1211</LUT>
 </Resources>
 <AvailableResources>
 <BRAM_18K>280</BRAM_18K>
