@@ -6,11 +6,11 @@ This is a project integrating HLS IP and CortexA9 on Zynq. This CPU-FPGA project
 
 **[VivadoHLS part](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/2mmDataflow)**:
 1. Please firsr import the HLS projects (HLSTimer and 2mm) via VivadoHLS (2mmDataflow, the source code can be found **[here](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/blob/master/2mmDataflow/2mm.cc)** and HLSTimer, the source code can be found **[here](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/HLStimer)**)
-2. Synthesis them and export them as IP
+2. Synthesis them and export them as IPs
 
 **[Vivado part](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm/tree/master/ZedBoard_HLS_kernel_2mm)**:
 1. Please import the Vivado project (ZedBoard_HLS_kernel_2mm.hw)
-2. Add IP repository which includes the exported HLS IP and refresh IP catalog
+2. Add IP repository which includes the exported HLS IPs and refresh IP catalog
 3. Generated the bitstream and export the hardware to local project
 4. Launch SDK via Vivado
 
